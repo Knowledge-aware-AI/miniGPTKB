@@ -1,0 +1,2253 @@
+@prefix ns1: <http://minigptkb/> .
+
+ns1:Audi_AG ns1:foundedYear "1909" ;
+    ns1:headquarters ns1:Ingolstadt%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:products "Automobiles" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:NSU ;
+    ns1:website "https://www.audi.com" .
+
+ns1:Bad_Homburg ns1:instanceOf ns1:City,
+        "Town" ;
+    ns1:locatedIn ns1:Germany ;
+    ns1:relatedTo ns1:DAX_40_Index .
+
+ns1:Carsten_Knobel ns1:instanceOf "Person" .
+
+ns1:DAX ns1:benchmarkFor ns1:German_equity_market ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:includesCompanies ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:launchDate "1988-07-01" ;
+    ns1:marketCapitalization "Largest German companies by market cap" ;
+    ns1:numberOfConstituents "40" ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:previouslyKnownAs ns1:DAX_30 ;
+    ns1:represents "40 major German blue chip companies" ;
+    ns1:tradingHours "09:00 to 17:30 CET" ;
+    ns1:type ns1:Performance_Index .
+
+ns1:DAX_30_Index ns1:baseDate "December 30, 1987" ;
+    ns1:baseValue "1000 points" ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:launchDate "1988-07-01" ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:numberOfConstituents "30" ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:replacedBy ns1:DAX_40_Index .
+
+ns1:Daimler_Truck_AG ns1:CEO ns1:Martin_Daum ;
+    ns1:foundedYear "2021" ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry ns1:Commercial_Vehicles ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:products "Buses",
+        "Trucks" ;
+    ns1:spinOffFrom ns1:Daimler_AG ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DTG .
+
+ns1:Deutsche_B%C3%B6rse_Group ns1:founded "1992" ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:instanceOf "Company" ;
+    ns1:manages ns1:DAX_family_of_indices ;
+    ns1:operates ns1:Frankfurt_Stock_Exchange ;
+    ns1:provides ns1:DAX_40_Index ;
+    ns1:role ns1:Index_provider_for_DAX_40 .
+
+ns1:Dortmund ns1:headquarters ns1:Dortmund%2C_Germany ;
+    ns1:industry "Steel and Technology" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" .
+
+ns1:E.ON_SE ns1:CEO ns1:Leonhard_Birnbaum ;
+    ns1:ISIN ns1:DE000ENAG999 ;
+    ns1:founded "2000" ;
+    ns1:headquarters ns1:Essen%2C_Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange .
+
+ns1:Kering ns1:instanceOf "Company" ;
+    ns1:wasListedOn ns1:DAX_40_Index ;
+    ns1:wasListedUntil "2018" .
+
+ns1:Mercedes-Benz ns1:country ns1:Germany ;
+    ns1:foundedYear "1926" ;
+    ns1:headquarters ns1:Stuttgart ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Daimler_AG ;
+    ns1:productType "Luxury vehicles" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MBG .
+
+ns1:Mercedes-Benz_Group_AG ns1:CEO ns1:Ola_K%C3%A4llenius ;
+    ns1:country ns1:Germany ;
+    ns1:formerName ns1:Daimler_AG ;
+    ns1:founded "1926" ;
+    ns1:foundedYear "1926" ;
+    ns1:hasCEO ns1:Ola_K%C3%A4llenius ;
+    ns1:headquarters ns1:Stuttgart%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedInIndex ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large-cap" ;
+    ns1:products "Commercial vehicles",
+        "Luxury vehicles" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MBG .
+
+ns1:Merck_Group ns1:CEO ns1:Bel%C3%A9n_Garijo ;
+    ns1:founded "1668" ;
+    ns1:foundedIn "1668" ;
+    ns1:headquarters ns1:Darmstadt%2C_Germany ;
+    ns1:industry "Pharmaceuticals" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "58,000 (2022)" ;
+    ns1:products ns1:Life_Science,
+        ns1:Performance_Materials,
+        "Pharmaceuticals" ;
+    ns1:revenue "€19.9 billion (2022)" ;
+    ns1:stockTicker ns1:MRK .
+
+ns1:Merck_KGaA ns1:headquarters ns1:Darmstadt%2C_Germany ;
+    ns1:industry "Pharmaceuticals" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:products "Pharmaceuticals" ;
+    ns1:sector "Healthcare" ;
+    ns1:stockTicker ns1:MRK .
+
+ns1:Qontigo ns1:instanceOf "Financial Services Company" .
+
+ns1:RWE_AG ns1:CEO ns1:Dr._Markus_Krebber ;
+    ns1:ISIN ns1:DE0007037129 ;
+    ns1:headquarters ns1:Essen%2C_Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "~19,000 (2023)" ;
+    ns1:revenue "€13.7 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:RWE .
+
+ns1:Steve_Angel ns1:company ns1:Linde_plc ;
+    ns1:instanceOf "Person" ;
+    ns1:position "Chairman of the Supervisory Board" .
+
+ns1:Xetra_trading_platform ns1:instanceOf "Electronic trading platform" ;
+    ns1:launchYear "1997" ;
+    ns1:location ns1:Frankfurt%2C_Germany ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:trades ns1:ETFs,
+        ns1:Funds,
+        "Bonds",
+        "Derivatives",
+        "Equities" ;
+    ns1:usedForTrading ns1:DAX_40_Index .
+
+<http://minigptkb/%C5%A0koda_Auto> ns1:country ns1:Czech_Republic ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Automobile Manufacturer" ;
+    ns1:parentCompany ns1:Volkswagen_Group .
+
+ns1:1COV ns1:country ns1:Germany ;
+    ns1:headquarters ns1:Leverkusen ;
+    ns1:industry "Pharmaceuticals" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockTicker ns1:1COV.DE .
+
+ns1:Adhesive_Technologies ns1:industry "Adhesives and Sealants" ;
+    ns1:instanceOf "Company" ;
+    ns1:partOf ns1:Henkel .
+
+ns1:BASF_SE ns1:CEO ns1:Martin_Bruderm%C3%BCller ;
+    ns1:founded "1865" ;
+    ns1:headquarters ns1:Ludwigshafen%2C_Germany ;
+    ns1:industry ns1:Chemicals ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:revenue "€78.6 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAS .
+
+ns1:BMW_AG ns1:componentOf ns1:DAX_40_Index ;
+    ns1:foundedIn "1916" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:products "Automobiles",
+        "Motorcycles" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BMW .
+
+ns1:Bad_Homburg_vor_der_H%C3%B6he ns1:instanceOf "Town" ;
+    ns1:locatedIn ns1:Germany,
+        ns1:Hesse .
+
+ns1:Bayer_MaterialScience ns1:focusArea "High-performance plastics" ;
+    ns1:headquarters ns1:Leverkusen%2C_Germany ;
+    ns1:industry "Chemical industry" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Bayer_AG .
+
+ns1:Bj%C3%B8rn_Gulden ns1:formerPosition ns1:CEO_of_Adidas_Germany ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "Norwegian" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Puma ;
+    ns1:relatedTo ns1:DAX_40_Index .
+
+ns1:Chairman_of_the_Board_of_Management_of_BMW_AG ns1:instanceOf "Position" ;
+    ns1:roleIn ns1:BMW_AG .
+
+ns1:Chairman_of_the_Executive_Board_of_Volkswagen_AG ns1:instanceOf "Position" ;
+    ns1:relatedTo ns1:Volkswagen_AG .
+
+ns1:Christian_Bruch ns1:employer ns1:Siemens_Energy ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position "CEO" ;
+    ns1:relationToDAX40 ns1:CEO_of_Siemens_Energy%2C_a_DAX_40_company .
+
+ns1:Continental_AG ns1:CEO ns1:Nikolai_Setzer ;
+    ns1:founded "1871" ;
+    ns1:headquarters ns1:Hanover%2C_Germany ;
+    ns1:industry ns1:Automotive_Parts ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:products ns1:Automotive_Safety,
+        ns1:Brake_Systems,
+        "Tires" ;
+    ns1:revenue "€44.5 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:CON .
+
+ns1:DAX_40_company ns1:includedIn ns1:DAX_40_Index ;
+    ns1:instanceOf "company" ;
+    ns1:listedOn ns1:Frankfurt_Stock_Exchange ;
+    ns1:locatedIn ns1:Germany ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:represents "largest 40 German companies by market capitalization and liquidity" ;
+    ns1:subjectTo "German stock market regulations" .
+
+ns1:DE0008404005 ns1:identifies ns1:DAX_40_Index ;
+    ns1:instanceOf ns1:ISIN .
+
+ns1:DE000BAY0017 ns1:instanceOf ns1:ISIN ;
+    ns1:represents ns1:Bayer_AG .
+
+ns1:DE000ENAG999 ns1:instanceOf ns1:ISIN ;
+    ns1:represents ns1:Encavis_AG .
+
+ns1:DHER.DE ns1:country ns1:Germany ;
+    ns1:instanceOf "Stock Ticker Symbol" ;
+    ns1:listedOn ns1:DAX_40_Index ;
+    ns1:represents ns1:Deutsche_Wohnen_SE ;
+    ns1:sector "Real Estate" .
+
+ns1:DTE ns1:country ns1:Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange .
+
+ns1:Deutsche_Bank_AG ns1:CEO ns1:Christian_Sewing ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1870" ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:numberOfEmployees "approximately 84,000" ;
+    ns1:revenue "approximately 25 billion EUR (2023)" ;
+    ns1:sector ns1:Financials ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DBK .
+
+ns1:Deutsche_Wohnen_SE ns1:businessFocus "Residential Property Management" ;
+    ns1:founded "1998" ;
+    ns1:headquarters ns1:Berlin%2C_Germany ;
+    ns1:industry "Real Estate" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange .
+
+ns1:Dr._Heinz-J%C3%BCrgen_Bertram ns1:company ns1:Covestro ;
+    ns1:instanceOf "Person" ;
+    ns1:position ns1:CEO_of_Covestro .
+
+ns1:Encavis_AG ns1:focus "Solar and Wind Power Plants" ;
+    ns1:headquarters ns1:Hamburg%2C_Germany ;
+    ns1:industry ns1:Renewable_Energy ;
+    ns1:instanceOf "Company" ;
+    ns1:isComponentOf ns1:DAX_40_Index ;
+    ns1:listedOn ns1:DAX_40_Index ;
+    ns1:memberSince "2023" ;
+    ns1:stockTicker ns1:ECV .
+
+ns1:Ettore_Bugatti ns1:birthDate "1881" ;
+    ns1:deathDate "1947" ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Founder_of_Bugatti_Automobiles ;
+    ns1:nationality "Italian-French" .
+
+ns1:European_Central_Bank ns1:established "1998" ;
+    ns1:governs ns1:Euro_currency ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:impactOn ns1:DAX_40_Index ;
+    ns1:influences "DAX 40 Index through monetary policy" ;
+    ns1:instanceOf ns1:Central_Bank ;
+    ns1:responsibleFor "Monetary policy of Eurozone",
+        "Monetary policy of the Eurozone" ;
+    ns1:role "Monetary authority for Eurozone",
+        "Monetary authority for the Eurozone" .
+
+ns1:Eurozone ns1:comprisesCountries ns1:Austria,
+        ns1:Belgium,
+        ns1:Croatia,
+        ns1:Cyprus,
+        ns1:Estonia,
+        ns1:Finland,
+        ns1:France,
+        ns1:Germany,
+        ns1:Greece,
+        ns1:Ireland,
+        ns1:Italy,
+        ns1:Latvia,
+        ns1:Lithuania,
+        ns1:Luxembourg,
+        ns1:Malta,
+        ns1:Netherlands,
+        ns1:Portugal,
+        ns1:Slovakia,
+        ns1:Slovenia,
+        ns1:Spain ;
+    ns1:currency ns1:Euro ;
+    ns1:instanceOf "Monetary Union",
+        "economic region" ;
+    ns1:relatedIndex ns1:DAX_40_Index .
+
+ns1:FME ns1:componentOf ns1:DAX_40_Index ;
+    ns1:instanceOf "Company" .
+
+ns1:Ferdinand_Porsche ns1:birthDate "1875-09-03" ;
+    ns1:deathDate "1951-01-30" ;
+    ns1:founderOf ns1:Porsche_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "Austrian" ;
+    ns1:occupation "Automotive Engineer" .
+
+ns1:Henkel_AG_%26_Co._KGaA ns1:country ns1:Germany ;
+    ns1:foundedIn "1876" ;
+    ns1:headquarters ns1:D%C3%BCsseldorf%2C_Germany ;
+    ns1:industry "Consumer Goods" ;
+    ns1:instanceOf "Company" ;
+    ns1:isConstituentOf ns1:DAX_40_Index ;
+    ns1:knownFor ns1:Adhesive_Technologies,
+        "Beauty Care",
+        "Laundry & Home Care" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:products "Beauty Care" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:HEN3 ;
+    ns1:tickerSymbol ns1:HEN3 .
+
+ns1:Hesse ns1:headquarters ns1:Germany ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index .
+
+ns1:Hilden%2C_Germany ns1:economicRegion ns1:Rhine-Ruhr_Metropolitan_Region ;
+    ns1:instanceOf ns1:City ;
+    ns1:locatedIn ns1:Germany,
+        ns1:North_Rhine-Westphalia .
+
+ns1:Joachim_Wenning ns1:associatedWith ns1:Munich_Re ;
+    ns1:instanceOf "Person" ;
+    ns1:position "Chairman of the Supervisory Board" ;
+    ns1:role ns1:Chairman_of_the_Supervisory_Board_of_Munich_Re .
+
+ns1:Jochen_Hanebeck ns1:instanceOf "Person" ;
+    ns1:occupation "Chief Executive Officer" ;
+    ns1:position ns1:CEO_of_DAX_40_Index_constituent_company .
+
+ns1:Jochen_Hardt ns1:instanceOf "Person" ;
+    ns1:occupation "Chief Executive Officer" ;
+    ns1:position ns1:CEO_of_Deutsche_B%C3%B6rse_AG ;
+    ns1:relatedTo ns1:DAX_40_Index ;
+    ns1:role "Oversees operations of Deutsche Börse, which operates the Frankfurt Stock Exchange where DAX 40 is listed" .
+
+ns1:Linde_plc ns1:componentOf ns1:DAX_40_Index ;
+    ns1:headquarters ns1:Guildford%2C_United_Kingdom ;
+    ns1:industry ns1:Industrial_Gases ;
+    ns1:instanceOf "Company" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:LIN .
+
+ns1:MTX ns1:country ns1:Germany ;
+    ns1:industry "Technology" ;
+    ns1:instanceOf "Company" .
+
+ns1:Markus_Duesmann ns1:instanceOf "Person" ;
+    ns1:occupation "Automotive Executive" ;
+    ns1:position ns1:Member_of_the_Supervisory_Board_of_Volkswagen_AG .
+
+ns1:NSU ns1:country ns1:Germany .
+
+ns1:NSU_%28historical%29 ns1:country ns1:Germany ;
+    ns1:founded "1873" ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:knownFor "Automobiles",
+        "Motorcycles" ;
+    ns1:mergedInto ns1:Audi ;
+    ns1:status "Defunct" .
+
+ns1:Oliver_Zipse ns1:employer ns1:BMW ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation ns1:CEO_of_BMW ;
+    ns1:role ns1:Chairman_of_the_Board_of_Management_of_BMW_AG ;
+    ns1:startDateAsCEO "2019" .
+
+ns1:Peer_M._Schatz ns1:Qiagen ns1:component_of_DAX_40_Index ;
+    ns1:associatedWith ns1:Qiagen ;
+    ns1:industry "Biotechnology" ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:role ns1:CEO_of_Qiagen .
+
+ns1:Performance_Materials ns1:headquarters ns1:Germany ;
+    ns1:industry "Specialty Chemicals" ;
+    ns1:instanceOf "Company" .
+
+ns1:Porsche_AG ns1:CEO ns1:Oliver_Blume ;
+    ns1:founded "1931" ;
+    ns1:foundedIn "1931" ;
+    ns1:headquarters ns1:Stuttgart%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Automobile manufacturer",
+        "Company" ;
+    ns1:knownFor "Luxury sports cars" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "High" ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:PAH3 ;
+    ns1:tickerSymbol ns1:PAH3 .
+
+ns1:Prime_Standard ns1:includes "adherence to international accounting standards",
+        "publication of ad hoc disclosures",
+        "quarterly reporting" ;
+    ns1:instanceOf ns1:segment_of_the_Frankfurt_Stock_Exchange ;
+    ns1:is_relevant_for ns1:companies_listed_in_DAX_40_Index,
+        ns1:companies_listed_in_the_DAX_40_Index ;
+    ns1:requires "higher transparency standards" .
+
+ns1:Prime_Standard_segment_of_Frankfurt_Stock_Exchange ns1:includes "Companies listed in DAX 40 Index" ;
+    ns1:instanceOf ns1:Stock_Market_Segment ;
+    ns1:partOf ns1:Frankfurt_Stock_Exchange ;
+    ns1:requires "Adherence to international accounting standards",
+        "Higher transparency standards",
+        "Quarterly reporting" .
+
+ns1:QIA ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index .
+
+ns1:Rhine-Ruhr_Metropolitan_Region ns1:instanceOf "Metropolitan Region" ;
+    ns1:locatedIn ns1:Germany .
+
+ns1:Roland_Busch ns1:employer ns1:Siemens_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation ns1:CEO_of_Siemens_AG,
+        "CEO" ;
+    ns1:role ns1:Chairman_of_the_Supervisory_Board_of_Siemens_Energy ;
+    ns1:roleInDAX40 ns1:CEO_of_Siemens_AG%2C_a_constituent_company_of_DAX_40_Index .
+
+ns1:Rolf_Buch ns1:associatedWith ns1:DAX_40_Index,
+        ns1:Deutsche_Annington,
+        ns1:Vonovia ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Vonovia ;
+    ns1:role ns1:CEO_of_Vonovia,
+        "Former CEO of Deutsche Annington" .
+
+ns1:SHL ns1:headquarters ns1:United_Kingdom ;
+    ns1:industry "Human Resources Consulting" ;
+    ns1:instanceOf "Company" ;
+    ns1:knownFor "Talent Assessment and People Analytics" ;
+    ns1:wasComponentOf ns1:DAX_40_Index .
+
+ns1:SY1 ns1:country ns1:Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Stock Ticker Symbol" ;
+    ns1:represents ns1:Siemens_Energy_AG .
+
+ns1:Theodor_Weimer ns1:instanceOf "Person" ;
+    ns1:occupation "CEO" ;
+    ns1:position ns1:CEO_of_Deutsche_B%C3%B6rse .
+
+ns1:Thierry_Bernard ns1:associatedWith ns1:DAX_40_Index ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "French" ;
+    ns1:role ns1:CEO_of_Deutsche_B%C3%B6rse_AG .
+
+ns1:Thomas_Griesel ns1:employer ns1:DAX_40_Index_constituent_company ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Chief Financial Officer" .
+
+ns1:Timotheus_H%C3%B6ttges ns1:company ns1:Deutsche_Telekom ;
+    ns1:companyListedIn ns1:DAX_40_Index ;
+    ns1:employer ns1:Deutsche_Telekom ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive",
+        "CEO" ;
+    ns1:position ns1:CEO_of_Deutsche_Telekom,
+        "CEO" .
+
+ns1:VNA ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index .
+
+ns1:ZAL ns1:industry "E-commerce" ;
+    ns1:instanceOf "Company" .
+
+<http://minigptkb/%5EGDAXI> ns1:currency ns1:Euro ;
+    ns1:includesCompanies ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Telekom,
+        ns1:Siemens,
+        ns1:Volkswagen ;
+    ns1:indexBaseDate "1987-12-30" ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:launchDate "1988-07-01" ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:previouslyKnownAs ns1:DAX_30 ;
+    ns1:represents ns1:DAX_40_Index ;
+    ns1:tracks "40 major German blue chip companies" ;
+    ns1:type ns1:Performance_Index .
+
+<http://minigptkb/%C5%A0koda> ns1:country ns1:Czech_Republic,
+        ns1:Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Automobile Manufacturer" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Volkswagen_Group .
+
+ns1:Adolf_Dassler ns1:birthYear "1900" ;
+    ns1:deathYear "1978" ;
+    ns1:founderOf ns1:Adidas ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Entrepreneur" ;
+    ns1:relatedToCompanyInDAX40 ns1:Adidas .
+
+ns1:Allianz_SE ns1:CEO ns1:Oliver_B%C3%A4te ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1890" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Financial services" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:products "Insurance and asset management services" ;
+    ns1:sector "Insurance" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ALV .
+
+ns1:Bel%C3%A9n_Garijo ns1:instanceOf "Person" ;
+    ns1:occupation ns1:CEO_of_Merck_KGaA ;
+    ns1:relationToDAX40 ns1:CEO_of_a_DAX_40_Index_constituent_company,
+        "CEO of a DAX 40 company" .
+
+ns1:Bentley ns1:country ns1:United_Kingdom ;
+    ns1:founded "1919" ;
+    ns1:headquarters ns1:Crewe%2C_England ;
+    ns1:industry "Automotive",
+        "Luxury Automobiles" ;
+    ns1:instanceOf "Automobile Manufacturer",
+        "Company" ;
+    ns1:knownFor "Luxury Cars",
+        "Luxury cars" ;
+    ns1:parentCompany ns1:Volkswagen_Group .
+
+ns1:Bj%C3%B6rn_Gulden ns1:employer ns1:Adidas ;
+    ns1:formerPosition ns1:CEO_of_Puma ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Adidas,
+        "CEO" .
+
+ns1:Bugatti ns1:country ns1:France,
+        ns1:Germany ;
+    ns1:founded "1909" ;
+    ns1:foundedBy ns1:Ettore_Bugatti ;
+    ns1:foundedInYear "1909" ;
+    ns1:headquarters ns1:Molsheim%2C_France ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Automobile Manufacturer" ;
+    ns1:knownFor "Luxury sports cars" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Volkswagen_Group .
+
+ns1:Christian_Klein ns1:associatedWith ns1:SAP_SE ;
+    ns1:companyListedOn ns1:DAX_40_Index ;
+    ns1:employer ns1:SAP_SE ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_SAP_SE,
+        "CEO" ;
+    ns1:role "Chief Executive Officer" .
+
+ns1:Claus_Wellenreuther ns1:associatedWith ns1:SAP_SE ;
+    ns1:co-founderOf ns1:SAP_SE ;
+    ns1:contributedTo "Development of SAP R/2 software" ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Co-founder_of_SAP_SE ;
+    ns1:nationality "German" ;
+    ns1:occupation "Software Developer" .
+
+ns1:DAX_family_of_indices ns1:includes ns1:DAX_40,
+        ns1:MDAX,
+        ns1:SDAX,
+        ns1:TecDAX ;
+    ns1:instanceOf "family of stock market indices" ;
+    ns1:relatedTo ns1:Deutsche_B%C3%B6rse,
+        ns1:Frankfurt_Stock_Exchange ;
+    ns1:tracks "German equities" .
+
+ns1:DE0005140008 ns1:identifies ns1:DAX_40_Index ;
+    ns1:instanceOf ns1:ISIN .
+
+ns1:Deutsche_Post_AG ns1:CEO ns1:Frank_Appel ;
+    ns1:businessSegments ns1:Global_Forwarding%2C_Freight,
+        "Express",
+        "Supply Chain" ;
+    ns1:founded "1995" ;
+    ns1:headquarters ns1:Bonn%2C_Germany ;
+    ns1:industry "Logistics" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "Over 500,000 (2023)" ;
+    ns1:parentCompany ns1:Deutsche_Post_DHL_Group ;
+    ns1:revenue "Over 80 billion euros (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:DPW ;
+    ns1:tickerSymbol ns1:DPW .
+
+ns1:Deutsche_Post_DHL_Group ns1:CEO ns1:Frank_Appel ;
+    ns1:businessSegments ns1:Global_Forwarding%2C_Freight,
+        ns1:Post_%26_Parcel_Germany,
+        "Express",
+        "Supply Chain" ;
+    ns1:founded "1995" ;
+    ns1:headquarters ns1:Bonn%2C_Germany ;
+    ns1:industry "logistics" ;
+    ns1:instanceOf "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:revenue "over 80 billion euros (2023)" .
+
+ns1:Dietmar_Hopp ns1:associatedWith ns1:DAX_40_Index ;
+    ns1:co-founderOf ns1:SAP_SE ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor "Co-founding SAP SE" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Entrepreneur",
+        "Software Engineer" ;
+    ns1:stakeholderIn ns1:SAP_SE .
+
+ns1:Dominik_Richter ns1:associatedWith ns1:HelloFresh ;
+    ns1:companyListedOn ns1:DAX_40_Index ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Co-founder of HelloFresh" ;
+    ns1:role "CEO of HelloFresh" .
+
+ns1:Dr._Markus_Krebber ns1:employer ns1:RWE ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "CEO" ;
+    ns1:role ns1:CEO_of_RWE .
+
+ns1:ENR ns1:country ns1:Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index .
+
+ns1:EOAN ns1:focus ns1:Solar_Power,
+        ns1:Wind_Power ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry ns1:Renewable_Energy ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:sector "Utilities" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:EOAN .
+
+ns1:Fresenius_Helios ns1:businessFocus "Hospital Management" ;
+    ns1:country ns1:Germany ;
+    ns1:foundedYear "2005" ;
+    ns1:headquarters ns1:Berlin ;
+    ns1:industry "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Fresenius_SE_%26_Co._KGaA ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:HEL,
+        ns1:HELIO .
+
+ns1:Fresenius_Kabi ns1:country ns1:Germany ;
+    ns1:focus "Infusion therapy and clinical nutrition" ;
+    ns1:headquarters ns1:Bad_Homburg%2C_Germany ;
+    ns1:industry "Healthcare",
+        "Pharmaceuticals and Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:parentCompany ns1:Fresenius_SE_%26_Co._KGaA ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:FRE .
+
+ns1:Fresenius_Vamed ns1:country ns1:Germany ;
+    ns1:focus "Healthcare project management and services",
+        "Project management and services for healthcare facilities" ;
+    ns1:headquarters ns1:Austria,
+        ns1:Vienna%2C_Austria ;
+    ns1:industry ns1:Healthcare_Services ;
+    ns1:instanceOf "Company" ;
+    ns1:parentCompany ns1:Fresenius_SE_%26_Co._KGaA ;
+    ns1:partOfIndex ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:VAMED .
+
+ns1:Global_Forwarding%2C_Freight ns1:industry "Freight forwarding",
+        "Logistics" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index .
+
+ns1:HEI ns1:headquarters ns1:Hamburg%2C_Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockTicker ns1:HEI .
+
+ns1:Hans-Werner_Hector ns1:associatedWith ns1:DAX_40_Index ;
+    ns1:co-founderOf ns1:SAP_SE ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor "Co-founding SAP SE" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Engineer",
+        "Entrepreneur" .
+
+ns1:Hasso_Plattner ns1:associatedWith ns1:SAP_SE ;
+    ns1:boardMemberOf ns1:SAP_SE ;
+    ns1:co-founderOf ns1:SAP_SE ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor "Co-founding SAP SE" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Businessman",
+        "Entrepreneur",
+        "Philanthropist",
+        "Software Engineer" ;
+    ns1:role ns1:Chairman_of_SAP_SE .
+
+ns1:IFX ns1:headquarters ns1:Germany ;
+    ns1:industry "Technology" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockTicker ns1:IFX .
+
+ns1:Klaus_Tschira ns1:associatedWith ns1:DAX_40_Index ;
+    ns1:birthYear "1940" ;
+    ns1:co-founderOf ns1:SAP_SE ;
+    ns1:deathYear "2015" ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor "Co-founding SAP SE" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Entrepreneur",
+        "Physicist" .
+
+ns1:Leonhard_Birnbaum ns1:associatedWith ns1:DAX_40_Index ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation ns1:CEO_of_Deutsche_B%C3%B6rse_AG .
+
+ns1:MDAX ns1:calculationMethod "Performance index" ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:focus "Mid-cap companies" ;
+    ns1:inceptionDate "1996" ;
+    ns1:includesCompaniesFrom ns1:Prime_Standard_segment_of_Frankfurt_Stock_Exchange ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:launchDate "1996" ;
+    ns1:marketSegment ns1:Prime_Standard ;
+    ns1:numberOfConstituents "50" ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:relatedIndex ns1:DAX_40 ;
+    ns1:reviewFrequency "Quarterly" ;
+    ns1:sectorCoverage "Various sectors including industrials, consumer goods, technology" .
+
+ns1:MUV2 ns1:country ns1:Germany ;
+    ns1:industry ns1:Reinsurance ;
+    ns1:instanceOf "Stock Ticker Symbol" ;
+    ns1:listedOn ns1:DAX_40_Index ;
+    ns1:represents ns1:Munich_Re ;
+    ns1:sector "Insurance" .
+
+ns1:Martin_Bruderm%C3%BCller ns1:employer ns1:BASF ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "CEO" ;
+    ns1:relationToDAX40 ns1:CEO_of_BASF%2C_a_DAX_40_company ;
+    ns1:role ns1:Chairman_of_the_Board_of_Executive_Directors_at_BASF .
+
+ns1:Martin_Daum ns1:instanceOf "Person" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Daimler_Truck_AG .
+
+ns1:Munich_Re ns1:country ns1:Germany ;
+    ns1:founded "1880" ;
+    ns1:foundedIn "1880" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry ns1:Reinsurance ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:sector ns1:Financials ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MUV2 .
+
+ns1:Niklas_%C3%96stberg ns1:associatedWith ns1:Delivery_Hero ;
+    ns1:companyListedOn ns1:DAX_40_Index ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Business Executive" ;
+    ns1:role ns1:CEO_of_Delivery_Hero .
+
+ns1:Nikolai_Setzer ns1:associatedWith ns1:Continental_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Continental_AG .
+
+ns1:Oliver_B%C3%A4te ns1:employer ns1:Allianz_SE ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Allianz_SE ;
+    ns1:relationToDAX40 ns1:CEO_of_Allianz_SE%2C_a_DAX_40_company .
+
+ns1:Performance_Index ns1:includesDividends "true" ;
+    ns1:instanceOf ns1:Index_Type ;
+    ns1:usedIn ns1:DAX_40_Index .
+
+ns1:Rudolf_Dassler ns1:foundedCompany ns1:Puma ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation ns1:Founder_of_Puma ;
+    ns1:relation "Brother of Adolf Dassler" .
+
+ns1:SDAX ns1:inceptionDate "1999" ;
+    ns1:indexType "Performance index" ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:numberOfConstituents "70" ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:relatedTo ns1:DAX_40_Index ;
+    ns1:represents "Small-cap companies in Germany" ;
+    ns1:sector "Various sectors" .
+
+ns1:SEAT ns1:country ns1:Spain ;
+    ns1:founded "1950" ;
+    ns1:headquarters ns1:Martorell%2C_Spain ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Automobile Manufacturer" ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:products "Cars" ;
+    ns1:stockExchange "Not listed independently" .
+
+ns1:Siemens_Energy_AG ns1:focus "Energy technology and services" ;
+    ns1:founded "2020" ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Siemens_AG ;
+    ns1:products "Gas turbines" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ENR .
+
+ns1:Stefan_Oelrich ns1:boardMembership ns1:Bayer_AG ;
+    ns1:company ns1:Bayer_AG ;
+    ns1:companyListedInDAX40 ns1:Bayer_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position "Member of the Board of Management",
+        "Member of the Supervisory Board" .
+
+ns1:TecDAX ns1:country ns1:Germany ;
+    ns1:focus "Technology sector companies" ;
+    ns1:instanceOf ns1:Stock_Market_Index ;
+    ns1:launchDate "2003" ;
+    ns1:marketCapitalization "Mid-cap companies" ;
+    ns1:numberOfConstituents "30" ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:relatedTo ns1:DAX_40_Index .
+
+ns1:Volkswagen_AG ns1:CEO ns1:Oliver_Blume ;
+    ns1:brands <http://minigptkb/%C5%A0koda>,
+        ns1:Audi,
+        ns1:Bentley,
+        ns1:Bugatti,
+        ns1:Ducati,
+        ns1:Lamborghini,
+        ns1:Porsche,
+        ns1:SEAT,
+        ns1:Volkswagen ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1937" ;
+    ns1:headquarters ns1:Wolfsburg%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "Approximately 660,000 (2023)",
+        "approximately 660,000" ;
+    ns1:products "Automobiles" ;
+    ns1:revenue "over 250 billion euros (2023)",
+        "€250 billion (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:VOW3 .
+
+ns1:Walldorf%2C_Germany ns1:headquartersOf ns1:SAP_SE ;
+    ns1:instanceOf ns1:City ;
+    ns1:locatedIn ns1:Germany .
+
+ns1:Xetra ns1:instanceOf "Electronic trading platform" ;
+    ns1:launchYear "1997" ;
+    ns1:location ns1:Frankfurt%2C_Germany ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:tradingHours "09:00 to 17:30 CET" ;
+    ns1:usedForTrading ns1:DAX_40_Index_stocks .
+
+ns1:Xetra_trading_system ns1:function "Facilitates electronic trading of stocks and securities" ;
+    ns1:instanceOf "Electronic trading platform" ;
+    ns1:launchYear "1997" ;
+    ns1:location ns1:Frankfurt%2C_Germany ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse ;
+    ns1:supports "Order book trading",
+        "Real-time trading" ;
+    ns1:trades ns1:DAX_40_Index_constituent_stocks ;
+    ns1:usedBy ns1:DAX_40_Index .
+
+ns1:ADS ns1:headquarters ns1:Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockTicker ns1:ADS .
+
+ns1:ALV ns1:ISIN ns1:DE0008404005 ;
+    ns1:country ns1:Germany ;
+    ns1:founded "1890" ;
+    ns1:foundedYear "1890" ;
+    ns1:fullName ns1:Allianz_SE ;
+    ns1:headquarters ns1:Munich,
+        ns1:Munich%2C_Germany ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "One of the largest in DAX 40",
+        "One of the largest insurance companies in the world" ;
+    ns1:sector "Insurance" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ALV .
+
+ns1:BAS ns1:fullName ns1:BASF_SE ;
+    ns1:headquarters ns1:Ludwigshafen%2C_Germany ;
+    ns1:industry ns1:Chemicals ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAS .
+
+ns1:BAYN ns1:ISIN ns1:DE000BAY0017 ;
+    ns1:foundedYear "1863" ;
+    ns1:fullName ns1:Bayer_AG ;
+    ns1:headquarters ns1:Leverkusen%2C_Germany ;
+    ns1:industry ns1:Pharmaceuticals_and_Life_Sciences ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:sector "Healthcare" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAYN .
+
+ns1:CON ns1:headquarters ns1:Germany ;
+    ns1:industry "Construction and Engineering" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:CON .
+
+ns1:DPW ns1:headquarters ns1:Germany ;
+    ns1:industry "Logistics" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index .
+
+ns1:FRE ns1:ISIN ns1:DE0005785604 ;
+    ns1:country ns1:Germany ;
+    ns1:fullName ns1:Fresenius_SE_%26_Co._KGaA ;
+    ns1:headquarters ns1:Bad_Homburg%2C_Germany,
+        ns1:Bad_Homburg_vor_der_H%C3%B6he ;
+    ns1:industry "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:sector "Healthcare" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange .
+
+ns1:Frank_Appel ns1:CEO_of ns1:Deutsche_Post_AG ;
+    ns1:company_listed_in ns1:DAX_40_Index ;
+    ns1:employer ns1:Deutsche_Post_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:position "CEO" .
+
+ns1:HelloFresh ns1:CEO ns1:Dominik_Richter ;
+    ns1:businessModel "Subscription-based meal kit delivery" ;
+    ns1:foundedIn "2011" ;
+    ns1:founders ns1:Dominik_Richter,
+        ns1:Jessica_Nilsson,
+        ns1:Thomas_Griesel ;
+    ns1:headquarters ns1:Berlin%2C_Germany ;
+    ns1:industry "Meal Kit Delivery" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:HFG .
+
+ns1:Ludwigshafen%2C_Germany ns1:instanceOf ns1:City ;
+    ns1:locatedIn ns1:Germany ;
+    ns1:notRelatedTo ns1:DAX_40_Index .
+
+ns1:Ola_K%C3%A4llenius ns1:instanceOf "Person",
+        "person" ;
+    ns1:occupation ns1:Chairman_of_the_Supervisory_Board_of_Daimler_AG,
+        ns1:Chairman_of_the_Supervisory_Board_of_Mercedes-Benz_Group_AG,
+        "Business Executive" ;
+    ns1:position ns1:CEO_of_Mercedes-Benz_Group_AG,
+        ns1:Chairman_of_the_Board_of_Management_of_Daimler_AG ;
+    ns1:relationToDAX40 ns1:Chairman_of_the_Supervisory_Board_of_Mercedes-Benz_Group_AG%2C_a_DAX_40_constituent_company .
+
+ns1:PUM ns1:country ns1:Germany ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry "Industrial Goods",
+        "Medical Technology" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:PUM ;
+    ns1:tickerSymbol ns1:PUM .
+
+ns1:SIE ns1:country ns1:Germany ;
+    ns1:fullName ns1:Siemens_Energy_AG ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Energy",
+        "Technology" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SIE .
+
+ns1:Werner_Baumann ns1:birthYear "1962" ;
+    ns1:companyListedIn ns1:DAX_40_Index ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Business Executive" ;
+    ns1:position ns1:CEO_of_Bayer_AG .
+
+ns1:Werner_von_Siemens ns1:birthYear "1816" ;
+    ns1:deathYear "1892" ;
+    ns1:founderOf ns1:Siemens_AG ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Founder_of_Siemens_AG ;
+    ns1:nationality "German" ;
+    ns1:occupation "Industrialist",
+        "Inventor" .
+
+ns1:Audi ns1:CEO ns1:Markus_Duesmann,
+        ns1:S%C3%A9bastien_Ogier ;
+    ns1:founded "1909" ;
+    ns1:headquarters ns1:Ingolstadt%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:NSU_%28historical%29,
+        ns1:NSU_%28historically%29 .
+
+ns1:Christian_Sewing ns1:bornIn "1970" ;
+    ns1:employer ns1:Deutsche_Bank ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "German" ;
+    ns1:occupation "Banker" ;
+    ns1:position ns1:CEO_of_Deutsche_Bank,
+        "CEO" ;
+    ns1:relatedTo ns1:DAX_40_Index .
+
+ns1:DAI ns1:foundedYear "1926" ;
+    ns1:fullName ns1:Daimler_AG ;
+    ns1:headquarters ns1:Stuttgart%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:isComponentOf ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:products ns1:Commercial_Vehicles,
+        "Automobiles" ;
+    ns1:sector ns1:Consumer_Discretionary ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DAI .
+
+ns1:DBK ns1:CEO ns1:Christian_Sewing ;
+    ns1:ISIN ns1:DE0005140008 ;
+    ns1:foundedYear "1870" ;
+    ns1:fullName ns1:Deutsche_Bank_AG ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Company" ;
+    ns1:isComponentOf ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:sector "Banking" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DBK .
+
+ns1:Delivery_Hero ns1:CEO ns1:Niklas_%C3%96stberg ;
+    ns1:businessModel "Online food ordering and delivery platform" ;
+    ns1:foundedIn "2011" ;
+    ns1:founder ns1:Niklas_%C3%96stberg ;
+    ns1:headquarters ns1:Berlin%2C_Germany ;
+    ns1:industry "Online Food Delivery" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:listedOn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap",
+        "Multi-billion Euro" ;
+    ns1:operatesIn "More than 50 countries",
+        "Multiple countries worldwide" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:DHER.DE ;
+    ns1:tickerSymbol ns1:DHER .
+
+ns1:HEN3 ns1:country ns1:Germany ;
+    ns1:industry "Consumer Goods" ;
+    ns1:instanceOf "Stock Ticker Symbol" ;
+    ns1:listedOn ns1:DAX_40_Index ;
+    ns1:represents ns1:Henkel_AG_%26_Co._KGaA .
+
+ns1:LIN ns1:headquarters ns1:Germany ;
+    ns1:industry ns1:Industrial_Gases ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:sector ns1:Basic_Materials ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:LIN ;
+    ns1:tickerSymbol ns1:LIN .
+
+ns1:PAH3 ns1:instanceOf "Company" ;
+    ns1:isComponentOf ns1:DAX_40_Index .
+
+ns1:VOW3 ns1:CEO ns1:Oliver_Blume ;
+    ns1:ISIN ns1:DE0007664039 ;
+    ns1:companyName ns1:Volkswagen_AG ;
+    ns1:country ns1:Germany ;
+    ns1:foundedYear "1937" ;
+    ns1:headquarters ns1:Wolfsburg%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Stock" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:products "Automobiles",
+        "Commercial vehicles",
+        "Financial services" ;
+    ns1:sector ns1:Consumer_Discretionary ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:VOW3 .
+
+ns1:Zalando ns1:businessFocus "Online fashion retail" ;
+    ns1:foundedIn "2008" ;
+    ns1:headquarters ns1:Berlin%2C_Germany ;
+    ns1:industry "E-commerce" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ZAL .
+
+ns1:Daimler_AG ns1:CEO ns1:Ola_K%C3%A4llenius ;
+    ns1:country ns1:Germany ;
+    ns1:founded "1926" ;
+    ns1:headquarters ns1:Stuttgart%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large-cap" ;
+    ns1:products ns1:Mercedes-Benz_cars,
+        "Buses",
+        "Trucks" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockSymbol ns1:DAI ;
+    ns1:stockTicker ns1:DAI ;
+    ns1:tickerSymbol ns1:DAI .
+
+ns1:Deutsche_B%C3%B6rse_AG ns1:founded "1992" ;
+    ns1:hasCEO ns1:Theodor_Weimer ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedOn ns1:Frankfurt_Stock_Exchange ;
+    ns1:operates ns1:Frankfurt_Stock_Exchange ;
+    ns1:owns ns1:Xetra,
+        ns1:Xetra_trading_system ;
+    ns1:provides ns1:DAX_40_Index ;
+    ns1:role ns1:Index_provider_for_DAX_40 ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange .
+
+ns1:Fresenius_SE_%26_Co._KGaA ns1:CEO ns1:Stefan_Oelrich ;
+    ns1:businessSegments ns1:Fresenius_Helios,
+        ns1:Fresenius_Kabi,
+        ns1:Fresenius_Medical_Care,
+        ns1:Fresenius_Vamed ;
+    ns1:founded "1912" ;
+    ns1:headquarters ns1:Bad_Homburg%2C_Germany ;
+    ns1:industry "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:revenue "Approximately 40 billion EUR (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:FRE .
+
+ns1:MRK ns1:country ns1:Germany ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry "Pharmaceuticals" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MRK .
+
+ns1:Merck ns1:CEO ns1:Bel%C3%A9n_Garijo ;
+    ns1:country ns1:Germany ;
+    ns1:foundedYear "1668" ;
+    ns1:headquarters ns1:Darmstadt ;
+    ns1:industry "Pharmaceuticals" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:revenue "€19.9 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:MRK ;
+    ns1:tickerSymbol ns1:MRK .
+
+ns1:Siemens_AG ns1:CEO ns1:Roland_Busch ;
+    ns1:founded "1847" ;
+    ns1:founder ns1:Werner_von_Siemens ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Conglomerate" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:numberOfEmployees "Approximately 311,000 (2023)" ;
+    ns1:products "Industrial automation",
+        "Industrial automation equipment",
+        "Medical imaging equipment",
+        "Power generation technology",
+        "Transportation systems" ;
+    ns1:revenue "Approximately 62.3 billion euros (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SIE .
+
+ns1:Bayer_AG ns1:CEO ns1:Werner_Baumann ;
+    ns1:country ns1:Germany ;
+    ns1:founded "1863" ;
+    ns1:hasCEO ns1:Werner_Baumann ;
+    ns1:headquarters ns1:Leverkusen%2C_Germany ;
+    ns1:industry ns1:Chemicals,
+        "Pharmaceuticals",
+        "chemicals",
+        "pharmaceuticals" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:isComponentOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:products "Agricultural chemicals",
+        "Consumer health products",
+        "Pharmaceuticals" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAYN ;
+    ns1:wasComponentOf ns1:DAX_40_Index .
+
+ns1:Continental ns1:CEO ns1:Nikolai_Setzer ;
+    ns1:founded "1871" ;
+    ns1:headquarters ns1:Hanover%2C_Germany ;
+    ns1:industry ns1:Automotive_Parts,
+        "Automotive",
+        "Automotive parts" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "~190,000 (2023)" ;
+    ns1:products ns1:Automotive_Safety,
+        ns1:Brake_Systems,
+        ns1:Powertrain_and_Chassis_Components,
+        "Automotive parts",
+        "Automotive safety",
+        "Brake systems",
+        "Tires" ;
+    ns1:revenue "€44.5 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:CON .
+
+ns1:DAX_30 ns1:baseDate "December 30, 1987" ;
+    ns1:baseValue "1000 points" ;
+    ns1:calculationMethod "Performance index" ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:instanceOf ns1:Stock_Market_Index,
+        "stock market index" ;
+    ns1:launchDate "1988",
+        "1988-07-01" ;
+    ns1:numberOfConstituents "30" ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:replacedBy ns1:DAX_40 ;
+    ns1:replacedByDate "September 2021" ;
+    ns1:represents ns1:30_major_German_blue_chip_companies .
+
+ns1:Daimler_Truck ns1:CEO ns1:Martin_Daum ;
+    ns1:focus "Truck and Bus Manufacturing" ;
+    ns1:founded "2021" ;
+    ns1:foundedYear "2021" ;
+    ns1:headquarters ns1:Germany,
+        ns1:Stuttgart%2C_Germany ;
+    ns1:indexMembership ns1:DAX_40 ;
+    ns1:industry ns1:Commercial_Vehicles ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:products "Buses",
+        "Trucks" ;
+    ns1:spinOffFrom ns1:Daimler_AG ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DTG .
+
+ns1:HeidelbergCement ns1:CEO ns1:Dominik_von_Achten ;
+    ns1:employees "~57,000 (2022)" ;
+    ns1:founded "1874" ;
+    ns1:foundedIn "1874" ;
+    ns1:headquarters ns1:Heidelberg%2C_Germany ;
+    ns1:industry "Building materials" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:products "Aggregates",
+        "Cement",
+        "Ready-mixed concrete" ;
+    ns1:revenue "€18.6 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:HEI .
+
+ns1:M%C3%BCnchener_R%C3%BCck ns1:CEO ns1:Joachim_Wenning ;
+    ns1:foundedIn "1880" ;
+    ns1:foundedYear "1880" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry ns1:Reinsurance ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40,
+        ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "39,000 (2022)",
+        "39,000 (approx.)" ;
+    ns1:revenue "€54.9 billion (2022)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MUV2 .
+
+ns1:Oliver_Blume ns1:instanceOf "Person" ;
+    ns1:memberOf ns1:DAX_40_Index_companies ;
+    ns1:nationality "German" ;
+    ns1:occupation ns1:CEO_of_Porsche_AG ;
+    ns1:role ns1:Chairman_of_the_Executive_Board_of_Volkswagen_AG .
+
+ns1:Deutsche_Post ns1:CEO ns1:Frank_Appel ;
+    ns1:employees "Over 500,000 (2023)" ;
+    ns1:founded "1995" ;
+    ns1:foundedYear "1995" ;
+    ns1:headquarters ns1:Bonn%2C_Germany ;
+    ns1:industry "Logistics" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:parentCompany ns1:Deutsche_Post_DHL_Group ;
+    ns1:revenue "Over 80 billion euros (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DPW .
+
+ns1:E.ON ns1:CEO ns1:Leonhard_Birnbaum ;
+    ns1:businessFocus "Electricity and Gas" ;
+    ns1:founded "2000" ;
+    ns1:headquarters ns1:Essen%2C_Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:numberOfEmployees "~70,000" ;
+    ns1:revenue "€60 billion (approximate)" ;
+    ns1:sector "Utilities" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:EOAN .
+
+ns1:Fresenius ns1:CEO ns1:Stefan_Oelrich ;
+    ns1:businessSegments ns1:Fresenius_Helios,
+        ns1:Fresenius_Kabi,
+        ns1:Fresenius_Medical_Care,
+        ns1:Fresenius_Vamed ;
+    ns1:founded "1912" ;
+    ns1:headquarters ns1:Bad_Homburg%2C_Germany ;
+    ns1:industry "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:FRE .
+
+ns1:Infineon_Technologies ns1:CEO ns1:Jochen_Hanebeck ;
+    ns1:foundedYear "1999" ;
+    ns1:headquarters ns1:Germany ;
+    ns1:industry "Semiconductors" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40,
+        ns1:DAX_40_Index ;
+    ns1:products "Semiconductor and system solutions",
+        "Semiconductor solutions" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:IFX .
+
+ns1:MTU_Aero_Engines ns1:componentOf ns1:DAX_40_Index ;
+    ns1:employees "Around 10,000 (2023)" ;
+    ns1:founded "1934" ;
+    ns1:foundedIn "1934" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry ns1:Aerospace ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "Around 10,000 (2023)" ;
+    ns1:products "Aircraft engines" ;
+    ns1:revenue "Approximately 4 billion EUR (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:MTX .
+
+ns1:Siemens_Healthineers ns1:focus "Medical technology" ;
+    ns1:foundedYear "2017" ;
+    ns1:headquarters ns1:Erlangen%2C_Germany ;
+    ns1:industry ns1:Healthcare_Technology,
+        "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Siemens_AG ;
+    ns1:products "Advanced Therapies",
+        "Laboratory Diagnostics",
+        "Medical Imaging Equipment" ;
+    ns1:revenue "Approximately 17 billion EUR (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SHL .
+
+ns1:Symrise ns1:CEO ns1:Dr._Heinz-J%C3%BCrgen_Bertram ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "2003" ;
+    ns1:foundedIn "2003" ;
+    ns1:headquarters ns1:Holzminden%2C_Germany ;
+    ns1:industry "Flavors and Fragrances" ;
+    ns1:instanceOf "Company" ;
+    ns1:numberOfEmployees "Around 10,000",
+        "Around 10,000 (2023)" ;
+    ns1:revenue "Approximately 4 billion EUR (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SY1 .
+
+ns1:Bayer ns1:CEO ns1:Werner_Baumann ;
+    ns1:founded "1863" ;
+    ns1:headquarters ns1:Leverkusen%2C_Germany ;
+    ns1:industry "Life Sciences",
+        "Pharmaceuticals" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:products "Agricultural Chemicals",
+        "Agricultural chemicals",
+        "Consumer Health Products",
+        "Consumer health products",
+        "Pharmaceutical drugs",
+        "Pharmaceuticals" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAYN .
+
+ns1:Covestro ns1:CEO ns1:Jochen_Hardt ;
+    ns1:formerName ns1:Bayer_MaterialScience ;
+    ns1:founded "2015" ;
+    ns1:headquarters ns1:Leverkusen%2C_Germany ;
+    ns1:industry ns1:Chemicals ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Bayer_AG_%28until_2015%29 ;
+    ns1:products "Polycarbonates",
+        "Polyurethanes",
+        "Raw materials for coatings, adhesives, and automotive parts" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:1COV .
+
+ns1:Henkel ns1:foundedIn "1876" ;
+    ns1:headquarters ns1:D%C3%BCsseldorf%2C_Germany ;
+    ns1:industry "Consumer Goods" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:products "Adhesives",
+        "Beauty Care",
+        "Laundry & Home Care" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:HEN3 ;
+    ns1:tickerSymbol ns1:HEN3 .
+
+ns1:Linde ns1:componentOf ns1:DAX_40_Index ;
+    ns1:headquarters ns1:Germany,
+        ns1:Guildford%2C_United_Kingdom ;
+    ns1:industry ns1:Industrial_Gases ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:LIN .
+
+ns1:Puma ns1:CEO ns1:Bj%C3%B8rn_Gulden ;
+    ns1:foundedBy ns1:Rudolf_Dassler ;
+    ns1:foundedIn "1948" ;
+    ns1:founder ns1:Rudolf_Dassler ;
+    ns1:headquarters ns1:Herzogenaurach%2C_Germany ;
+    ns1:industry "Sportswear" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Kering_%28until_2018%29 ;
+    ns1:products "Accessories",
+        "Apparel",
+        "Footwear" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:PUM .
+
+ns1:Qiagen ns1:CEO ns1:Peer_M._Schatz,
+        ns1:Thierry_Bernard ;
+    ns1:foundedIn "1984" ;
+    ns1:headquarters ns1:Hilden%2C_Germany ;
+    ns1:industry "Biotechnology" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:primaryProducts "Sample and assay technologies for molecular diagnostics" ;
+    ns1:products "Sample and assay technologies for molecular diagnostics" ;
+    ns1:revenue "Approximately 1.9 billion USD (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:QIA .
+
+ns1:Siemens_Energy ns1:CEO ns1:Christian_Bruch ;
+    ns1:country ns1:Germany ;
+    ns1:focus "Energy technology and services" ;
+    ns1:foundedYear "2020" ;
+    ns1:headquarters ns1:Germany,
+        ns1:Munich ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:spinOffFrom ns1:Siemens_AG ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ENR .
+
+ns1:Vonovia ns1:CEO ns1:Rolf_Buch ;
+    ns1:foundedIn "2001" ;
+    ns1:foundedYear "2001" ;
+    ns1:headquarters ns1:Bochum%2C_Germany,
+        ns1:Germany ;
+    ns1:industry "Real Estate" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Largest residential real estate company in Germany" ;
+    ns1:numberOfEmployees "Approximately 10,000" ;
+    ns1:numberOfResidentialUnits "Over 400,000" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:VNA .
+
+ns1:Fresenius_Medical_Care ns1:businessFocus "Dialysis products and services" ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:focus "Dialysis products and services" ;
+    ns1:founded "1996" ;
+    ns1:foundedYear "1996" ;
+    ns1:headquarters ns1:Bad_Homburg%2C_Germany ;
+    ns1:industry "Healthcare" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "Large-cap" ;
+    ns1:memberOfIndex ns1:DAX_40_Index ;
+    ns1:parentCompany ns1:Fresenius_SE_%26_Co._KGaA ;
+    ns1:primaryBusiness "Dialysis products and services" ;
+    ns1:revenue "Approximately 20 billion EUR (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:FME .
+
+ns1:Porsche ns1:CEO ns1:Oliver_Blume ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:foundedIn "1931" ;
+    ns1:foundedYear "1931" ;
+    ns1:founder ns1:Ferdinand_Porsche ;
+    ns1:headquarters ns1:Stuttgart%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large-cap" ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:products "SUVs",
+        "Sedans",
+        "Sports cars" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:PAH3 ;
+    ns1:tickerSymbol ns1:PAH3 .
+
+ns1:Allianz ns1:CEO ns1:Oliver_B%C3%A4te ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1890" ;
+    ns1:foundedIn "1890" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Financial Services",
+        "Financial services" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:sector "Insurance" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:ALV .
+
+ns1:BMW ns1:CEO ns1:Oliver_Zipse ;
+    ns1:country ns1:Germany ;
+    ns1:foundedIn "1916" ;
+    ns1:foundedYear "1916" ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large-cap" ;
+    ns1:products "Automobiles",
+        "Luxury vehicles",
+        "Motorcycles" ;
+    ns1:revenue "Over 100 billion euros (approximate)" ;
+    ns1:stockTicker ns1:BMW .
+
+ns1:Deutsche_Bank ns1:CEO ns1:Christian_Sewing ;
+    ns1:ISIN ns1:DE0005140008 ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:country ns1:Germany ;
+    ns1:foundedIn "1870" ;
+    ns1:foundedYear "1870" ;
+    ns1:hasCEO ns1:Christian_Sewing ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:industry "Financial Services" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:sector ns1:Financials ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:DBK ;
+    ns1:tickerSymbol ns1:DBK .
+
+ns1:Deutsche_Telekom ns1:CEO ns1:Timotheus_H%C3%B6ttges ;
+    ns1:country ns1:Germany ;
+    ns1:founded "1996" ;
+    ns1:foundedYear "1996" ;
+    ns1:headquarters ns1:Bonn,
+        ns1:Bonn%2C_Germany ;
+    ns1:industry "Telecommunications" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:numberOfEmployees "over 200,000" ;
+    ns1:revenue "€80 billion (approximate)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:DTE .
+
+ns1:RWE ns1:CEO ns1:Dr._Markus_Krebber ;
+    ns1:businessFocus "Electricity generation",
+        "Electricity generation and distribution",
+        "Energy trading",
+        "Renewable energy" ;
+    ns1:founded "1898" ;
+    ns1:foundedYear "1898" ;
+    ns1:headquarters ns1:Essen%2C_Germany ;
+    ns1:industry "Energy" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:revenue "Approximately €13 billion (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:RWE .
+
+ns1:Siemens ns1:founded "1847" ;
+    ns1:foundedBy ns1:Werner_von_Siemens ;
+    ns1:foundedYear "1847" ;
+    ns1:founder ns1:Werner_von_Siemens ;
+    ns1:headquarters ns1:Munich%2C_Germany ;
+    ns1:industry "Conglomerate" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOfIndex ns1:DAX_40,
+        ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "Approximately 311,000 (2023)" ;
+    ns1:products ns1:Healthcare_Technology,
+        "Automation",
+        "Automation equipment",
+        "Energy",
+        "Medical devices",
+        "Power generation equipment" ;
+    ns1:revenue "Approximately 62.3 billion EUR (2023)" ;
+    ns1:sector "Industrial" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SIE .
+
+ns1:Volkswagen_Group ns1:CEO ns1:Oliver_Blume ;
+    ns1:brands <http://minigptkb/%C5%A0koda>,
+        ns1:Audi,
+        ns1:Bentley,
+        ns1:Bugatti,
+        ns1:Ducati,
+        ns1:Lamborghini,
+        ns1:Porsche,
+        ns1:SEAT,
+        ns1:Volkswagen ;
+    ns1:founded "1937" ;
+    ns1:headquarters ns1:Wolfsburg%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "approximately 670,000" ;
+    ns1:revenue "over 250 billion euros (2023)",
+        "€250 billion (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:VOW3 .
+
+ns1:Adidas ns1:CEO ns1:Bj%C3%B6rn_Gulden ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:country ns1:Germany ;
+    ns1:foundedBy ns1:Adolf_Dassler ;
+    ns1:foundedIn "1949" ;
+    ns1:foundedYear "1949" ;
+    ns1:founder ns1:Adolf_Dassler ;
+    ns1:hasCEO ns1:Bj%C3%B6rn_Gulden ;
+    ns1:headquarters ns1:Herzogenaurach,
+        ns1:Herzogenaurach%2C_Germany ;
+    ns1:industry "Sportswear" ;
+    ns1:instanceOf ns1:DAX_40_company,
+        "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:products "Accessories",
+        "Apparel",
+        "Footwear" ;
+    ns1:sector ns1:Consumer_Discretionary ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:ADS ;
+    ns1:tickerSymbol ns1:ADS .
+
+ns1:BASF ns1:CEO ns1:Martin_Bruderm%C3%BCller ;
+    ns1:foundedYear "1865" ;
+    ns1:headquarters ns1:Ludwigshafen%2C_Germany ;
+    ns1:industry ns1:Chemicals ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "Large Cap" ;
+    ns1:memberOfIndex ns1:DAX_40 ;
+    ns1:revenue "Approximately 87 billion EUR (2022)" ;
+    ns1:sector ns1:Basic_Materials ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:BAS .
+
+ns1:SAP ns1:CEO ns1:Christian_Klein ;
+    ns1:country ns1:Germany ;
+    ns1:employees "Over 100,000" ;
+    ns1:foundedIn "1972" ;
+    ns1:founders ns1:Claus_Wellenreuther,
+        ns1:Dietmar_Hopp,
+        ns1:Hans-Werner_Hector,
+        ns1:Hasso_Plattner,
+        ns1:Klaus_Tschira ;
+    ns1:headquarters ns1:Walldorf%2C_Germany ;
+    ns1:industry "Software" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:products "Business software solutions",
+        "ERP software",
+        "Enterprise Resource Planning (ERP) software",
+        "Enterprise software" ;
+    ns1:revenue "Over 30 billion euros (approximate)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:stockTicker ns1:SAP ;
+    ns1:tickerSymbol ns1:SAP ;
+    ns1:website "www.sap.com" .
+
+ns1:SAP_SE ns1:CEO ns1:Christian_Klein ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1972" ;
+    ns1:foundedIn "1972" ;
+    ns1:founders ns1:Claus_Wellenreuther,
+        ns1:Dietmar_Hopp,
+        ns1:Hans-Werner_Hector,
+        ns1:Hasso_Plattner,
+        ns1:Klaus_Tschira ;
+    ns1:headquarters ns1:Walldorf%2C_Germany ;
+    ns1:industry "Software" ;
+    ns1:instanceOf "Company",
+        "company" ;
+    ns1:listedIn ns1:DAX_40_Index ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:memberOf ns1:DAX_40_Index ;
+    ns1:numberOfEmployees "Over 100,000" ;
+    ns1:products "ERP software",
+        "Enterprise software" ;
+    ns1:revenue "Approximately 30 billion EUR (2023)",
+        "Over 30 billion euros (2023)" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:tickerSymbol ns1:SAP ;
+    ns1:website "www.sap.com" .
+
+ns1:Volkswagen ns1:CEO ns1:Oliver_Blume ;
+    ns1:componentOf ns1:DAX_40_Index ;
+    ns1:founded "1937" ;
+    ns1:headquarters ns1:Wolfsburg%2C_Germany ;
+    ns1:industry "Automotive" ;
+    ns1:instanceOf "Company" ;
+    ns1:marketCapitalization "One of the largest in DAX 40" ;
+    ns1:parentCompany ns1:Volkswagen_Group ;
+    ns1:products "Automobiles" ;
+    ns1:stockExchange ns1:Frankfurt_Stock_Exchange ;
+    ns1:subsidiaries <http://minigptkb/%C5%A0koda_Auto>,
+        ns1:Audi,
+        ns1:Porsche ;
+    ns1:tickerSymbol ns1:VOW3 .
+
+ns1:Euro ns1:ISOCode ns1:EUR ;
+    ns1:instanceOf "Currency" ;
+    ns1:introduced "1999" ;
+    ns1:introducedOn "1999-01-01" ;
+    ns1:managedBy ns1:European_Central_Bank ;
+    ns1:symbol <http://minigptkb/%E2%82%AC> ;
+    ns1:usedBy ns1:Eurozone_countries,
+        ns1:France,
+        ns1:Germany,
+        ns1:Italy,
+        ns1:Spain ;
+    ns1:usedIn ns1:Eurozone,
+        ns1:France,
+        ns1:Germany,
+        ns1:Italy,
+        ns1:Spain .
+
+ns1:DAX_40 ns1:baseDate "December 30, 1987" ;
+    ns1:baseValue "1000 points" ;
+    ns1:benchmarkFor ns1:German_equity_market ;
+    ns1:calculationMethod "free-float market capitalization weighted" ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:includesCompanies ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:Bayer,
+        ns1:Covestro,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:MTU_Aero_Engines,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia ;
+    ns1:includesCompany ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Merck,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia ;
+    ns1:inclusionCriteria "largest and most liquid German companies" ;
+    ns1:indexBaseDate "December 30, 1987" ;
+    ns1:indexBaseValue "1000 points" ;
+    ns1:indexCalculationAgent ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_B%C3%B6rse_AG ;
+    ns1:indexCalculationFrequency "every 15 seconds" ;
+    ns1:indexConstituentChanges "announced quarterly" ;
+    ns1:indexConstituentSelection "based on market capitalization and liquidity" ;
+    ns1:indexConstituentTurnover "low to moderate" ;
+    ns1:indexConstituentWeightCap "no cap" ;
+    ns1:indexCurrency ns1:Euro ;
+    ns1:indexCurrencyHedging "none" ;
+    ns1:indexDataAvailability "real-time" ;
+    ns1:indexDataProviders ns1:Deutsche_B%C3%B6rse%2C_financial_data_vendors ;
+    ns1:indexDividendTreatment "reinvested in index" ;
+    ns1:indexEligibility ns1:companies_listed_on_Frankfurt_Stock_Exchange ;
+    ns1:indexExclusionAnnouncement "one month before effective date" ;
+    ns1:indexExpansionDate "September 20, 2021" ;
+    ns1:indexHistoricalData "available since 1988" ;
+    ns1:indexInclusionAnnouncement "one month before effective date" ;
+    ns1:indexPurpose "benchmark for German equity market" ;
+    ns1:indexRebalancing "quarterly" ;
+    ns1:indexRisk "market risk" ;
+    ns1:indexSectorWeighting "diversified" ;
+    ns1:indexSponsor ns1:Deutsche_B%C3%B6rse_AG ;
+    ns1:indexSymbol <http://minigptkb/%5EGDAXI> ;
+    ns1:indexType "performance index" ;
+    ns1:indexUse "benchmark for funds and ETFs" ;
+    ns1:indexVolatility "moderate" ;
+    ns1:instanceOf "stock market index" ;
+    ns1:launchDate "1988" ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:marketCapitalization "largest 40 German companies" ;
+    ns1:notableConstituent ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:Bayer,
+        ns1:Deutsche_Bank,
+        ns1:Linde,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Volkswagen ;
+    ns1:notableConstituents ns1:Allianz,
+        ns1:BASF,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Volkswagen ;
+    ns1:numberOfConstituents "40" ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:previousName ns1:DAX_30 ;
+    ns1:rebalancingFrequency "quarterly" ;
+    ns1:relatedIndex ns1:MDAX,
+        ns1:SDAX,
+        ns1:TecDAX ;
+    ns1:replacedIndex ns1:DAX_30 ;
+    ns1:reviewFrequency "quarterly" ;
+    ns1:sectorCoverage "various sectors including automotive, chemicals, financials, technology",
+        "various sectors including automotive, chemicals, technology, finance" ;
+    ns1:tradingCurrency ns1:Euro ;
+    ns1:tradingVenue ns1:Frankfurt_Stock_Exchange .
+
+ns1:Deutsche_B%C3%B6rse ns1:founded "1992" ;
+    ns1:foundedIn "1992" ;
+    ns1:headquarteredIn ns1:Frankfurt%2C_Germany ;
+    ns1:headquarters ns1:Frankfurt%2C_Germany ;
+    ns1:industry "Financial Services",
+        "Financial services" ;
+    ns1:instanceOf "Company" ;
+    ns1:listedOn ns1:Frankfurt_Stock_Exchange ;
+    ns1:manages ns1:DAX_40_Index,
+        ns1:DAX_family_of_indices ;
+    ns1:operates ns1:Frankfurt_Stock_Exchange ;
+    ns1:owns ns1:Xetra,
+        ns1:Xetra_trading_system ;
+    ns1:provides ns1:DAX_40_Index ;
+    ns1:stockExchangeListing ns1:Frankfurt_Stock_Exchange .
+
+ns1:Germany ns1:capital ns1:Berlin ;
+    ns1:currency ns1:Euro ;
+    ns1:hasStockMarketIndex ns1:DAX_40_Index ;
+    ns1:homeTo ns1:DAX_40_Index ;
+    ns1:instanceOf "Country" ;
+    ns1:largestStockMarket ns1:Frankfurt_Stock_Exchange ;
+    ns1:location ns1:Europe ;
+    ns1:memberOf ns1:European_Union .
+
+ns1:Frankfurt_Stock_Exchange ns1:currency ns1:Euro ;
+    ns1:foundedIn "1585" ;
+    ns1:hasTradingHours "09:00 to 17:30 CET" ;
+    ns1:instanceOf ns1:Stock_Exchange ;
+    ns1:locatedIn ns1:Frankfurt%2C_Germany ;
+    ns1:marketType "Equity Market" ;
+    ns1:offersTradingIn "Bonds",
+        "Derivatives",
+        "Equities" ;
+    ns1:operatedBy ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_B%C3%B6rse_AG ;
+    ns1:operatesIndex ns1:DAX_40 ;
+    ns1:tradesIndex ns1:DAX_40 ;
+    ns1:tradingCurrency ns1:Euro ;
+    ns1:tradingHours "09:00 to 17:30 CET" .
+
+ns1:DAX_40_Index ns1:baseDate "30 December 1987",
+        "December 30, 1987" ;
+    ns1:baseValue "1000",
+        "1000 points" ;
+    ns1:benchmarkFor ns1:German_equity_market ;
+    ns1:calculationMethod "Free-float market capitalization weighted",
+        "free-float market capitalization weighted" ;
+    ns1:country ns1:Germany ;
+    ns1:currency ns1:Euro ;
+    ns1:expansionDate "September 20, 2021" ;
+    ns1:hasConstituent ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Delivery_Hero,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:HelloFresh,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Merck,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia,
+        ns1:Zalando ;
+    ns1:hasConstituentCompany ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Delivery_Hero,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:HelloFresh,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Merck,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia,
+        ns1:Zalando ;
+    ns1:includesCompanies ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Merck,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia,
+        ns1:Zalando ;
+    ns1:includesCompany ns1:Adidas,
+        ns1:Allianz,
+        ns1:BASF,
+        ns1:BMW,
+        ns1:Bayer,
+        ns1:Continental,
+        ns1:Covestro,
+        ns1:Daimler_Truck,
+        ns1:Delivery_Hero,
+        ns1:Deutsche_B%C3%B6rse,
+        ns1:Deutsche_Bank,
+        ns1:Deutsche_Post,
+        ns1:Deutsche_Telekom,
+        ns1:E.ON,
+        ns1:Fresenius,
+        ns1:Fresenius_Medical_Care,
+        ns1:HeidelbergCement,
+        ns1:Henkel,
+        ns1:Infineon_Technologies,
+        ns1:Linde,
+        ns1:M%C3%BCnchener_R%C3%BCck,
+        ns1:MTU_Aero_Engines,
+        ns1:Merck,
+        ns1:Porsche,
+        ns1:Puma,
+        ns1:Qiagen,
+        ns1:RWE,
+        ns1:SAP,
+        ns1:Siemens,
+        ns1:Siemens_Energy,
+        ns1:Siemens_Healthineers,
+        ns1:Symrise,
+        ns1:Volkswagen,
+        ns1:Vonovia,
+        ns1:Zalando ;
+    ns1:indexBaseDate "December 30, 1987" ;
+    ns1:indexBaseValue "1000 points" ;
+    ns1:indexCalculationTimeZone ns1:Central_European_Time_%28CET%29 ;
+    ns1:indexCurrency ns1:Euro ;
+    ns1:indexCurrencyDenomination ns1:Euro ;
+    ns1:indexMaintenance ns1:Deutsche_B%C3%B6rse_AG ;
+    ns1:indexProvider ns1:Deutsche_B%C3%B6rse ;
+    ns1:indexSponsor ns1:Deutsche_B%C3%B6rse_AG ;
+    ns1:indexSymbol <http://minigptkb/%5EGDAXI> ;
+    ns1:indexType "performance index" ;
+    ns1:instanceOf ns1:Stock_Market_Index,
+        "stock market index" ;
+    ns1:launchDate "1988" ;
+    ns1:market ns1:Frankfurt_Stock_Exchange ;
+    ns1:marketCapitalizationWeighted "true" ;
+    ns1:numberOfConstituents "40" ;
+    ns1:operator ns1:Deutsche_B%C3%B6rse ;
+    ns1:previousName ns1:DAX_30 ;
+    ns1:rebalancingFrequency "Quarterly",
+        "quarterly" ;
+    ns1:replacedIndex ns1:DAX_30 ;
+    ns1:represents "40 major German blue chip companies" ;
+    ns1:reviewFrequency "quarterly" ;
+    ns1:tradingCurrency ns1:Euro ;
+    ns1:tradingHours "09:00 to 17:30 CET" ;
+    ns1:type "performance index" .
+

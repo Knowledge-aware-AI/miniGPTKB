@@ -1,0 +1,61 @@
+{
+  "custom_id": {{ custom_id|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Devi svolgere il task di named entity recognition (NER) sul tema dell'antica città di Babilonia. Il tuo compito è di classificare se una data espressione in lingua italiana è una named entity rilevante per il tema oppure no (ad esempio literal, date, URL, espressioni prolisse...). Ogni espressione ti viene fornita in una riga."
+      },
+      {
+        "role": "user",
+        "content": {{ phrases|tojson }}
+      }
+    ],
+    "max_tokens": 2048,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "phrase_list",
+        "schema": {
+          "type": "object",
+          "required": [
+            "phrases"
+          ],
+          "properties": {
+            "phrases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "phrase",
+                  "is_ne"
+                ],
+                "properties": {
+                  "phrase": {
+                    "type": "string",
+                    "description": "L'espressione che viene analizzata."
+                  },
+                  "is_ne": {
+                    "type": "boolean",
+                    "description": "Indica se l'espressione è una named entity."
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "Una lista di espressioni con i loro rispettivi status di NE."
+            }
+          },
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    }
+  }
+}

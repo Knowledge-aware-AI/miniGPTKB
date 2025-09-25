@@ -1,0 +1,62 @@
+{
+  "custom_id": {{ subject_name|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Quiero construir un knowledge graph sobre el tema de la antigua ciudad de Babilonia. Dada una entidad sujeto, devuelve todos los hechos que conoces para el sujeto como una lista de tripletas (sujeto, predicado, objeto). El número de hechos puede ser muy alto, entre 50 y 100 o más, para sujetos muy populares. Para sujetos menos populares, el número de hechos puede ser muy bajo, como 5 o 10.\n\nImportante: \n- Si no conoces el sujeto, devuelve una lista vacía. \n- Si el sujeto no es una named entity, devuelve una lista vacía. \n- Si el sujeto no pertenece al tema de la antigua ciudad de Babilonia, devuelve una lista vacía. \n- Si el sujeto es una named entity, incluye al menos un triple cuyo predicado sea \"instanciaDe\". \n- No te extiendas demasiado. \n- Separa varios objetos en múltiples triples con un objeto. \n- Todos los triples deben estar en español."
+      },
+      {
+        "role": "user",
+        "content": {{ subject_name|tojson }}
+      }
+    ],
+    "max_tokens": 4096,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "triple_array_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "predicate": {
+                    "type": "string"
+                  },
+                  "object": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "predicate",
+                  "object"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "facts"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

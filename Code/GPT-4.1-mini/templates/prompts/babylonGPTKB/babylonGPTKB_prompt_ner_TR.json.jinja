@@ -1,0 +1,61 @@
+{
+  "custom_id": {{ custom_id|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Antik Babil şehri konusuyla ilgili olarak isimli varlık tanıma (NER) işlemi yapmanı istiyorum. Görevin, verilen Türkçe ifadelerin konu ile ilgili isimli varlıklar olup olmadığını sınıflandırmak (örneğin, özel isimler mi, yoksa sadece literal ifadeler, tarihler, URL’ler, uzun açıklayıcı ifadeler mi...). Her ifade sana bir satır halinde verilecektir."
+      },
+      {
+        "role": "user",
+        "content": {{ phrases|tojson }}
+      }
+    ],
+    "max_tokens": 2048,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "phrase_list",
+        "schema": {
+          "type": "object",
+          "required": [
+            "phrases"
+          ],
+          "properties": {
+            "phrases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "phrase",
+                  "is_ne"
+                ],
+                "properties": {
+                  "phrase": {
+                    "type": "string",
+                    "description": "Analiz edilen ifade."
+                  },
+                  "is_ne": {
+                    "type": "boolean",
+                    "description": "İfadenin bir İsimli Varlık (Named Entity) olup olmadığını belirtir."
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "İfadelerin ve bunlara ait İsimli Varlık (NE) durumlarının listesi."
+            }
+          },
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    }
+  }
+}

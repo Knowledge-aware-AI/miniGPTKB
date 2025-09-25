@@ -1,0 +1,2057 @@
+subject,predicate,object
+Fresenius Medical Care,businessFocus,Dialysis products and services
+Merck Group,revenue,€19.9 billion (2022)
+BAYN,listedIn,DAX 40 Index
+SAP SE,stockExchange,Frankfurt Stock Exchange
+FRE,sector,Healthcare
+DAX 40 Index,hasConstituentCompany,Zalando
+Volkswagen AG,instanceOf,Company
+Delivery Hero,stockExchange,Frankfurt Stock Exchange
+Chairman of the Executive Board of Volkswagen AG,instanceOf,Position
+Xetra,operatedBy,Deutsche Börse
+NSU (historical),founded,1873
+HelloFresh,founders,Thomas Griesel
+DAX 40,includesCompany,Infineon Technologies
+Henkel AG & Co. KGaA,instanceOf,Company
+BAS,industry,Chemicals
+Continental AG,instanceOf,Company
+VNA,instanceOf,Company
+Qiagen,primaryProducts,Sample and assay technologies for molecular diagnostics
+Rolf Buch,occupation,Business Executive
+^GDAXI,type,Performance Index
+Peer M. Schatz,associatedWith,Qiagen
+Audi,CEO,Markus Duesmann
+Volkswagen Group,brands,Volkswagen
+Continental,memberOfIndex,DAX 40 Index
+Bayer,tickerSymbol,BAYN
+BMW,foundedYear,1916
+Daimler Truck,industry,Commercial Vehicles
+DAX 40 Index,tradingHours,09:00 to 17:30 CET
+Bentley,instanceOf,Company
+European Central Bank,established,1998
+Fresenius SE & Co. KGaA,CEO,Stefan Oelrich
+IFX,listedIn,DAX 40 Index
+QIA,listedIn,DAX 40 Index
+DAX 40,includesCompany,Puma
+DAX 40,includesCompany,Fresenius Medical Care
+Henkel AG & Co. KGaA,knownFor,Laundry & Home Care
+Deutsche Bank,country,Germany
+Infineon Technologies,tickerSymbol,IFX
+Covestro,tickerSymbol,1COV
+Deutsche Post,headquarters,"Bonn, Germany"
+Zalando,foundedIn,2008
+BASF SE,tickerSymbol,BAS
+DAX 40 Index,previousName,DAX 30
+Covestro,formerName,Bayer MaterialScience
+Bugatti,headquarters,"Molsheim, France"
+Rhine-Ruhr Metropolitan Region,locatedIn,Germany
+Siemens Healthineers,industry,Healthcare
+SEAT,industry,Automotive
+"Walldorf, Germany",instanceOf,City
+Puma,products,Accessories
+Christian Sewing,occupation,Banker
+Symrise,headquarters,"Holzminden, Germany"
+Porsche AG,parentCompany,Volkswagen Group
+Bayer AG,tickerSymbol,BAYN
+SAP,founders,Hasso Plattner
+DAX 40 Index,market,Frankfurt Stock Exchange
+Niklas Östberg,associatedWith,Delivery Hero
+DAX 40 Index,hasConstituentCompany,BMW
+DAX 40 Index,includesCompanies,Covestro
+Vonovia,instanceOf,Company
+Munich Re,founded,1880
+Bayer MaterialScience,focusArea,High-performance plastics
+Infineon Technologies,memberOfIndex,DAX 40
+SAP SE,CEO,Christian Klein
+DPW,instanceOf,Company
+DAX 40,includesCompany,Merck
+MTU Aero Engines,stockExchange,Frankfurt Stock Exchange
+Volkswagen AG,stockExchange,Frankfurt Stock Exchange
+Fresenius Medical Care,stockExchange,Frankfurt Stock Exchange
+MUV2,country,Germany
+MTU Aero Engines,tickerSymbol,MTX
+Audi,founded,1909
+Porsche AG,headquarters,"Stuttgart, Germany"
+Euro,instanceOf,Currency
+Peer M. Schatz,nationality,German
+Daimler Truck AG,products,Buses
+Christian Sewing,nationality,German
+DBK,headquarters,"Frankfurt, Germany"
+Siemens Energy AG,listedIn,DAX 40 Index
+Henkel AG & Co. KGaA,country,Germany
+VOW3,companyName,Volkswagen AG
+Henkel,industry,Consumer Goods
+SAP,foundedIn,1972
+Fresenius SE & Co. KGaA,memberOf,DAX 40 Index
+Puma,foundedIn,1948
+DAX 40,includesCompany,Qiagen
+Infineon Technologies,industry,Semiconductors
+DAI,isComponentOf,DAX 40 Index
+Fresenius Vamed,instanceOf,Company
+Deutsche Bank AG,headquarters,"Frankfurt, Germany"
+Volkswagen Group,brands,SEAT
+Henkel AG & Co. KGaA,industry,Consumer Goods
+DAX 30,country,Germany
+Adidas,sector,Consumer Discretionary
+Volkswagen Group,revenue,€250 billion (2023)
+BAS,fullName,BASF SE
+DAX 40 Index,hasConstituentCompany,BASF
+Porsche AG,listedIn,DAX 40 Index
+Klaus Tschira,knownFor,Co-founding SAP SE
+DAX 30,instanceOf,Stock Market Index
+Deutsche Post AG,revenue,Over 80 billion euros (2023)
+Siemens Energy AG,industry,Energy
+Volkswagen,headquarters,"Wolfsburg, Germany"
+Fresenius SE & Co. KGaA,instanceOf,Company
+^GDAXI,represents,DAX 40 Index
+Volkswagen Group,brands,Škoda
+Werner von Siemens,occupation,Industrialist
+Merck,instanceOf,Company
+DAX 40 Index,hasConstituentCompany,Henkel
+DAX 40 Index,hasConstituentCompany,SAP
+Volkswagen,founded,1937
+Euro,usedIn,Eurozone
+Germany,hasStockMarketIndex,DAX 40 Index
+Klaus Tschira,occupation,Entrepreneur
+Fresenius Helios,foundedYear,2005
+BAYN,instanceOf,Company
+Porsche,marketCapitalization,Large-cap
+Audi,parentCompany,Volkswagen Group
+Volkswagen AG,brands,Audi
+Leonhard Birnbaum,instanceOf,Person
+Daimler AG,products,Mercedes-Benz cars
+Mercedes-Benz Group AG,tickerSymbol,MBG
+ZAL,instanceOf,Company
+Hans-Werner Hector,occupation,Engineer
+MRK,memberOf,DAX 40 Index
+Henkel AG & Co. KGaA,foundedIn,1876
+Deutsche Telekom,CEO,Timotheus Höttges
+Continental,numberOfEmployees,"~190,000 (2023)"
+Rolf Buch,associatedWith,DAX 40 Index
+Fresenius Medical Care,revenue,Approximately 20 billion EUR (2023)
+DAX 40 Index,rebalancingFrequency,Quarterly
+Werner Baumann,occupation,Business Executive
+Fresenius Kabi,parentCompany,Fresenius SE & Co. KGaA
+SEAT,headquarters,"Martorell, Spain"
+DAX 40 Index,hasConstituentCompany,Delivery Hero
+Adidas,listedIn,DAX 40 Index
+Infineon Technologies,CEO,Jochen Hanebeck
+Siemens,foundedYear,1847
+Deutsche Bank AG,founded,1870
+RWE AG,revenue,€13.7 billion (2022)
+Infineon Technologies,products,Semiconductor and system solutions
+Deutsche Bank,stockTicker,DBK
+Siemens AG,products,Industrial automation
+DAX 40 Index,hasConstituentCompany,Infineon Technologies
+E.ON,CEO,Leonhard Birnbaum
+Bentley,parentCompany,Volkswagen Group
+Fresenius Medical Care,foundedYear,1996
+Performance Materials,instanceOf,Company
+DAX 40 Index,indexSymbol,^GDAXI
+Siemens Healthineers,instanceOf,Company
+Deutsche Börse,headquarters,"Frankfurt, Germany"
+Delivery Hero,headquarters,"Berlin, Germany"
+MRK,instanceOf,Company
+HeidelbergCement,tickerSymbol,HEI
+Bayer,products,Consumer Health Products
+Mercedes-Benz Group AG,instanceOf,Company
+Škoda,parentCompany,Volkswagen Group
+LIN,industry,Industrial Gases
+HelloFresh,industry,Meal Kit Delivery
+Symrise,founded,2003
+BASF SE,instanceOf,Company
+Puma,listedIn,DAX 40 Index
+Jochen Hanebeck,occupation,Chief Executive Officer
+DAX 40,includesCompany,Porsche
+Frankfurt Stock Exchange,marketType,Equity Market
+DAX 40 Index,includesCompanies,Zalando
+Münchener Rück,CEO,Joachim Wenning
+DAX 40 Index,hasConstituentCompany,Puma
+DAX 40 Index,hasConstituentCompany,Fresenius Medical Care
+Porsche,headquarters,"Stuttgart, Germany"
+Porsche AG,stockExchange,Frankfurt Stock Exchange
+DAX 40 company,instanceOf,company
+Performance Materials,industry,Specialty Chemicals
+Klaus Tschira,birthYear,1940
+Hans-Werner Hector,instanceOf,Person
+BAYN,ISIN,DE000BAY0017
+Fresenius Vamed,headquarters,"Vienna, Austria"
+Merck,stockTicker,MRK
+HeidelbergCement,headquarters,"Heidelberg, Germany"
+Frank Appel,position,CEO
+Bayer MaterialScience,instanceOf,Company
+Bayer AG,industry,Chemicals
+DBK,stockExchange,Frankfurt Stock Exchange
+SAP,products,Enterprise software
+Oliver Bäte,position,CEO of Allianz SE
+Deutsche Börse,manages,DAX 40 Index
+VOW3,ISIN,DE0007664039
+Delivery Hero,foundedIn,2011
+Merck,country,Germany
+FRE,headquarters,"Bad Homburg, Germany"
+VOW3,listedIn,DAX 40 Index
+SHL,headquarters,United Kingdom
+ADS,headquarters,Germany
+ZAL,industry,E-commerce
+Deutsche Post,founded,1995
+SAP,employees,"Over 100,000"
+Mercedes-Benz Group AG,foundedYear,1926
+MUV2,listedOn,DAX 40 Index
+Frank Appel,company listed in,DAX 40 Index
+Audi,industry,Automotive
+Adidas,foundedIn,1949
+Münchener Rück,headquarters,"Munich, Germany"
+Symrise,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,hasConstituentCompany,Merck
+DAX 40 Index,country,Germany
+SIE,industry,Energy
+Continental,stockExchange,Frankfurt Stock Exchange
+Continental AG,tickerSymbol,CON
+DAX 40,includesCompany,Fresenius
+Delivery Hero,listedIn,DAX 40 Index
+Continental AG,headquarters,"Hanover, Germany"
+Fresenius Kabi,industry,Pharmaceuticals and Healthcare
+Qiagen,industry,Biotechnology
+Martin Daum,occupation,Business Executive
+SAP,headquarters,"Walldorf, Germany"
+DAX 40 Index,includesCompanies,Adidas
+Kering,wasListedOn,DAX 40 Index
+BASF SE,memberOfIndex,DAX 40 Index
+IFX,industry,Technology
+Allianz,componentOf,DAX 40 Index
+DBK,CEO,Christian Sewing
+DAX 40 Index,includesCompanies,BMW
+E.ON,headquarters,"Essen, Germany"
+Fresenius,memberOf,DAX 40 Index
+SAP SE,founded,1972
+MRK,country,Germany
+Deutsche Börse AG,instanceOf,Company
+Daimler Truck AG,headquarters,Germany
+Daimler AG,products,Buses
+Vonovia,foundedYear,2001
+Mercedes-Benz Group AG,products,Commercial vehicles
+BMW,headquarters,"Munich, Germany"
+Deutsche Börse AG,founded,1992
+E.ON,tickerSymbol,EOAN
+Hasso Plattner,occupation,Philanthropist
+DAX 30 Index,numberOfConstituents,30
+Deutsche Bank,sector,Financials
+SAP,industry,Software
+Bayer AG,CEO,Werner Baumann
+SAP,founders,Klaus Tschira
+Porsche AG,tickerSymbol,PAH3
+Puma,industry,Sportswear
+Markus Duesmann,instanceOf,Person
+Audi,stockExchange,Frankfurt Stock Exchange
+Fresenius,instanceOf,Company
+Fresenius Kabi,instanceOf,Company
+MTX,country,Germany
+Munich Re,stockExchange,Frankfurt Stock Exchange
+RWE,industry,Energy
+Siemens,memberOfIndex,DAX 40
+FRE,fullName,Fresenius SE & Co. KGaA
+Deutsche Post,stockExchange,Frankfurt Stock Exchange
+Niklas Östberg,instanceOf,Person
+Frankfurt Stock Exchange,operatesIndex,DAX 40
+Volkswagen AG,brands,SEAT
+Covestro,industry,Chemicals
+Allianz,industry,Financial Services
+HEN3,represents,Henkel AG & Co. KGaA
+DAX 40 Index,includesCompanies,BASF
+HEI,listedIn,DAX 40 Index
+Dortmund,headquarters,"Dortmund, Germany"
+Belén Garijo,instanceOf,Person
+Škoda,listedIn,DAX 40 Index
+BMW,instanceOf,Company
+Bayer,industry,Pharmaceuticals
+Henkel,products,Laundry & Home Care
+DBK,industry,Financial Services
+Linde,stockExchange,Frankfurt Stock Exchange
+SAP SE,website,www.sap.com
+Henkel,instanceOf,Company
+SEAT,founded,1950
+ADS,listedIn,DAX 40 Index
+Volkswagen AG,headquarters,"Wolfsburg, Germany"
+Adolf Dassler,nationality,German
+Bugatti,knownFor,Luxury sports cars
+DAX 40 Index,includesCompanies,Henkel
+DBK,sector,Banking
+Porsche AG,marketCapitalization,High
+Siemens Energy,headquarters,Munich
+Symrise,numberOfEmployees,"Around 10,000 (2023)"
+DAX 40 company,listedOn,Frankfurt Stock Exchange
+HEI,headquarters,"Hamburg, Germany"
+Volkswagen AG,founded,1937
+EOAN,headquarters,Germany
+BASF,industry,Chemicals
+Linde,headquarters,Germany
+DAX 40 Index,includesCompanies,Volkswagen
+Audi,instanceOf,Company
+PAH3,instanceOf,Company
+Oliver Blume,nationality,German
+Siemens Energy,country,Germany
+Claus Wellenreuther,occupation,Software Developer
+DAX 40 Index,hasConstituentCompany,Porsche
+Ola Källenius,occupation,Chairman of the Supervisory Board of Daimler AG
+SAP SE,memberOf,DAX 40 Index
+Covestro,products,Polycarbonates
+Fresenius Helios,stockExchange,Frankfurt Stock Exchange
+DBK,foundedYear,1870
+Bayer AG,industry,Pharmaceuticals
+Deutsche Post,instanceOf,Company
+Werner von Siemens,instanceOf,Person
+DAX 40 Index,hasConstituentCompany,Deutsche Post
+DAX 40 Index,includesCompanies,Infineon Technologies
+Bad Homburg,locatedIn,Germany
+"Walldorf, Germany",headquartersOf,SAP SE
+Deutsche Börse,founded,1992
+HelloFresh,tickerSymbol,HFG
+Symrise,componentOf,DAX 40 Index
+Bugatti,country,France
+Nikolai Setzer,position,CEO of Continental AG
+Porsche,instanceOf,Company
+Dietmar Hopp,instanceOf,Person
+Deutsche Telekom,foundedYear,1996
+Münchener Rück,industry,Reinsurance
+Dominik Richter,instanceOf,Person
+BAS,instanceOf,Company
+RWE AG,numberOfEmployees,"~19,000 (2023)"
+Daimler Truck AG,stockExchange,Frankfurt Stock Exchange
+Niklas Östberg,occupation,Business Executive
+Bugatti,instanceOf,Automobile Manufacturer
+DAX 30,currency,Euro
+DAX 40 Index,includesCompanies,Puma
+SAP SE,founders,Dietmar Hopp
+Deutsche Post,employees,"Over 500,000 (2023)"
+European Central Bank,instanceOf,Central Bank
+Frankfurt Stock Exchange,tradingHours,09:00 to 17:30 CET
+Deutsche Bank AG,industry,Financial Services
+"Walldorf, Germany",locatedIn,Germany
+Bad Homburg,relatedTo,DAX 40 Index
+Porsche AG,industry,Automotive
+Christian Sewing,position,CEO of Deutsche Bank
+Stefan Oelrich,instanceOf,Person
+Volkswagen Group,brands,Audi
+Bayer,products,Pharmaceuticals
+DAX 40,includesCompany,Symrise
+DAX 40 Index,hasConstituentCompany,Fresenius
+NSU (historical),country,Germany
+Martin Brudermüller,instanceOf,Person
+Hasso Plattner,co-founderOf,SAP SE
+HEN3,instanceOf,Stock Ticker Symbol
+HelloFresh,founders,Dominik Richter
+Volkswagen AG,brands,Porsche
+Fresenius SE & Co. KGaA,founded,1912
+Mercedes-Benz Group AG,formerName,Daimler AG
+Henkel,headquarters,"Düsseldorf, Germany"
+MTU Aero Engines,headquarters,"Munich, Germany"
+Delivery Hero,tickerSymbol,DHER
+DAX 40,includesCompany,Allianz
+Siemens Energy AG,stockExchange,Frankfurt Stock Exchange
+Adhesive Technologies,industry,Adhesives and Sealants
+DAX 40 Index,launchDate,1988
+SAP SE,founders,Claus Wellenreuther
+Hasso Plattner,knownFor,Co-founding SAP SE
+Henkel AG & Co. KGaA,headquarters,"Düsseldorf, Germany"
+Delivery Hero,CEO,Niklas Östberg
+Rhine-Ruhr Metropolitan Region,instanceOf,Metropolitan Region
+Siemens Energy,foundedYear,2020
+Linde,componentOf,DAX 40 Index
+MTU Aero Engines,industry,Aerospace
+DAX 30 Index,currency,Euro
+EOAN,tickerSymbol,EOAN
+Oliver Bäte,instanceOf,Person
+Allianz,stockExchange,Frankfurt Stock Exchange
+Fresenius SE & Co. KGaA,industry,Healthcare
+SHL,wasComponentOf,DAX 40 Index
+Hasso Plattner,occupation,Entrepreneur
+Fresenius SE & Co. KGaA,headquarters,"Bad Homburg, Germany"
+Siemens Energy AG,founded,2020
+MTU Aero Engines,instanceOf,Company
+"Hilden, Germany",economicRegion,Rhine-Ruhr Metropolitan Region
+Fresenius Medical Care,instanceOf,Company
+SAP,products,ERP software
+Bayer,stockExchange,Frankfurt Stock Exchange
+HEI,industry,Energy
+Henkel AG & Co. KGaA,tickerSymbol,HEN3
+NSU (historical),industry,Automotive
+Werner von Siemens,occupation,Inventor
+LIN,listedIn,DAX 40 Index
+Puma,parentCompany,Kering (until 2018)
+LIN,stockTicker,LIN
+Zalando,businessFocus,Online fashion retail
+FRE,ISIN,DE0005785604
+BAS,headquarters,"Ludwigshafen, Germany"
+Fresenius,industry,Healthcare
+Xetra,location,"Frankfurt, Germany"
+Deutsche Börse,operates,Frankfurt Stock Exchange
+Euro,introduced,1999
+Xetra trading system,usedBy,DAX 40 Index
+DAX 40 Index,hasConstituentCompany,Vonovia
+Daimler Truck AG,products,Trucks
+Qiagen,instanceOf,Company
+Adolf Dassler,deathYear,1978
+DAX 40,includesCompany,Siemens Energy
+VOW3,industry,Automotive
+Volkswagen Group,CEO,Oliver Blume
+Christian Klein,occupation,Business Executive
+Münchener Rück,revenue,€54.9 billion (2022)
+E.ON,revenue,€60 billion (approximate)
+Volkswagen,products,Automobiles
+Bayer AG,stockExchange,Frankfurt Stock Exchange
+DE0008404005,instanceOf,ISIN
+RWE AG,headquarters,"Essen, Germany"
+Bayer,headquarters,"Leverkusen, Germany"
+^GDAXI,market,Frankfurt Stock Exchange
+SAP SE,instanceOf,Company
+DAX 40,includesCompany,Deutsche Telekom
+Volkswagen,instanceOf,Company
+Xetra trading system,launchYear,1997
+1COV,industry,Pharmaceuticals
+BASF SE,CEO,Martin Brudermüller
+DAX 40,includesCompany,Deutsche Börse
+Ola Källenius,occupation,Chairman of the Supervisory Board of Mercedes-Benz Group AG
+Bayer,instanceOf,Company
+BMW,country,Germany
+Claus Wellenreuther,instanceOf,Person
+Puma,stockExchange,Frankfurt Stock Exchange
+DTE,stockExchange,Frankfurt Stock Exchange
+Continental,CEO,Nikolai Setzer
+MTX,instanceOf,Company
+BAYN,foundedYear,1863
+Daimler Truck AG,industry,Commercial Vehicles
+Deutsche Börse AG,operates,Frankfurt Stock Exchange
+Fresenius Helios,headquarters,Berlin
+HeidelbergCement,industry,Building materials
+Klaus Tschira,instanceOf,Person
+Euro,usedBy,Germany
+Henkel AG & Co. KGaA,listedIn,DAX 40 Index
+Germany,currency,Euro
+Deutsche Telekom,industry,Telecommunications
+Christian Sewing,relatedTo,DAX 40 Index
+DBK,tickerSymbol,DBK
+Munich Re,sector,Financials
+DAX 40 Index,benchmarkFor,German equity market
+Delivery Hero,industry,Online Food Delivery
+Eurozone,instanceOf,economic region
+Deutsche Post AG,CEO,Frank Appel
+Merck,CEO,Belén Garijo
+HeidelbergCement,instanceOf,Company
+SIE,stockExchange,Frankfurt Stock Exchange
+PUM,listedIn,DAX 40 Index
+Deutsche Telekom,numberOfEmployees,"over 200,000"
+Bayer AG,products,Consumer health products
+Merck Group,instanceOf,Company
+BMW,products,Motorcycles
+Xetra trading system,instanceOf,Electronic trading platform
+DAX 30 Index,operator,Deutsche Börse
+Siemens Energy,tickerSymbol,ENR
+Bayer AG,headquarters,"Leverkusen, Germany"
+RWE,founded,1898
+Adidas,instanceOf,Company
+Bugatti,foundedBy,Ettore Bugatti
+Porsche,foundedIn,1931
+Markus Duesmann,occupation,Automotive Executive
+Siemens AG,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,hasConstituentCompany,Symrise
+Daimler Truck,products,Buses
+Fresenius,stockExchange,Frankfurt Stock Exchange
+Fresenius,tickerSymbol,FRE
+Xetra trading system,operatedBy,Deutsche Börse
+Fresenius Kabi,stockExchange,Frankfurt Stock Exchange
+Volkswagen AG,brands,Lamborghini
+Merck Group,products,Life Science
+Puma,foundedBy,Rudolf Dassler
+Deutsche Telekom,headquarters,Bonn
+DAX 40,currency,Euro
+DAX 40 Index,hasConstituentCompany,Allianz
+Puma,headquarters,"Herzogenaurach, Germany"
+Merck,headquarters,Darmstadt
+Puma,instanceOf,Company
+Siemens,products,Energy
+Škoda,industry,Automotive
+SEAT,country,Spain
+E.ON,stockExchange,Frankfurt Stock Exchange
+Henkel,foundedIn,1876
+ADS,industry,Automotive
+Deutsche Bank AG,instanceOf,Company
+SAP,website,www.sap.com
+Covestro,stockExchange,Frankfurt Stock Exchange
+DPW,listedIn,DAX 40 Index
+E.ON,industry,Energy
+SIE,instanceOf,Company
+DAX 40,instanceOf,stock market index
+Thomas Griesel,instanceOf,Person
+Deutsche Post AG,industry,Logistics
+Qiagen,headquarters,"Hilden, Germany"
+Volkswagen,componentOf,DAX 40 Index
+Daimler Truck AG,listedIn,DAX 40 Index
+Ettore Bugatti,deathDate,1947
+Fresenius,headquarters,"Bad Homburg, Germany"
+Symrise,instanceOf,Company
+Fresenius Kabi,headquarters,"Bad Homburg, Germany"
+European Central Bank,responsibleFor,Monetary policy of the Eurozone
+RWE AG,CEO,Dr. Markus Krebber
+Merck Group,stockTicker,MRK
+Continental,instanceOf,Company
+DAX 30,replacedBy,DAX 40
+Kering,instanceOf,Company
+Euro,symbol,€
+Munich Re,headquarters,"Munich, Germany"
+Xetra trading system,function,Facilitates electronic trading of stocks and securities
+Dortmund,marketCapitalization,Large Cap
+Germany,capital,Berlin
+SAP SE,headquarters,"Walldorf, Germany"
+Covestro,memberOf,DAX 40 Index
+BASF,stockExchange,Frankfurt Stock Exchange
+VOW3,tickerSymbol,VOW3
+DAX 40,includesCompany,Covestro
+Adhesive Technologies,instanceOf,Company
+Munich Re,memberOf,DAX 40 Index
+Volkswagen,CEO,Oliver Blume
+Covestro,headquarters,"Leverkusen, Germany"
+Deutsche Post,memberOf,DAX 40 Index
+Deutsche Bank,instanceOf,Company
+DAX 40 Index,hasConstituentCompany,Siemens Energy
+Fresenius,businessSegments,Fresenius Helios
+Merck,listedIn,DAX 40 Index
+Covestro,instanceOf,Company
+SAP SE,industry,Software
+DAX 40,includesCompany,E.ON
+Daimler AG,products,Trucks
+SAP,founders,Dietmar Hopp
+Deutsche Bank,industry,Financial Services
+DAX 40,includesCompany,Continental
+Deutsche Börse,instanceOf,Company
+Adidas,products,Footwear
+SAP SE,founders,Hans-Werner Hector
+Volkswagen Group,brands,Porsche
+DTE,industry,Energy
+DAX 40 Index,hasConstituentCompany,Deutsche Telekom
+MTU Aero Engines,founded,1934
+DAX 40 Index,includesCompanies,Vonovia
+LIN,sector,Basic Materials
+Porsche AG,founded,1931
+^GDAXI,operatedBy,Deutsche Börse
+DAX 40,includesCompany,Siemens
+Volkswagen Group,tickerSymbol,VOW3
+SAP,revenue,Over 30 billion euros (approximate)
+MTU Aero Engines,products,Aircraft engines
+DAX 40 Index,hasConstituentCompany,Deutsche Börse
+Henkel AG & Co. KGaA,knownFor,Adhesive Technologies
+Bayer MaterialScience,industry,Chemical industry
+Christian Sewing,bornIn,1970
+Adidas,headquarters,"Herzogenaurach, Germany"
+Joachim Wenning,position,Chairman of the Supervisory Board
+Linde,instanceOf,Company
+^GDAXI,instanceOf,Stock Market Index
+Adidas,products,Accessories
+DAX 40,includesCompany,Siemens Healthineers
+SAP SE,founders,Hasso Plattner
+HeidelbergCement,foundedIn,1874
+Daimler AG,founded,1926
+Bayer,founded,1863
+Siemens Energy,spinOffFrom,Siemens AG
+Deutsche Post AG,stockExchange,Frankfurt Stock Exchange
+ADS,instanceOf,Company
+DAX 40 Index,hasConstituentCompany,Qiagen
+SAP,founders,Claus Wellenreuther
+LIN,marketCapitalization,Large Cap
+Werner von Siemens,founderOf,Siemens AG
+Fresenius Vamed,industry,Healthcare Services
+HEI,stockTicker,HEI
+Jochen Hanebeck,position,CEO of DAX 40 Index constituent company
+Bad Homburg,instanceOf,City
+Deutsche Börse AG,instanceOf,company
+Continental,products,Brake Systems
+Deutsche Telekom,stockExchange,Frankfurt Stock Exchange
+1COV,instanceOf,Company
+E.ON,founded,2000
+Performance Materials,headquarters,Germany
+Eurozone,currency,Euro
+DAX 40,includesCompany,Linde
+IFX,instanceOf,Company
+Bayer MaterialScience,parentCompany,Bayer AG
+Thomas Griesel,employer,DAX 40 Index constituent company
+DAX 40,includesCompany,Münchener Rück
+Volkswagen,industry,Automotive
+Audi,headquarters,"Ingolstadt, Germany"
+Xetra,launchYear,1997
+Deutsche Börse AG,headquarters,"Frankfurt, Germany"
+DAX 40 Index,includesCompanies,Symrise
+Peer M. Schatz,industry,Biotechnology
+Christian Sewing,instanceOf,Person
+Deutsche Post,revenue,Over 80 billion euros (2023)
+Niklas Östberg,companyListedOn,DAX 40 Index
+BAYN,fullName,Bayer AG
+Thomas Griesel,occupation,Chief Financial Officer
+Euro,usedBy,Italy
+EOAN,stockExchange,Frankfurt Stock Exchange
+BASF,sector,Basic Materials
+Fresenius Medical Care,tickerSymbol,FME
+DAX 40 Index,currency,Euro
+Martin Daum,instanceOf,Person
+DAX 40 Index,includesCompanies,Allianz
+Dr. Heinz-Jürgen Bertram,position,CEO of Covestro
+Jochen Hanebeck,instanceOf,Person
+Volkswagen AG,memberOfIndex,DAX 40 Index
+Henkel,marketCapitalization,Large Cap
+"Hilden, Germany",locatedIn,Germany
+DAX 40 Index,includesCompanies,SAP
+Qiagen,stockExchange,Frankfurt Stock Exchange
+Fresenius Vamed,partOfIndex,DAX 40 Index
+Siemens AG,founded,1847
+Fresenius Medical Care,industry,Healthcare
+Daimler AG,listedIn,DAX 40 Index
+Fresenius Medical Care,headquarters,"Bad Homburg, Germany"
+DAX 40 Index,instanceOf,stock market index
+Münchener Rück,numberOfEmployees,"39,000 (2022)"
+DAX 40 Index,hasConstituentCompany,HelloFresh
+Qiagen,tickerSymbol,QIA
+BASF,headquarters,"Ludwigshafen, Germany"
+DBK,fullName,Deutsche Bank AG
+Volkswagen,stockExchange,Frankfurt Stock Exchange
+Zalando,listedIn,DAX 40 Index
+Siemens Energy AG,instanceOf,Company
+Daimler AG,stockExchange,Frankfurt Stock Exchange
+Siemens Energy,stockExchange,Frankfurt Stock Exchange
+Münchener Rück,stockExchange,Frankfurt Stock Exchange
+PUM,industry,Medical Technology
+Bayer AG,products,Agricultural chemicals
+Fresenius Helios,country,Germany
+Christian Sewing,employer,Deutsche Bank
+HelloFresh,listedIn,DAX 40 Index
+Siemens Energy,focus,Energy technology and services
+Siemens,headquarters,"Munich, Germany"
+Zalando,stockExchange,Frankfurt Stock Exchange
+Xetra trading system,supports,Order book trading
+Daimler Truck AG,tickerSymbol,DTG
+DAX 40,includesCompany,Daimler Truck
+Hans-Werner Hector,co-founderOf,SAP SE
+DAX 40,includesCompany,Adidas
+LIN,headquarters,Germany
+PAH3,isComponentOf,DAX 40 Index
+Allianz,instanceOf,Company
+Symrise,revenue,Approximately 4 billion EUR (2023)
+Munich Re,tickerSymbol,MUV2
+Deutsche Telekom,revenue,€80 billion (approximate)
+DAX 40 Index,hasConstituentCompany,E.ON
+DAX 40,includesCompany,BMW
+DAX 40 Index,hasConstituentCompany,Continental
+VOW3,marketCapitalization,One of the largest in DAX 40
+Klaus Tschira,occupation,Physicist
+Deutsche Bank,headquarters,"Frankfurt, Germany"
+EOAN,industry,Renewable Energy
+Dortmund,listedIn,DAX 40 Index
+DAX 40 Index,includesCompanies,Fresenius Medical Care
+Daimler Truck AG,foundedYear,2021
+DPW,industry,Logistics
+Merck Group,headquarters,"Darmstadt, Germany"
+DAX 40,includesCompany,MTU Aero Engines
+DAX 30 Index,country,Germany
+Frankfurt Stock Exchange,instanceOf,Stock Exchange
+Deutsche Post AG,tickerSymbol,DPW
+Joachim Wenning,instanceOf,Person
+DAX 40 Index,hasConstituentCompany,Siemens
+Euro,ISOCode,EUR
+Henkel,listedIn,DAX 40 Index
+SHL,knownFor,Talent Assessment and People Analytics
+DAX 30 Index,instanceOf,Stock Market Index
+Deutsche Börse AG,owns,Xetra trading system
+NSU (historical),knownFor,Motorcycles
+Rolf Buch,instanceOf,Person
+Dr. Heinz-Jürgen Bertram,company,Covestro
+Volkswagen Group,industry,Automotive
+Siemens,instanceOf,Company
+Dr. Heinz-Jürgen Bertram,instanceOf,Person
+Continental,tickerSymbol,CON
+Continental,headquarters,"Hanover, Germany"
+Fresenius SE & Co. KGaA,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,hasConstituentCompany,Siemens Healthineers
+Fresenius Helios,parentCompany,Fresenius SE & Co. KGaA
+SHL,instanceOf,Company
+Fresenius SE & Co. KGaA,tickerSymbol,FRE
+FRE,listedIn,DAX 40 Index
+Deutsche Börse AG,stockExchange,Frankfurt Stock Exchange
+BASF,tickerSymbol,BAS
+Henkel AG & Co. KGaA,stockExchange,Frankfurt Stock Exchange
+Germany,location,Europe
+Daimler AG,stockSymbol,DAI
+Deutsche Telekom,country,Germany
+SIE,fullName,Siemens Energy AG
+QIA,instanceOf,Company
+DAX 30,operator,Deutsche Börse
+FRE,stockExchange,Frankfurt Stock Exchange
+DAI,industry,Automotive
+Dortmund,industry,Steel and Technology
+BASF SE,industry,Chemicals
+Ola Källenius,relationToDAX40,"Chairman of the Supervisory Board of Mercedes-Benz Group AG, a DAX 40 constituent company"
+Symrise,CEO,Dr. Heinz-Jürgen Bertram
+Siemens,foundedBy,Werner von Siemens
+"Hilden, Germany",instanceOf,City
+SEAT,stockExchange,Not listed independently
+^GDAXI,previouslyKnownAs,DAX 30
+DAX 40,includesCompany,RWE
+Volkswagen,tickerSymbol,VOW3
+Fresenius,founded,1912
+Porsche,listedIn,DAX 40 Index
+BASF,foundedYear,1865
+Dietmar Hopp,occupation,Entrepreneur
+NSU (historical),instanceOf,Company
+DAX 40 Index,includesCompanies,Qiagen
+Eurozone,relatedIndex,DAX 40 Index
+Bayer,CEO,Werner Baumann
+SAP,tickerSymbol,SAP
+DAX 40 Index,hasConstituentCompany,Linde
+Siemens,tickerSymbol,SIE
+Deutsche Post AG,headquarters,"Bonn, Germany"
+DTE,instanceOf,Company
+HEN3,listedOn,DAX 40 Index
+Siemens AG,headquarters,"Munich, Germany"
+Bayer,products,Agricultural Chemicals
+DAX 40,includesCompany,Deutsche Bank
+Volkswagen AG,CEO,Oliver Blume
+SEAT,products,Cars
+DAX 40,includesCompany,Volkswagen
+Volkswagen Group,founded,1937
+DAX 40 Index,hasConstituentCompany,Münchener Rück
+Delivery Hero,businessModel,Online food ordering and delivery platform
+Dietmar Hopp,associatedWith,DAX 40 Index
+NSU (historical),status,Defunct
+Claus Wellenreuther,knownFor,Co-founder of SAP SE
+SAP SE,founders,Klaus Tschira
+Bugatti,foundedInYear,1909
+Adidas,market,Frankfurt Stock Exchange
+Continental,products,Powertrain and Chassis Components
+BASF SE,founded,1865
+Adolf Dassler,founderOf,Adidas
+Ettore Bugatti,instanceOf,Person
+Bugatti,parentCompany,Volkswagen Group
+Infineon Technologies,stockExchange,Frankfurt Stock Exchange
+Volkswagen AG,brands,Bentley
+Siemens Healthineers,tickerSymbol,SHL
+Adidas,foundedBy,Adolf Dassler
+BASF SE,stockExchange,Frankfurt Stock Exchange
+Vonovia,CEO,Rolf Buch
+Hasso Plattner,occupation,Software Engineer
+Linde,industry,Industrial Gases
+Mercedes-Benz Group AG,listedInIndex,DAX 40 Index
+Siemens AG,industry,Conglomerate
+PUM,instanceOf,Company
+Siemens Energy AG,products,Gas turbines
+Germany,instanceOf,Country
+Volkswagen Group,memberOf,DAX 40 Index
+Siemens AG,instanceOf,Company
+Volkswagen AG,industry,Automotive
+Volkswagen AG,brands,Ducati
+E.ON,memberOf,DAX 40 Index
+Covestro,products,Polyurethanes
+Zalando,industry,E-commerce
+Puma,products,Footwear
+Siemens AG,founder,Werner von Siemens
+DAX 40 Index,instanceOf,Stock Market Index
+Merck Group,foundedIn,1668
+SAP,founders,Hans-Werner Hector
+Henkel AG & Co. KGaA,isConstituentOf,DAX 40 Index
+BMW,stockTicker,BMW
+Siemens Energy,industry,Energy
+DPW,headquarters,Germany
+MTX,industry,Technology
+^GDAXI,currency,Euro
+Deutsche Börse,stockExchangeListing,Frankfurt Stock Exchange
+Linde,tickerSymbol,LIN
+Bentley,industry,Automotive
+Merck Group,CEO,Belén Garijo
+Adidas,products,Apparel
+Daimler Truck,products,Trucks
+Volkswagen Group,instanceOf,Company
+SIE,tickerSymbol,SIE
+E.ON,instanceOf,Company
+RWE,instanceOf,Company
+SAP,listedIn,DAX 40 Index
+Allianz,sector,Insurance
+E.ON,businessFocus,Electricity and Gas
+DBK,ISIN,DE0005140008
+SAP SE,products,Enterprise software
+Allianz,marketCapitalization,One of the largest in DAX 40
+European Central Bank,headquarters,"Frankfurt, Germany"
+Bayer,industry,Life Sciences
+Xetra trading system,supports,Real-time trading
+SAP SE,instanceOf,company
+Oliver Bäte,occupation,Business Executive
+DAX 30 Index,market,Frankfurt Stock Exchange
+DAX 40 Index,hasConstituentCompany,Daimler Truck
+DAX 40 Index,hasConstituentCompany,Adidas
+Fresenius Vamed,country,Germany
+HelloFresh,founders,Jessica Nilsson
+Puma,tickerSymbol,PUM
+Adolf Dassler,instanceOf,Person
+Rudolf Dassler,instanceOf,Person
+"Ludwigshafen, Germany",instanceOf,City
+Zalando,headquarters,"Berlin, Germany"
+Claus Wellenreuther,contributedTo,Development of SAP R/2 software
+SAP,stockExchange,Frankfurt Stock Exchange
+Fresenius Helios,instanceOf,Company
+Dietmar Hopp,co-founderOf,SAP SE
+Mercedes-Benz Group AG,industry,Automotive
+Frank Appel,instanceOf,Person
+Siemens AG,tickerSymbol,SIE
+DAX 40,includesCompany,HeidelbergCement
+RWE AG,industry,Energy
+Covestro,products,"Raw materials for coatings, adhesives, and automotive parts"
+Daimler Truck,headquarters,"Stuttgart, Germany"
+Werner Baumann,instanceOf,Person
+DAX 40 Index,hasConstituentCompany,MTU Aero Engines
+BAYN,industry,Pharmaceuticals and Life Sciences
+Merck Group,products,Performance Materials
+Siemens Healthineers,focus,Medical technology
+Continental AG,stockExchange,Frankfurt Stock Exchange
+Siemens Healthineers,headquarters,"Erlangen, Germany"
+DAX 40,numberOfConstituents,40
+Bayer AG,founded,1863
+Henkel AG & Co. KGaA,knownFor,Beauty Care
+Fresenius,businessSegments,Fresenius Medical Care
+Daimler Truck AG,instanceOf,Company
+BAYN,tickerSymbol,BAYN
+Škoda,instanceOf,Automobile Manufacturer
+Siemens Energy AG,parentCompany,Siemens AG
+Daimler AG,headquarters,"Stuttgart, Germany"
+Deutsche Börse,owns,Xetra
+DAX 40 Index,operator,Deutsche Börse
+Qiagen,CEO,Peer M. Schatz
+Oliver Blume,instanceOf,Person
+DAX 40 Index,includesCompanies,Continental
+Oliver Bäte,relationToDAX40,"CEO of Allianz SE, a DAX 40 company"
+Audi,tickerSymbol,NSU (historical)
+Ettore Bugatti,nationality,Italian-French
+Volkswagen AG,brands,Bugatti
+Chairman of the Executive Board of Volkswagen AG,relatedTo,Volkswagen AG
+Covestro,founded,2015
+^GDAXI,tracks,40 major German blue chip companies
+Merck Group,numberOfEmployees,"58,000 (2022)"
+DAX 40 Index,includesCompanies,Siemens
+Fresenius Kabi,tickerSymbol,FRE
+HeidelbergCement,CEO,Dominik von Achten
+Fresenius Medical Care,parentCompany,Fresenius SE & Co. KGaA
+Delivery Hero,marketCapitalization,Multi-billion Euro
+Continental,products,Automotive Safety
+DAX 40 Index,includesCompanies,Fresenius
+Daimler Truck,indexMembership,DAX 40
+NSU (historical),knownFor,Automobiles
+Fresenius Helios,memberOfIndex,DAX 40 Index
+Vonovia,listedIn,DAX 40 Index
+DAX 30,baseDate,"December 30, 1987"
+DAX 40 Index,includesCompanies,Siemens Healthineers
+European Central Bank,role,Monetary authority for the Eurozone
+Deutsche Post,CEO,Frank Appel
+DAX 40 Index,hasConstituentCompany,RWE
+VOW3,instanceOf,Stock
+Mercedes-Benz Group AG,CEO,Ola Källenius
+Werner von Siemens,nationality,German
+DBK,isComponentOf,DAX 40 Index
+SAP,CEO,Christian Klein
+Mercedes-Benz Group AG,headquarters,"Stuttgart, Germany"
+Vonovia,stockExchange,Frankfurt Stock Exchange
+Deutsche Börse,industry,Financial Services
+DAX 40 Index,hasConstituentCompany,Deutsche Bank
+Bentley,country,United Kingdom
+Daimler AG,industry,Automotive
+Peer M. Schatz,instanceOf,Person
+RWE AG,memberOfIndex,DAX 40 Index
+DAX 40 Index,hasConstituentCompany,Volkswagen
+Timotheus Höttges,instanceOf,Person
+Dietmar Hopp,nationality,German
+DAX 40 company,memberOf,DAX 40 Index
+Merck Group,listedIn,DAX 40 Index
+Adolf Dassler,birthYear,1900
+DAX 40,operator,Deutsche Börse
+Deutsche Telekom,memberOf,DAX 40 Index
+Ettore Bugatti,birthDate,1881
+Vonovia,headquarters,Germany
+Allianz,founded,1890
+Porsche,parentCompany,Volkswagen Group
+Deutsche Post AG,founded,1995
+Deutsche Post AG,instanceOf,Company
+Volkswagen AG,tickerSymbol,VOW3
+DAX 40 Index,includesCompanies,Linde
+Delivery Hero,instanceOf,Company
+DAX 40 Index,calculationMethod,Free-float market capitalization weighted
+BASF SE,headquarters,"Ludwigshafen, Germany"
+Siemens Energy AG,tickerSymbol,ENR
+Fresenius Kabi,memberOfIndex,DAX 40
+Daimler Truck AG,spinOffFrom,Daimler AG
+IFX,stockTicker,IFX
+Frank Appel,CEO of,Deutsche Post AG
+Markus Duesmann,position,Member of the Supervisory Board of Volkswagen AG
+Mercedes-Benz Group AG,products,Luxury vehicles
+^GDAXI,launchDate,1988-07-01
+Daimler Truck,stockExchange,Frankfurt Stock Exchange
+DAX 40,country,Germany
+Deutsche Telekom,instanceOf,Company
+Deutsche Post,industry,Logistics
+EOAN,memberOf,DAX 40 Index
+DAX 40,includesCompany,Deutsche Post
+DAX 30 Index,baseValue,1000 points
+PUM,headquarters,Germany
+DTE,country,Germany
+Euro,managedBy,European Central Bank
+Volkswagen AG,brands,Volkswagen
+BAYN,stockExchange,Frankfurt Stock Exchange
+Qiagen,foundedIn,1984
+FRE,industry,Healthcare
+Daimler AG,CEO,Ola Källenius
+Deutsche Telekom,tickerSymbol,DTE
+BMW,marketCapitalization,Large-cap
+MUV2,represents,Munich Re
+EOAN,instanceOf,Company
+Siemens,stockExchange,Frankfurt Stock Exchange
+VOW3,country,Germany
+HEI,instanceOf,Company
+HelloFresh,stockExchange,Frankfurt Stock Exchange
+Klaus Tschira,co-founderOf,SAP SE
+Deutsche Börse AG,provides,DAX 40 Index
+PUM,stockTicker,PUM
+Frankfurt Stock Exchange,operatedBy,Deutsche Börse AG
+Volkswagen AG,products,Automobiles
+Continental AG,CEO,Nikolai Setzer
+HeidelbergCement,stockExchange,Frankfurt Stock Exchange
+BASF,memberOfIndex,DAX 40
+DAX 40 Index,hasConstituentCompany,HeidelbergCement
+Vonovia,marketCapitalization,Largest residential real estate company in Germany
+Bayer AG,products,Pharmaceuticals
+Peer M. Schatz,occupation,Business Executive
+Qiagen,listedIn,DAX 40 Index
+Symrise,industry,Flavors and Fragrances
+Fresenius Kabi,focus,Infusion therapy and clinical nutrition
+Siemens Healthineers,memberOfIndex,DAX 40 Index
+Timotheus Höttges,occupation,CEO
+Hasso Plattner,instanceOf,Person
+Henkel,stockTicker,HEN3
+Hasso Plattner,nationality,German
+Siemens Healthineers,stockExchange,Frankfurt Stock Exchange
+Daimler Truck,instanceOf,Company
+Siemens,industry,Conglomerate
+MRK,stockExchange,Frankfurt Stock Exchange
+Porsche,industry,Automotive
+Mercedes-Benz Group AG,stockExchange,Frankfurt Stock Exchange
+RWE,headquarters,"Essen, Germany"
+Daimler Truck,founded,2021
+DAX 40,includesCompany,Bayer
+SAP SE,componentOf,DAX 40 Index
+BAYN,headquarters,"Leverkusen, Germany"
+Hans-Werner Hector,occupation,Entrepreneur
+Continental,founded,1871
+DE0008404005,identifies,DAX 40 Index
+Fresenius Helios,industry,Healthcare
+Daimler AG,instanceOf,Company
+Deutsche Bank,listedIn,DAX 40 Index
+DAX 40 Index,includesCompanies,MTU Aero Engines
+Siemens Energy,instanceOf,Company
+DAX 40 Index,numberOfConstituents,40
+Münchener Rück,instanceOf,Company
+Adidas,stockTicker,ADS
+Continental,products,Tires
+Zalando,instanceOf,Company
+Adolf Dassler,occupation,Entrepreneur
+Nikolai Setzer,instanceOf,Person
+Niklas Östberg,role,CEO of Delivery Hero
+Daimler Truck AG,CEO,Martin Daum
+HelloFresh,instanceOf,Company
+Euro,usedBy,France
+"Hilden, Germany",locatedIn,North Rhine-Westphalia
+Christian Klein,position,CEO
+Volkswagen AG,revenue,€250 billion (2023)
+RWE,businessFocus,Renewable energy
+Ola Källenius,instanceOf,Person
+Dortmund,instanceOf,Company
+Allianz,CEO,Oliver Bäte
+Fresenius,businessSegments,Fresenius Vamed
+Claus Wellenreuther,nationality,German
+BMW,products,Luxury vehicles
+SAP SE,products,ERP software
+Škoda,country,Germany
+Allianz,headquarters,"Munich, Germany"
+Klaus Tschira,nationality,German
+Continental AG,founded,1871
+DAX 40 Index,includesCompanies,RWE
+VOW3,headquarters,"Wolfsburg, Germany"
+Henkel,products,Adhesives
+Volkswagen AG,brands,Škoda
+Deutsche Börse,provides,DAX 40 Index
+SEAT,instanceOf,Automobile Manufacturer
+Puma,products,Apparel
+Bayer MaterialScience,headquarters,"Leverkusen, Germany"
+Deutsche Telekom,memberOfIndex,DAX 40
+DAX 40,includesCompany,Vonovia
+BMW,industry,Automotive
+Symrise,tickerSymbol,SY1
+Continental AG,products,Tires
+DAX 40 Index,hasConstituentCompany,Covestro
+DAX 40 Index,includesCompanies,Deutsche Bank
+"Ludwigshafen, Germany",notRelatedTo,DAX 40 Index
+Volkswagen Group,stockExchange,Frankfurt Stock Exchange
+1COV,listedIn,DAX 40 Index
+DAX 30 Index,launchDate,1988-07-01
+FRE,instanceOf,Company
+Continental,industry,Automotive Parts
+EOAN,sector,Utilities
+MTU Aero Engines,componentOf,DAX 40 Index
+Volkswagen AG,componentOf,DAX 40 Index
+Merck Group,industry,Pharmaceuticals
+Delivery Hero,founder,Niklas Östberg
+Fresenius Medical Care,componentOf,DAX 40 Index
+SAP,marketCapitalization,One of the largest in DAX 40
+DAX 30,numberOfConstituents,30
+Continental,revenue,€44.5 billion (2022)
+BASF,instanceOf,Company
+Münchener Rück,foundedIn,1880
+Bayer AG,instanceOf,Company
+Adhesive Technologies,partOf,Henkel
+Martin Daum,position,CEO of Daimler Truck AG
+RWE,businessFocus,Electricity generation
+Peer M. Schatz,role,CEO of Qiagen
+Volkswagen Group,headquarters,"Wolfsburg, Germany"
+Porsche AG,instanceOf,Company
+Delivery Hero,operatesIn,Multiple countries worldwide
+Henkel,products,Beauty Care
+Nikolai Setzer,occupation,Business Executive
+SAP SE,tickerSymbol,SAP
+BMW,listedIn,DAX 40 Index
+Ettore Bugatti,knownFor,Founder of Bugatti Automobiles
+DBK,instanceOf,Company
+RWE AG,ISIN,DE0007037129
+Merck,industry,Pharmaceuticals
+DAX 40,launchDate,1988
+Merck,marketCapitalization,Large Cap
+RWE AG,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,includesCompanies,Siemens Energy
+Siemens Healthineers,parentCompany,Siemens AG
+BAYN,marketCapitalization,Large Cap
+IFX,headquarters,Germany
+DAX 40 company,locatedIn,Germany
+Infineon Technologies,instanceOf,Company
+European Central Bank,influences,DAX 40 Index through monetary policy
+Vonovia,tickerSymbol,VNA
+Adidas,industry,Sportswear
+DAX 40 Index,includesCompanies,Deutsche Telekom
+DAX 30 Index,replacedBy,DAX 40 Index
+Fresenius Helios,tickerSymbol,HELIO
+LIN,instanceOf,Company
+Porsche,stockTicker,PAH3
+HelloFresh,headquarters,"Berlin, Germany"
+MUV2,instanceOf,Stock Ticker Symbol
+Fresenius,businessSegments,Fresenius Kabi
+DAX 40,includesCompany,BASF
+"Ludwigshafen, Germany",locatedIn,Germany
+Münchener Rück,memberOfIndex,DAX 40
+Vonovia,industry,Real Estate
+Christian Klein,instanceOf,Person
+Klaus Tschira,deathYear,2015
+SEAT,parentCompany,Volkswagen Group
+MRK,industry,Pharmaceuticals
+SIE,headquarters,"Munich, Germany"
+MUV2,industry,Reinsurance
+Rolf Buch,position,CEO of Vonovia
+DAX 40 Index,hasConstituentCompany,Bayer
+Zalando,tickerSymbol,ZAL
+Deutsche Post,tickerSymbol,DPW
+DAX 40,includesCompany,Henkel
+DAX 40,includesCompany,SAP
+Euro,usedBy,Spain
+ADS,stockTicker,ADS
+Münchener Rück,tickerSymbol,MUV2
+Fresenius Vamed,parentCompany,Fresenius SE & Co. KGaA
+BAS,listedIn,DAX 40 Index
+HeidelbergCement,memberOfIndex,DAX 40
+Merck Group,products,Pharmaceuticals
+HelloFresh,foundedIn,2011
+NSU (historical),mergedInto,Audi
+RWE AG,instanceOf,Company
+Continental AG,memberOf,DAX 40 Index
+VNA,memberOf,DAX 40 Index
+MRK,tickerSymbol,MRK
+Hans-Werner Hector,nationality,German
+Fresenius Vamed,focus,Healthcare project management and services
+Siemens Energy AG,headquarters,Germany
+SAP,instanceOf,Company
+Daimler Truck,CEO,Martin Daum
+DAX 40 Index,rebalancingFrequency,quarterly
+DAX,instanceOf,Stock Market Index
+Adidas,CEO,Björn Gulden
+DAX,includesCompanies,BMW
+Jochen Hardt,instanceOf,Person
+Encavis AG,stockTicker,ECV
+DAX 40 Index,hasConstituent,Henkel
+DAX 40 Index,hasConstituent,SAP
+DAX 40,indexEligibility,companies listed on Frankfurt Stock Exchange
+Merck KGaA,headquarters,"Darmstadt, Germany"
+Xetra trading platform,trades,Derivatives
+Deutsche Börse Group,provides,DAX 40 Index
+CON,industry,Construction and Engineering
+Deutsche Bank AG,numberOfEmployees,"approximately 84,000"
+Porsche AG,CEO,Oliver Blume
+DAX,marketCapitalization,Largest German companies by market cap
+Linde plc,tickerSymbol,LIN
+Fresenius Helios,businessFocus,Hospital Management
+DAX 40,notableConstituent,BASF
+DAX 40,indexType,performance index
+DAX 40 Index,hasConstituent,Infineon Technologies
+Xetra trading platform,operatedBy,Deutsche Börse
+Fresenius,CEO,Stefan Oelrich
+BMW AG,stockExchange,Frankfurt Stock Exchange
+Oliver Zipse,occupation,CEO of BMW
+DAX,includesCompanies,BASF
+ALV,industry,Financial Services
+SDAX,operatedBy,Deutsche Börse
+TecDAX,focus,Technology sector companies
+DAX 40,notableConstituent,SAP
+DAX 40 Index,hasConstituent,Puma
+DAX 40 Index,hasConstituent,Fresenius Medical Care
+DAX,includesCompanies,Henkel
+DAX,includesCompanies,SAP
+Timotheus Höttges,nationality,German
+TecDAX,country,Germany
+Werner Baumann,companyListedIn,DAX 40 Index
+Daimler Truck AG,instanceOf,company
+Christian Klein,associatedWith,SAP SE
+HEN3,industry,Consumer Goods
+Deutsche Post,memberOfIndex,DAX 40
+DAX,includesCompanies,Infineon Technologies
+DAX 40 Index,hasConstituent,Deutsche Börse
+Dr. Markus Krebber,role,CEO of RWE
+DAX 40 Index,hasConstituent,Merck
+Adidas,headquarters,Herzogenaurach
+DE000ENAG999,represents,Encavis AG
+HeidelbergCement,revenue,€18.6 billion (2022)
+DAX,includesCompanies,Puma
+DAX,includesCompanies,Fresenius Medical Care
+DAX family of indices,includes,DAX 40
+VOW3,CEO,Oliver Blume
+Deutsche Börse,owns,Xetra trading system
+DAX 40 Index,hasConstituent,Qiagen
+Siemens AG,products,Transportation systems
+Peer M. Schatz,Qiagen,component of DAX 40 Index
+Frankfurt Stock Exchange,operatedBy,Deutsche Börse
+VOW3,foundedYear,1937
+Linde plc,industry,Industrial Gases
+BMW AG,tickerSymbol,BMW
+Porsche AG,knownFor,Luxury sports cars
+Bjørn Gulden,relatedTo,DAX 40 Index
+Siemens AG,CEO,Roland Busch
+Dr. Markus Krebber,employer,RWE
+HeidelbergCement,employees,"~57,000 (2022)"
+Allianz SE,tickerSymbol,ALV
+Puma,founder,Rudolf Dassler
+ALV,sector,Insurance
+ALV,marketCapitalization,One of the largest in DAX 40
+Christian Klein,companyListedOn,DAX 40 Index
+Frankfurt Stock Exchange,tradesIndex,DAX 40
+CON,headquarters,Germany
+Delivery Hero,marketCapitalization,Large Cap
+Fresenius SE & Co. KGaA,businessSegments,Fresenius Medical Care
+Oliver Zipse,instanceOf,Person
+MDAX,calculationMethod,Performance index
+TecDAX,numberOfConstituents,30
+Covestro,CEO,Jochen Hardt
+Daimler Truck,spinOffFrom,Daimler AG
+Deutsche Telekom,instanceOf,company
+Hasso Plattner,occupation,Businessman
+SAP,country,Germany
+MDAX,relatedIndex,DAX 40
+Deutsche Bank AG,stockExchange,Frankfurt Stock Exchange
+DAX 40 company,subjectTo,German stock market regulations
+Vonovia,foundedIn,2001
+Oliver Blume,memberOf,DAX 40 Index companies
+Linde plc,instanceOf,Company
+Xetra trading platform,trades,Funds
+DAX 40 Index,hasConstituent,HelloFresh
+Oliver Bäte,nationality,German
+BASF SE,revenue,€78.6 billion (2022)
+Xetra trading platform,trades,ETFs
+DAX 40 Index,hasConstituent,Porsche
+Rudolf Dassler,relation,Brother of Adolf Dassler
+Hans-Werner Hector,knownFor,Co-founding SAP SE
+DAX 40 Index,indexType,performance index
+Infineon Technologies,products,Semiconductor solutions
+Martin Brudermüller,occupation,CEO
+Siemens Energy,memberOf,DAX 40 Index
+Bjørn Gulden,instanceOf,Person
+Jochen Hardt,relatedTo,DAX 40 Index
+DAX,type,Performance Index
+Infineon Technologies,memberOfIndex,DAX 40 Index
+Deutsche Börse Group,role,Index provider for DAX 40
+Bjørn Gulden,formerPosition,CEO of Adidas Germany
+Thierry Bernard,associatedWith,DAX 40 Index
+E.ON SE,listedIn,DAX 40 Index
+Siemens AG,products,Medical imaging equipment
+Joachim Wenning,role,Chairman of the Supervisory Board of Munich Re
+DAX family of indices,includes,MDAX
+Timotheus Höttges,company,Deutsche Telekom
+Bentley,knownFor,Luxury Cars
+Prime Standard,is relevant for,companies listed in the DAX 40 Index
+Merck,revenue,€19.9 billion (2022)
+Timotheus Höttges,position,CEO
+DAX 40 Index,hasConstituent,Fresenius
+E.ON SE,industry,Energy
+DAX,includesCompanies,Porsche
+Deutsche Bank AG,tickerSymbol,DBK
+DAX,includesCompanies,Deutsche Post
+RWE AG,tickerSymbol,RWE
+Linde plc,headquarters,"Guildford, United Kingdom"
+Audi AG,memberOfIndex,DAX 40 Index
+Frankfurt Stock Exchange,foundedIn,1585
+TecDAX,relatedTo,DAX 40 Index
+Thierry Bernard,role,CEO of Deutsche Börse AG
+DAX,represents,40 major German blue chip companies
+Linde plc,componentOf,DAX 40 Index
+Bentley,instanceOf,Automobile Manufacturer
+Deutsche Börse Group,headquarters,"Frankfurt, Germany"
+Fresenius SE & Co. KGaA,revenue,Approximately 40 billion EUR (2023)
+DE000ENAG999,instanceOf,ISIN
+Performance Index,instanceOf,Index Type
+ALV,stockExchange,Frankfurt Stock Exchange
+Nikolai Setzer,associatedWith,Continental AG
+Deutsche Bank AG,componentOf,DAX 40 Index
+VOW3,products,Commercial vehicles
+DAX,includesCompanies,Fresenius
+Björn Gulden,occupation,Business Executive
+DAX family of indices,includes,SDAX
+Bayer AG,instanceOf,company
+Thierry Bernard,industry,Financial Services
+DAX 40,indexExpansionDate,"September 20, 2021"
+DHER.DE,represents,Deutsche Wohnen SE
+Siemens AG,memberOfIndex,DAX 40
+Xetra trading system,location,"Frankfurt, Germany"
+Fresenius Vamed,stockExchange,Frankfurt Stock Exchange
+Frankfurt Stock Exchange,offersTradingIn,Bonds
+Joachim Wenning,associatedWith,Munich Re
+Audi AG,parentCompany,Volkswagen Group
+BMW AG,headquarters,"Munich, Germany"
+Prime Standard segment of Frankfurt Stock Exchange,partOf,Frankfurt Stock Exchange
+Fresenius SE & Co. KGaA,businessSegments,Fresenius Vamed
+Audi,tickerSymbol,NSU (historically)
+Deutsche Bank AG,revenue,approximately 25 billion EUR (2023)
+Siemens AG,products,Power generation technology
+DAX 40 Index,indexMaintenance,Deutsche Börse AG
+Christian Klein,nationality,German
+TecDAX,instanceOf,Stock Market Index
+Xetra trading platform,trades,Equities
+BMW AG,foundedIn,1916
+E.ON SE,founded,2000
+Deutsche Wohnen SE,founded,1998
+Jochen Hardt,position,CEO of Deutsche Börse AG
+SHL,industry,Human Resources Consulting
+DAX family of indices,includes,TecDAX
+MTU Aero Engines,memberOf,DAX 40 Index
+Symrise,numberOfEmployees,"Around 10,000"
+DAX,includesCompanies,Vonovia
+Porsche AG,instanceOf,Automobile manufacturer
+Werner Baumann,position,CEO of Bayer AG
+Adidas,componentOf,DAX 40 Index
+Allianz SE,instanceOf,Company
+Oliver Blume,occupation,CEO of Porsche AG
+DAX 40 Index,hasConstituent,Symrise
+RWE AG,instanceOf,company
+Werner Baumann,nationality,German
+DAX 40 Index,hasConstituent,Allianz
+Theodor Weimer,instanceOf,Person
+Audi AG,industry,Automotive
+DAX 40 Index,hasConstituent,RWE
+Timotheus Höttges,occupation,Business Executive
+Fresenius SE & Co. KGaA,businessSegments,Fresenius Kabi
+DAX,numberOfConstituents,40
+Infineon Technologies,headquarters,Germany
+Prime Standard,requires,higher transparency standards
+MDAX,focus,Mid-cap companies
+DAX,includesCompanies,Symrise
+DAX 40,notableConstituent,Allianz
+DAX,currency,Euro
+DAX,includesCompanies,Allianz
+Encavis AG,headquarters,"Hamburg, Germany"
+Siemens AG,products,Industrial automation equipment
+Euro,usedIn,Spain
+Xetra trading system,trades,DAX 40 Index constituent stocks
+Allianz SE,componentOf,DAX 40 Index
+DAX 40 Index,hasConstituent,Siemens Energy
+SDAX,relatedTo,DAX 40 Index
+VOW3,stockExchange,Frankfurt Stock Exchange
+DHER.DE,listedOn,DAX 40 Index
+Deutsche Wohnen SE,stockExchange,Frankfurt Stock Exchange
+Merck KGaA,sector,Healthcare
+DAX 40 Index,hasConstituent,Deutsche Telekom
+Volkswagen AG,revenue,over 250 billion euros (2023)
+Christian Bruch,relationToDAX40,"CEO of Siemens Energy, a DAX 40 company"
+DAX 40,previousName,DAX 30
+BMW AG,industry,Automotive
+Prime Standard segment of Frankfurt Stock Exchange,requires,Adherence to international accounting standards
+Merck KGaA,industry,Pharmaceuticals
+Encavis AG,industry,Renewable Energy
+Prime Standard segment of Frankfurt Stock Exchange,requires,Quarterly reporting
+Münchener Rück,memberOfIndex,DAX 40 Index
+DAX 40 Index,hasConstituent,HeidelbergCement
+Roland Busch,employer,Siemens AG
+RWE,stockExchange,Frankfurt Stock Exchange
+Frankfurt Stock Exchange,locatedIn,"Frankfurt, Germany"
+Björn Gulden,formerPosition,CEO of Puma
+SDAX,market,Frankfurt Stock Exchange
+Audi AG,foundedYear,1909
+DAX,includesCompanies,Siemens Energy
+Bugatti,country,Germany
+SDAX,represents,Small-cap companies in Germany
+Siemens,founder,Werner von Siemens
+Deutsche Bank,CEO,Christian Sewing
+Frankfurt Stock Exchange,offersTradingIn,Equities
+Steve Angel,position,Chairman of the Supervisory Board
+Fresenius Kabi,industry,Healthcare
+Oliver Zipse,employer,BMW
+DAX,includesCompanies,Deutsche Telekom
+DAX,includesCompanies,Deutsche Börse
+Adidas,stockExchange,Frankfurt Stock Exchange
+Christian Sewing,position,CEO
+Audi,memberOf,DAX 40 Index
+CON,memberOf,DAX 40 Index
+E.ON,numberOfEmployees,"~70,000"
+Xetra trading platform,trades,Bonds
+Björn Gulden,nationality,German
+DAX,includesCompanies,Qiagen
+European Central Bank,governs,Euro currency
+E.ON SE,instanceOf,Company
+DAX 40,indexPurpose,benchmark for German equity market
+CON,instanceOf,Company
+Munich Re,instanceOf,Company
+DAX family of indices,relatedTo,Frankfurt Stock Exchange
+EOAN,focus,Solar Power
+Volkswagen AG,numberOfEmployees,"approximately 660,000"
+ALV,headquarters,"Munich, Germany"
+MUV2,sector,Insurance
+DAX 40 Index,hasConstituent,Covestro
+Audi AG,products,Automobiles
+Deutsche Wohnen SE,industry,Real Estate
+DAX 40,indexCurrency,Euro
+DAX 40,indexBaseDate,"December 30, 1987"
+VOW3,products,Automobiles
+DHER.DE,sector,Real Estate
+Xetra trading platform,usedForTrading,DAX 40 Index
+Hasso Plattner,boardMemberOf,SAP SE
+DAX 40 Index,hasConstituent,E.ON
+Allianz SE,industry,Financial services
+DAX 40 Index,hasConstituent,Continental
+ALV,instanceOf,Company
+DAX 40 Index,hasConstituent,Siemens
+MDAX,operator,Deutsche Börse
+DHER.DE,instanceOf,Stock Ticker Symbol
+Allianz SE,stockExchange,Frankfurt Stock Exchange
+EOAN,focus,Wind Power
+MRK,headquarters,Germany
+Infineon Technologies,foundedYear,1999
+Munich Re,foundedIn,1880
+Prime Standard,includes,quarterly reporting
+DAX 40 Index,hasConstituent,Siemens Healthineers
+BMW,products,Automobiles
+Deutsche Bank,componentOf,DAX 40 Index
+Christian Klein,position,CEO of SAP SE
+CON,tickerSymbol,CON
+Munich Re,industry,Reinsurance
+DAX,includesCompanies,Continental
+DAX 40,notableConstituent,Siemens
+BMW,instanceOf,company
+Deutsche Börse Group,operates,Frankfurt Stock Exchange
+Performance Index,includesDividends,true
+Kering,wasListedUntil,2018
+Carsten Knobel,instanceOf,Person
+DAX 40,reviewFrequency,quarterly
+SDAX,instanceOf,Stock Market Index
+DAX,includesCompanies,Siemens
+DAX 40 Index,hasConstituent,Linde
+DAX 40 Index,hasConstituent,Münchener Rück
+DAX 40,calculationMethod,free-float market capitalization weighted
+Stefan Oelrich,boardMembership,Bayer AG
+Jochen Hardt,role,"Oversees operations of Deutsche Börse, which operates the Frankfurt Stock Exchange where DAX 40 is listed"
+BASF,marketCapitalization,Large Cap
+DAX,includesCompanies,Siemens Healthineers
+DAX family of indices,instanceOf,family of stock market indices
+Prime Standard segment of Frankfurt Stock Exchange,instanceOf,Stock Market Segment
+Rudolf Dassler,foundedCompany,Puma
+Porsche,CEO,Oliver Blume
+Adolf Dassler,relatedToCompanyInDAX40,Adidas
+Volkswagen Group,revenue,over 250 billion euros (2023)
+E.ON SE,ISIN,DE000ENAG999
+Deutsche Börse Group,instanceOf,Company
+Siemens Energy,headquarters,Germany
+Volkswagen Group,brands,Lamborghini
+DAX,tradingHours,09:00 to 17:30 CET
+Christian Bruch,employer,Siemens Energy
+Bjørn Gulden,nationality,Norwegian
+Encavis AG,focus,Solar and Wind Power Plants
+Thierry Bernard,nationality,French
+Bentley,industry,Luxury Automobiles
+DAX,includesCompanies,Linde
+Euro,usedIn,France
+DHER.DE,country,Germany
+DAX,includesCompanies,Münchener Rück
+Henkel AG & Co. KGaA,stockTicker,HEN3
+Bentley,founded,1919
+Prime Standard segment of Frankfurt Stock Exchange,requires,Higher transparency standards
+Bugatti,founded,1909
+DAX 40 Index,hasConstituent,Daimler Truck
+DAX 40 Index,hasConstituent,Adidas
+Dr. Markus Krebber,occupation,CEO
+DAX 40 Index,hasConstituent,BMW
+MTU Aero Engines,employees,"Around 10,000 (2023)"
+DAX 40 Index,hasConstituent,MTU Aero Engines
+Munich Re,country,Germany
+Oliver Zipse,nationality,German
+MDAX,includesCompaniesFrom,Prime Standard segment of Frankfurt Stock Exchange
+BASF,CEO,Martin Brudermüller
+Porsche AG,foundedIn,1931
+Xetra trading platform,location,"Frankfurt, Germany"
+TecDAX,marketCapitalization,Mid-cap companies
+DAX,country,Germany
+Allianz SE,founded,1890
+Prime Standard segment of Frankfurt Stock Exchange,includes,Companies listed in DAX 40 Index
+MTU Aero Engines,revenue,Approximately 4 billion EUR (2023)
+Roland Busch,role,Chairman of the Supervisory Board of Siemens Energy
+Bjørn Gulden,position,CEO of Puma
+DAX,includesCompanies,Daimler Truck
+DAX,includesCompanies,Adidas
+Christian Bruch,position,CEO
+MDAX,launchDate,1996
+Deutsche Wohnen SE,instanceOf,Company
+Frankfurt Stock Exchange,hasTradingHours,09:00 to 17:30 CET
+BMW AG,products,Motorcycles
+Adidas,tickerSymbol,ADS
+SDAX,numberOfConstituents,70
+Jochen Hardt,occupation,Chief Executive Officer
+DAX,includesCompanies,MTU Aero Engines
+VOW3,products,Financial services
+Qiagen,CEO, Thierry Bernard
+DAX 40 Index,hasConstituent,Deutsche Bank
+DAX 40 company,includedIn,DAX 40 Index
+DAX 40 Index,hasConstituent,Volkswagen
+DAX 40,tradingVenue,Frankfurt Stock Exchange
+Thierry Bernard,instanceOf,Person
+BAYN,sector,Healthcare
+Deutsche Börse,headquarteredIn,"Frankfurt, Germany"
+DAX 30,launchDate,1988
+Qiagen,instanceOf,company
+Bad Homburg,instanceOf,Town
+Merck,foundedYear,1668
+Merck KGaA,listedIn,DAX 40 Index
+DAX 40 Index,hasConstituent,Delivery Hero
+Deutsche Börse Group,founded,1992
+RWE,tickerSymbol,RWE
+Bentley,headquarters,"Crewe, England"
+Audi AG,stockExchange,Frankfurt Stock Exchange
+SAP SE,numberOfEmployees,"Over 100,000"
+Fresenius Vamed,headquarters,Austria
+DAX 40,sectorCoverage,"various sectors including automotive, chemicals, technology, finance"
+DAX,includesCompanies,RWE
+Christian Klein,role,Chief Executive Officer
+Allianz,tickerSymbol,ALV
+Audi AG,headquarters,"Ingolstadt, Germany"
+Rudolf Dassler,occupation,Founder of Puma
+ALV,ISIN,DE0008404005
+DAX 40,notableConstituent,Volkswagen
+Steve Angel,instanceOf,Person
+Werner von Siemens,knownFor,Founder of Siemens AG
+DAX,includesCompanies,Deutsche Bank
+Stefan Oelrich,position,Member of the Supervisory Board
+DAX,includesCompanies,Volkswagen
+Siemens,founded,1847
+Theodor Weimer,position,CEO of Deutsche Börse
+Martin Brudermüller,employer,BASF
+DAX,launchDate,1988-07-01
+Steve Angel,company,Linde plc
+DAX 40 company,represents,largest 40 German companies by market capitalization and liquidity
+Bjørn Gulden,occupation,Business Executive
+Dr. Markus Krebber,instanceOf,Person
+Deutsche Wohnen SE,headquarters,"Berlin, Germany"
+Deutsche Wohnen SE,marketCapitalization,Large Cap
+DAX,operatedBy,Deutsche Börse
+MDAX,numberOfConstituents,50
+Christian Bruch,instanceOf,Person
+Bugatti,listedIn,DAX 40 Index
+Xetra trading platform,launchYear,1997
+Puma,CEO,Bjørn Gulden
+Allianz SE,headquarters,"Munich, Germany"
+Björn Gulden,position,CEO
+Roland Busch,occupation,CEO
+Klaus Tschira,associatedWith,DAX 40 Index
+RWE,foundedYear,1898
+HelloFresh,CEO,Dominik Richter
+Xetra trading platform,instanceOf,Electronic trading platform
+Euro,usedIn,Germany
+Adidas,country,Germany
+DAX,includesCompanies,HeidelbergCement
+Bayer AG,country,Germany
+Daimler AG,tickerSymbol,DAI
+ALV,foundedYear,1890
+DAX,previouslyKnownAs,DAX 30
+Merck,stockExchange,Frankfurt Stock Exchange
+Covestro,instanceOf,company
+BMW AG,products,Automobiles
+Christian Bruch,occupation,Business Executive
+Frankfurt Stock Exchange,offersTradingIn,Derivatives
+BMW AG,instanceOf,Company
+Claus Wellenreuther,co-founderOf,SAP SE
+Performance Index,usedIn,DAX 40 Index
+MRK,listedIn,DAX 40 Index
+RWE,CEO,Dr. Markus Krebber
+Linde,instanceOf,company
+Martin Brudermüller,role,Chairman of the Board of Executive Directors at BASF
+SAP,stockTicker,SAP
+DAX 40 Index,hasConstituent,Deutsche Post
+Prime Standard,instanceOf,segment of the Frankfurt Stock Exchange
+Fresenius Kabi,country,Germany
+Encavis AG,memberSince,2023
+Siemens Energy,CEO,Christian Bruch
+Bayer MaterialScience,listedIn,DAX 40 Index
+TecDAX,operator,Deutsche Börse
+Martin Brudermüller,relationToDAX40,"CEO of BASF, a DAX 40 company"
+E.ON SE,headquarters,"Essen, Germany"
+Deutsche Wohnen SE,businessFocus,Residential Property Management
+Volkswagen Group,brands,Bentley
+Euro,usedBy,Eurozone countries
+Björn Gulden,instanceOf,Person
+Deutsche Post,foundedYear,1995
+Munich Re,listedIn,DAX 40 Index
+Adidas,foundedYear,1949
+DAX,includesCompanies,Covestro
+DAX 40,indexBaseValue,1000 points
+Fresenius SE & Co. KGaA,businessSegments,Fresenius Helios
+Volkswagen Group,brands,Ducati
+DAX 40 Index,indexCurrency,Euro
+HEN3,country,Germany
+ALV,fullName,Allianz SE
+Stefan Oelrich,companyListedInDAX40,Bayer AG
+Linde plc,stockExchange,Frankfurt Stock Exchange
+DAX,includesCompanies,E.ON
+DAX 40 Index,hasConstituent,Bayer
+E.ON SE,CEO,Leonhard Birnbaum
+Deutsche Börse Group,manages,DAX family of indices
+Roland Busch,instanceOf,Person
+BMW AG,componentOf,DAX 40 Index
+Prime Standard,includes,adherence to international accounting standards
+Audi AG,tickerSymbol,NSU
+Siemens AG,numberOfEmployees,"Approximately 311,000 (2023)"
+DAX 40,indexCalculationAgent,Deutsche Börse AG
+ALV,listedIn,DAX 40 Index
+SAP SE,revenue,Over 30 billion euros (2023)
+Deutsche Bank AG,CEO,Christian Sewing
+Encavis AG,listedOn,DAX 40 Index
+Allianz SE,sector,Insurance
+Allianz SE,marketCapitalization,One of the largest in DAX 40
+BMW,CEO,Oliver Zipse
+HelloFresh,businessModel,Subscription-based meal kit delivery
+DAX 40 Index,hasConstituent,Zalando
+MDAX,marketSegment,Prime Standard
+Deutsche Börse,listedOn,Frankfurt Stock Exchange
+E.ON SE,stockExchange,Frankfurt Stock Exchange
+CON,stockExchange,Frankfurt Stock Exchange
+DAX 40,tradingCurrency,Euro
+Werner Baumann,birthYear,1962
+Volkswagen Group,brands,Bugatti
+European Central Bank,impactOn,DAX 40 Index
+DAX,includesCompanies,Bayer
+Deutsche Börse,foundedIn,1992
+DAX 40 Index,hasConstituent,Vonovia
+Björn Gulden,employer,Adidas
+DAX 40 Index,calculationMethod,free-float market capitalization weighted
+Allianz,foundedIn,1890
+Merck,tickerSymbol,MRK
+Münchener Rück,foundedYear,1880
+Fresenius Vamed,focus,Project management and services for healthcare facilities
+Euro,usedIn,Italy
+MDAX,country,Germany
+Dietmar Hopp,knownFor,Co-founding SAP SE
+Deutsche Börse,manages,DAX family of indices
+Bugatti,industry,Automotive
+TecDAX,launchDate,2003
+Bayer AG,memberOfIndex,DAX 40 Index
+MDAX,instanceOf,Stock Market Index
+Merck KGaA,memberOf,DAX 40 Index
+Encavis AG,instanceOf,Company
+DAX,benchmarkFor,German equity market
+Merck KGaA,instanceOf,Company
+DAX 40,marketCapitalization,largest 40 German companies
+Audi AG,instanceOf,Company
+Vonovia,headquarters,"Bochum, Germany"
+DAX 40 Index,hasConstituent,BASF
+Encavis AG,isComponentOf,DAX 40 Index
+DAX 40,baseDate,"December 30, 1987"
+Deutsche Börse AG,role,Index provider for DAX 40
+DAX 40 Index,indexBaseValue,1000 points
+DAX 40,baseValue,1000 points
+Mercedes-Benz,productType,Luxury vehicles
+Bayer,products,Agricultural chemicals
+Siemens Healthineers,foundedYear,2017
+Eurozone,comprisesCountries,Portugal
+Siemens AG,revenue,Approximately 62.3 billion euros (2023)
+Mercedes-Benz,country,Germany
+LIN,tickerSymbol,LIN
+SDAX,sector,Various sectors
+Hesse,headquarters,Germany
+DAX 40 Index,marketCapitalizationWeighted,true
+DAX 40 Index,includesCompanies,E.ON
+DAX 40 Index,tradingCurrency,Euro
+Mercedes-Benz,parentCompany,Daimler AG
+FRE,country,Germany
+Deutsche Telekom,founded,1996
+DAX 40 Index,indexCalculationTimeZone,Central European Time (CET)
+DAI,foundedYear,1926
+Adidas,hasCEO,Björn Gulden
+ALV,founded,1890
+Daimler Truck,focus,Truck and Bus Manufacturing
+SAP SE,revenue,Approximately 30 billion EUR (2023)
+Bad Homburg vor der Höhe,instanceOf,Town
+PUM,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,includesCompanies,Münchener Rück
+Adidas,instanceOf,DAX 40 company
+DAI,sector,Consumer Discretionary
+Mercedes-Benz Group AG,instanceOf,company
+ENR,listedIn,DAX 40 Index
+DAX 40,indexRebalancing,quarterly
+Audi AG,website,https://www.audi.com
+DAX 40,replacedIndex,DAX 30
+Timotheus Höttges,employer,Deutsche Telekom
+Claus Wellenreuther,associatedWith,SAP SE
+MDAX,currency,Euro
+Deutsche Post DHL Group,founded,1995
+SY1,country,Germany
+DAX 40 Index,indexProvider,Deutsche Börse
+Mercedes-Benz,headquarters,Stuttgart
+FME,componentOf,DAX 40 Index
+DAX 40,indexCalculationFrequency,every 15 seconds
+Stefan Oelrich,company,Bayer AG
+^GDAXI,includesCompanies,Allianz
+Deutsche Post AG,parentCompany,Deutsche Post DHL Group
+Eurozone,comprisesCountries,Cyprus
+Theodor Weimer,occupation,CEO
+DAX 40,notableConstituents,BASF
+FRE,marketCapitalization,Large Cap
+Deutsche Börse AG,owns,Xetra
+Deutsche Post AG,businessSegments,"Global Forwarding, Freight"
+DAX 40,notableConstituents,SAP
+Frank Appel,employer,Deutsche Post AG
+ENR,industry,Energy
+DBK,marketCapitalization,Large Cap
+Deutsche Post AG,listedIn,DAX 40 Index
+^GDAXI,includesCompanies,Deutsche Telekom
+Eurozone,comprisesCountries,Austria
+Siemens Energy,memberOfIndex,DAX 40
+DAX 40 Index,includesCompanies,Merck
+BMW,foundedIn,1916
+Timotheus Höttges,companyListedIn,DAX 40 Index
+SY1,instanceOf,Stock Ticker Symbol
+ALV,tickerSymbol,ALV
+Deutsche Börse AG,hasCEO,Theodor Weimer
+SDAX,indexType,Performance index
+Frankfurt Stock Exchange,tradingCurrency,Euro
+Dietmar Hopp,occupation,Software Engineer
+MDAX,inceptionDate,1996
+Deutsche Telekom,headquarters,"Bonn, Germany"
+HeidelbergCement,founded,1874
+NSU,country,Germany
+Mercedes-Benz,foundedYear,1926
+Stefan Oelrich,occupation,Business Executive
+Eurozone,comprisesCountries,Italy
+PUM,tickerSymbol,PUM
+Merck KGaA,stockTicker,MRK
+Ola Källenius,instanceOf,person
+Belén Garijo,relationToDAX40,CEO of a DAX 40 Index constituent company
+EOAN,memberOfIndex,DAX 40 Index
+SDAX,inceptionDate,1999
+DAX 40 Index,includesCompanies,Deutsche Post
+^GDAXI,includesCompanies,Siemens
+MTU Aero Engines,numberOfEmployees,"Around 10,000 (2023)"
+^GDAXI,indexBaseDate,1987-12-30
+Roland Busch,nationality,German
+Deutsche Bank,tickerSymbol,DBK
+Fresenius Medical Care,primaryBusiness,Dialysis products and services
+SY1,represents,Siemens Energy AG
+DAX 40 Index,indexSponsor,Deutsche Börse AG
+Fresenius Helios,tickerSymbol,HEL
+Eurozone,comprisesCountries,Netherlands
+ENR,instanceOf,Company
+Deutsche Börse AG,listedOn,Frankfurt Stock Exchange
+Bayer AG,industry,pharmaceuticals
+DAX 40 Index,includesCompanies,Bayer
+DAI,stockExchange,Frankfurt Stock Exchange
+Bad Homburg vor der Höhe,locatedIn,Hesse
+Eurozone,comprisesCountries,Spain
+Daimler Truck,tickerSymbol,DTG
+DAI,products,Commercial Vehicles
+Eurozone,comprisesCountries,Finland
+Siemens,products,Automation equipment
+Eurozone,comprisesCountries,Luxembourg
+Siemens,products,Power generation equipment
+Volkswagen,parentCompany,Volkswagen Group
+Bayer,products,Pharmaceutical drugs
+Daimler Truck,headquarters,Germany
+Eurozone,comprisesCountries,Greece
+Mercedes-Benz,instanceOf,Company
+Eurozone,comprisesCountries,Slovakia
+Deutsche Börse AG,industry,Financial Services
+Ola Källenius,position,Chairman of the Board of Management of Daimler AG
+Xetra,usedForTrading,DAX 40 Index stocks
+HeidelbergCement,products,Aggregates
+DAX 40,inclusionCriteria,largest and most liquid German companies
+Prime Standard,is relevant for,companies listed in DAX 40 Index
+DAX 30,launchDate,1988-07-01
+Hesse,listedIn,DAX 40 Index
+RWE,businessFocus,Electricity generation and distribution
+DAI,products,Automobiles
+Eurozone,comprisesCountries,Lithuania
+Eurozone,comprisesCountries,Slovenia
+Daimler Truck,listedIn,DAX 40 Index
+Dominik Richter,associatedWith,HelloFresh
+^GDAXI,includesCompanies,Deutsche Bank
+^GDAXI,includesCompanies,Volkswagen
+Eurozone,comprisesCountries,Croatia
+DAX 40,notableConstituents,Allianz
+Allianz SE,products,Insurance and asset management services
+LIN,stockExchange,Frankfurt Stock Exchange
+Deutsche Post,parentCompany,Deutsche Post DHL Group
+ENR,country,Germany
+Dietmar Hopp,stakeholderIn,SAP SE
+Dominik Richter,companyListedOn,DAX 40 Index
+DAX 40 Index,indexCurrencyDenomination,Euro
+HeidelbergCement,memberOf,DAX 40 Index
+FME,instanceOf,Company
+Christian Klein,employer,SAP SE
+Eurozone,comprisesCountries,Malta
+Qontigo,instanceOf,Financial Services Company
+DAX 40 Index,includesCompanies,Deutsche Börse
+Euro,introducedOn,1999-01-01
+DAX 40 Index,indexBaseDate,"December 30, 1987"
+DAX 40 Index,baseDate,30 December 1987
+Eurozone,comprisesCountries,Estonia
+DAI,tickerSymbol,DAI
+BMW,revenue,Over 100 billion euros (approximate)
+Eurozone,comprisesCountries,Belgium
+Germany,memberOf,European Union
+Deutsche Bank,stockExchange,Frankfurt Stock Exchange
+Eurozone,comprisesCountries,France
+RWE,memberOf,DAX 40 Index
+Volkswagen Group,numberOfEmployees,"approximately 670,000"
+DAI,headquarters,"Stuttgart, Germany"
+Fresenius Helios,memberOf,DAX 40 Index
+Mercedes-Benz,stockExchange,Frankfurt Stock Exchange
+DAX 40 Index,includesCompanies,Porsche
+DAI,instanceOf,Company
+HeidelbergCement,products,Cement
+Prime Standard,includes,publication of ad hoc disclosures
+Deutsche Post AG,businessSegments,Supply Chain
+Deutsche Post AG,businessSegments,Express
+Eurozone,instanceOf,Monetary Union
+Münchener Rück,numberOfEmployees,"39,000 (approx.)"
+Siemens Energy AG,focus,Energy technology and services
+Eurozone,comprisesCountries,Latvia
+DAX 40,notableConstituents,Siemens
+Deutsche Post DHL Group,CEO,Frank Appel
+Dominik Richter,occupation,Co-founder of HelloFresh
+ALV,marketCapitalization,One of the largest insurance companies in the world
+Covestro,parentCompany,Bayer AG (until 2015)
+Belén Garijo,occupation,CEO of Merck KGaA
+Allianz,industry,Financial services
+Deutsche Bank,foundedYear,1870
+DAI,marketCapitalization,Large Cap
+DAX 30 Index,baseDate,"December 30, 1987"
+DAX 40 Index,baseValue,1000
+Bayer,memberOfIndex,DAX 40
+Deutsche Bank,marketCapitalization,Large Cap
+Symrise,foundedIn,2003
+Siemens,sector,Industrial
+DAX 40,indexDividendTreatment,reinvested in index
+Hesse,instanceOf,Company
+^GDAXI,includesCompanies,BMW
+Xetra,tradingHours,09:00 to 17:30 CET
+Deutsche Post DHL Group,headquarters,"Bonn, Germany"
+Mercedes-Benz Group AG,hasCEO,Ola Källenius
+DAX 40 Index,includesCompanies,Daimler Truck
+Bayer,products,Consumer health products
+DAI,fullName,Daimler AG
+Eurozone,comprisesCountries,Germany
+Ola Källenius,position,CEO of Mercedes-Benz Group AG
+Bad Homburg vor der Höhe,locatedIn,Germany
+Hans-Werner Hector,associatedWith,DAX 40 Index
+^GDAXI,includesCompanies,BASF
+TecDAX,operatedBy,Deutsche Börse
+Siemens,products,Medical devices
+Stefan Oelrich,position,Member of the Board of Management
+Mercedes-Benz,listedIn,DAX 40 Index
+Fresenius Medical Care,memberOfIndex,DAX 40 Index
+PUM,memberOf,DAX 40 Index
+Continental,industry,Automotive parts
+Merck KGaA,products,Pharmaceuticals
+Mercedes-Benz,industry,Automotive
+Germany,largestStockMarket,Frankfurt Stock Exchange
+Germany,homeTo,DAX 40 Index
+Continental,products,Brake systems
+DAX 40,notableConstituents,Volkswagen
+DAX 40 Index,reviewFrequency,quarterly
+Björn Gulden,position,CEO of Adidas
+MDAX,sectorCoverage,"Various sectors including industrials, consumer goods, technology"
+Dominik Richter,role,CEO of HelloFresh
+Ola Källenius,occupation,Business Executive
+Bayer AG,industry,chemicals
+Mercedes-Benz,tickerSymbol,MBG
+Volkswagen,marketCapitalization,One of the largest in DAX 40
+DAX 40 Index,includesCompanies,HeidelbergCement
+FRE,headquarters,Bad Homburg vor der Höhe
+Xetra,instanceOf,Electronic trading platform
+DAX 40,indexSymbol,^GDAXI
+Eurozone,comprisesCountries,Ireland
+Continental,products,Automotive safety
+DAX 40 Index,includesCompany,Zalando
+Deutsche Bank,hasCEO,Christian Sewing
+DAX 40 Index,includesCompany,Vonovia
+DAX 40,includesCompanies,Adidas
+Werner von Siemens,birthYear,1816
+Siemens,numberOfEmployees,"Approximately 311,000 (2023)"
+European Central Bank,responsibleFor,Monetary policy of Eurozone
+"Global Forwarding, Freight",industry,Logistics
+DAX 40,includesCompanies,BASF
+DAX 40,market,Frankfurt Stock Exchange
+DAX 40,includesCompanies,Henkel
+DAX 40,includesCompanies,SAP
+DAX 40 Index,includesCompany,BASF
+DAX 40,includesCompanies,Volkswagen
+DAX 40 Index,includesCompany,Henkel
+DAX 40 Index,includesCompany,SAP
+DAX 40,includesCompanies,Infineon Technologies
+Rolf Buch,nationality,German
+DAX 40 Index,includesCompany,Delivery Hero
+Continental,industry,Automotive
+DAX 40 Index,includesCompany,Infineon Technologies
+DAX 40,includesCompanies,Puma
+DAX 40,includesCompanies,Fresenius Medical Care
+Audi,CEO,Sébastien Ogier
+SIE,listedIn,DAX 40 Index
+Deutsche Bank AG,sector,Financials
+DAX 40 Index,includesCompany,Puma
+DAX 40 Index,includesCompany,Fresenius Medical Care
+BAS,tickerSymbol,BAS
+1COV,stockTicker,1COV.DE
+Mercedes-Benz Group AG,country,Germany
+DAX family of indices,tracks,German equities
+Porsche,stockExchange,Frankfurt Stock Exchange
+Daimler Truck,foundedYear,2021
+Porsche,products,Sports cars
+Werner von Siemens,deathYear,1892
+DAX 40,includesCompanies,Deutsche Post
+SAP SE,listedIn,DAX 40 Index
+DAX 40 Index,includesCompany,Porsche
+DAX 40,indexSponsor,Deutsche Börse AG
+DAX 30,instanceOf,stock market index
+DAX 40,includesCompanies,Fresenius
+Qiagen,revenue,Approximately 1.9 billion USD (2023)
+DAX 40 Index,includesCompany,Fresenius
+1COV,headquarters,Leverkusen
+"Global Forwarding, Freight",industry,Freight forwarding
+SAP SE,foundedIn,1972
+DAX 40,includesCompanies,Vonovia
+DE000BAY0017,represents,Bayer AG
+Continental,products,Automotive parts
+Porsche AG,stockTicker,PAH3
+Ferdinand Porsche,deathDate,1951-01-30
+DAX 40,includesCompanies,Symrise
+"Global Forwarding, Freight",listedIn,DAX 40 Index
+DAX 40,includesCompanies,Allianz
+DAX 40 Index,includesCompany,Symrise
+Porsche,foundedYear,1931
+DAX 40 Index,includesCompany,Allianz
+HeidelbergCement,products,Ready-mixed concrete
+Siemens,products,Automation
+Oliver Blume,role,Chairman of the Executive Board of Volkswagen AG
+DAX 40 Index,includesCompany,Siemens Energy
+DAX 40,includesCompanies,Deutsche Börse
+DAX 40 Index,includesCompany,Deutsche Telekom
+DAX 40 Index,includesCompany,Deutsche Börse
+DAX 40,includesCompanies,Qiagen
+Merck Group,founded,1668
+DAX 40 Index,includesCompany,Qiagen
+DAX 40,benchmarkFor,German equity market
+PUM,country,Germany
+Porsche,products,Sedans
+ALV,headquarters,Munich
+ALV,country,Germany
+1COV,country,Germany
+DAX 40 Index,includesCompany,Covestro
+E.ON,sector,Utilities
+DAX 40,includesCompanies,Siemens
+RWE,revenue,Approximately €13 billion (2023)
+DAX 40 Index,includesCompany,E.ON
+DAX 40 Index,includesCompany,Continental
+E.ON,memberOfIndex,DAX 40
+DAX 40,includesCompanies,Siemens Healthineers
+DAX 40 Index,includesCompany,Siemens
+DAX 40,rebalancingFrequency,quarterly
+DAX 40 Index,includesCompany,Siemens Healthineers
+Porsche,founder,Ferdinand Porsche
+Siemens,products,Healthcare Technology
+DAX 40,includesCompanies,Linde
+Adidas,founder,Adolf Dassler
+Porsche,products,SUVs
+Qiagen,products,Sample and assay technologies for molecular diagnostics
+Siemens,memberOfIndex,DAX 40 Index
+DAX 40 Index,includesCompany,Linde
+Deutsche Post AG,numberOfEmployees,"Over 500,000 (2023)"
+European Central Bank,role,Monetary authority for Eurozone
+DAX 40 Index,includesCompany,Münchener Rück
+Deutsche Börse,industry,Financial services
+Rolf Buch,associatedWith,Vonovia
+Rolf Buch,role,CEO of Vonovia
+Daimler AG,marketCapitalization,Large-cap
+Ferdinand Porsche,founderOf,Porsche AG
+"Global Forwarding, Freight",instanceOf,Company
+DAX 30,represents,30 major German blue chip companies
+DAX 40,includesCompanies,MTU Aero Engines
+DAX 40 Index,includesCompany,Daimler Truck
+DAX 40 Index,includesCompany,Adidas
+DE000BAY0017,instanceOf,ISIN
+DAX 40 Index,includesCompany,BMW
+Mercedes-Benz Group AG,marketCapitalization,Large-cap
+Rolf Buch,role,Former CEO of Deutsche Annington
+Ferdinand Porsche,instanceOf,Person
+DAX 40 Index,includesCompany,MTU Aero Engines
+Porsche,componentOf,DAX 40 Index
+Deutsche Bank,foundedIn,1870
+DAX 40,includesCompanies,RWE
+Deutsche Bank AG,marketCapitalization,Large Cap
+Porsche,tickerSymbol,PAH3
+DAX 40,includesCompanies,Deutsche Bank
+DAX 40 Index,includesCompany,RWE
+Mercedes-Benz Group AG,founded,1926
+Ferdinand Porsche,birthDate,1875-09-03
+Belén Garijo,relationToDAX40,CEO of a DAX 40 company
+DAX 40 Index,includesCompany,Deutsche Bank
+DAX 40 Index,includesCompany,Volkswagen
+DAX 40,includesCompanies,Siemens Energy
+BAS,stockExchange,Frankfurt Stock Exchange
+DAX 40,includesCompanies,Deutsche Telekom
+SIE,country,Germany
+DAX 40 Index,includesCompany,HeidelbergCement
+VOW3,sector,Consumer Discretionary
+Rolf Buch,associatedWith,Deutsche Annington
+Ferdinand Porsche,occupation,Automotive Engineer
+DAX 40,includesCompanies,Covestro
+Siemens,revenue,Approximately 62.3 billion EUR (2023)
+DAX 40,includesCompanies,E.ON
+DAX family of indices,relatedTo,Deutsche Börse
+DAX 40 Index,includesCompany,Deutsche Post
+Continental AG,revenue,€44.5 billion (2022)
+Ferdinand Porsche,nationality,Austrian
+DAX 40,includesCompanies,Bayer
+Bayer AG,isComponentOf,DAX 40 Index
+DAX 40 Index,includesCompany,Bayer
+Daimler AG,stockTicker,DAI
+SAP,products,Enterprise Resource Planning (ERP) software
+DAX 40,indexConstituentTurnover,low to moderate
+Siemens Healthineers,products,Medical Imaging Equipment
+DAX 40,indexCurrencyHedging,none
+Chairman of the Board of Management of BMW AG,roleIn,BMW AG
+Oliver Zipse,startDateAsCEO,2019
+DAX 40,indexVolatility,moderate
+DAX 40,indexUse,benchmark for funds and ETFs
+DAX 40,relatedIndex,SDAX
+DAX 30,calculationMethod,Performance index
+DAX 40,indexDataProviders,"Deutsche Börse, financial data vendors"
+DAX 40,relatedIndex,TecDAX
+BASF,revenue,Approximately 87 billion EUR (2022)
+DAX 40,indexCalculationAgent,Deutsche Börse
+DE0005140008,identifies,DAX 40 Index
+DAX 40,sectorCoverage,"various sectors including automotive, chemicals, financials, technology"
+DAX 30,replacedByDate,September 2021
+Daimler AG,instanceOf,company
+Henkel AG & Co. KGaA,products,Beauty Care
+Daimler AG,country,Germany
+Siemens Healthineers,products,Laboratory Diagnostics
+DAX 40 Index,replacedIndex,DAX 30
+DAX 30,baseValue,1000 points
+Bayer AG,hasCEO,Werner Baumann
+SAP,products,Business software solutions
+SIE,industry,Technology
+Bentley,knownFor,Luxury cars
+Siemens Healthineers,products,Advanced Therapies
+MDAX,reviewFrequency,Quarterly
+SAP SE,marketCapitalization,One of the largest in DAX 40
+Siemens Healthineers,revenue,Approximately 17 billion EUR (2023)
+Delivery Hero,listedOn,DAX 40 Index
+DAX 40,indexRisk,market risk
+DAX 40,indexSectorWeighting,diversified
+Deutsche Bank,ISIN,DE0005140008
+DE0005140008,instanceOf,ISIN
+Bayer AG,wasComponentOf,DAX 40 Index
+Delivery Hero,operatesIn,More than 50 countries
+Volkswagen AG,numberOfEmployees,"Approximately 660,000 (2023)"
+DAX 40,indexInclusionAnnouncement,one month before effective date
+Delivery Hero,stockTicker,DHER.DE
+DAX 40,notableConstituent,Linde
+MTU Aero Engines,foundedIn,1934
+DAX 40,indexConstituentWeightCap,no cap
+DAX 40,notableConstituent,Adidas
+DAX 40,indexDataAvailability,real-time
+DAX 40,indexConstituentChanges,announced quarterly
+DAX 40 Index,type,performance index
+DAX 40,notableConstituent,Deutsche Bank
+DAX 40,indexHistoricalData,available since 1988
+Oliver Zipse,role,Chairman of the Board of Management of BMW AG
+Siemens Healthineers,industry,Healthcare Technology
+Hasso Plattner,role,Chairman of SAP SE
+DAX 40,indexConstituentSelection,based on market capitalization and liquidity
+PUM,industry,Industrial Goods
+DAX 40,indexExclusionAnnouncement,one month before effective date
+Chairman of the Board of Management of BMW AG,instanceOf,Position
+DAX 40,notableConstituent,Bayer
+Škoda,country,Czech Republic
+DAX 40,relatedIndex,MDAX
+Continental AG,memberOfIndex,DAX 40 Index
+DAX 40 Index,baseValue,1000 points
+DAX 40 Index,includesCompany,Merck
+Leonhard Birnbaum,occupation,CEO of Deutsche Börse AG
+Leonhard Birnbaum,associatedWith,DAX 40 Index
+RWE,businessFocus,Energy trading
+Frankfurt Stock Exchange,currency,Euro
+Roland Busch,occupation,CEO of Siemens AG
+Continental AG,industry,Automotive Parts
+DAX 40 Index,baseDate,"December 30, 1987"
+Henkel,stockExchange,Frankfurt Stock Exchange
+Fresenius Medical Care,marketCapitalization,Large-cap
+Continental AG,products,Brake Systems
+Hasso Plattner,associatedWith,SAP SE
+Henkel,tickerSymbol,HEN3
+DAX 40 Index,expansionDate,"September 20, 2021"
+Fresenius Vamed,tickerSymbol,VAMED
+Continental AG,products,Automotive Safety
+Deutsche Post AG,stockTicker,DPW
+Roland Busch,roleInDAX40,"CEO of Siemens AG, a constituent company of DAX 40 Index"
+SIE,memberOfIndex,DAX 40 Index
+Vonovia,numberOfResidentialUnits,"Over 400,000"
+DAX 40 Index,represents,40 major German blue chip companies
+Continental,memberOf,DAX 40 Index
+Volkswagen,subsidiaries,Audi
+Linde,memberOf,DAX 40 Index
+Škoda Auto,country,Czech Republic
+Škoda Auto,instanceOf,Automobile Manufacturer
+Oliver Bäte,employer,Allianz SE
+Allianz SE,CEO,Oliver Bäte
+Vonovia,numberOfEmployees,"Approximately 10,000"
+Volkswagen,subsidiaries,Porsche
+Volkswagen,subsidiaries,Škoda Auto
+SY1,industry,Energy
+Linde,headquarters,"Guildford, United Kingdom"
+Škoda Auto,parentCompany,Volkswagen Group
+Škoda Auto,industry,Automotive
+Timotheus Höttges,position,CEO of Deutsche Telekom
+Deutsche Post DHL Group,businessSegments,Post & Parcel Germany
+Deutsche Post DHL Group,industry,logistics
+Fresenius Medical Care,focus,Dialysis products and services
+Merck KGaA,instanceOf,company
+Deutsche Post DHL Group,revenue,over 80 billion euros (2023)
+Deutsche Post DHL Group,businessSegments,"Global Forwarding, Freight"
+Deutsche Post DHL Group,businessSegments,Supply Chain
+Deutsche Post DHL Group,businessSegments,Express
+Deutsche Post DHL Group,instanceOf,company
+Deutsche Post DHL Group,listedIn,DAX 40 Index
+Fresenius Medical Care,founded,1996

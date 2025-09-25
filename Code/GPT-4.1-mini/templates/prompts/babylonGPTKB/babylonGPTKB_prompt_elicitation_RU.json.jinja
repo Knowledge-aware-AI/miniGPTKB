@@ -1,0 +1,62 @@
+{
+  "custom_id": {{ subject_name|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Я хочу построить Knowledge Graph по теме древнего города Вавилона. Задав субъект, верни все известные тебе факты о нем в виде списка тройки (субъект, предикат, объект). Количество фактов может быть очень большим, от 50 до 100 и более, для очень популярных субъектов. Для менее популярных субъектов количество фактов может быть очень низким, например, 5 или 10.\n\nВажно: \n- Если не знаешь субъект, верни пустой список. \n- Если субъект не является Named Entity, верни пустой список.\n- Если субъект не относится к теме древнего города Вавилона, верни пустой список.\n- Если субъект является Named Entity, включи хотя бы одну тройку, предикат которой \"ЧастныйСлучайДля\".\n- Не будь слишком многословный.\n- Разделяй множество объектов на множество троек с одним объектом."
+      },
+      {
+        "role": "user",
+        "content": {{ subject_name|tojson }}
+      }
+    ],
+    "max_tokens": 4096,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "triple_array_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "predicate": {
+                    "type": "string"
+                  },
+                  "object": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "predicate",
+                  "object"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "facts"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

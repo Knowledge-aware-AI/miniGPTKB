@@ -1,0 +1,61 @@
+{
+  "custom_id": {{ custom_id|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Musisz wykonać zadanie rozpoznawania nazwanych encji (NER) na temat starożytnego miasta Babilon. Twoim zadaniem jest sklasyfikowanie, czy dana wyrażenie w języku polskim jest nazwą własną istotną dla tego tematu, czy nie (na przykład literał, data, adres URL, rozwlekłe wyrażenia...). Każde wyrażenie zostanie ci dostarczone w jednym wierszu."
+      },
+      {
+        "role": "user",
+        "content": {{ phrases|tojson }}
+      }
+    ],
+    "max_tokens": 2048,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "phrase_list",
+        "schema": {
+          "type": "object",
+          "required": [
+            "phrases"
+          ],
+          "properties": {
+            "phrases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "phrase",
+                  "is_ne"
+                ],
+                "properties": {
+                  "phrase": {
+                    "type": "string",
+                    "description": "Wyrażenie poddawane analizie."
+                  },
+                  "is_ne": {
+                    "type": "boolean",
+                    "description": "Wskaż, czy wyrażenie jest nazwą własną."
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "Lista wyrażeń wraz z ich odpowiednim statusem jako nazwy własnej (NE)"
+            }
+          },
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    }
+  }
+}

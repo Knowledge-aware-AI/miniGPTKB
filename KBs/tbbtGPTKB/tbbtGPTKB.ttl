@@ -1,0 +1,1429 @@
+@prefix ns1: <http://minigptkb/> .
+
+ns1:Barry_Kripke ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance <http://minigptkb/Season_2,_Episode_15> ;
+    ns1:hasRivalryWith ns1:Leonard_Hofstadter,
+        ns1:Sheldon_Cooper ;
+    ns1:hasSpeechImpediment "Rhotacism" ;
+    ns1:instanceOf "Character" ;
+    ns1:occupation "Physicist" ;
+    ns1:portrayedBy ns1:John_Ross_Bowie ;
+    ns1:specializesIn ns1:Plasma_Physics ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:Bernadette_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:hasChild ns1:Halley_Wolowitz,
+        ns1:Michael_Wolowitz ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Microbiologist" ;
+    ns1:portrayedBy ns1:Melissa_Rauch ;
+    ns1:spouse ns1:Howard_Wolowitz .
+
+ns1:Cinnamon ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Dog" ;
+    ns1:ownedBy ns1:Sheldon_Cooper ;
+    ns1:species "Dog" .
+
+<http://minigptkb/Leonard_Hofstadter's_father> ns1:instanceOf "Character" ;
+    ns1:name ns1:Alfred_Hofstadter .
+
+ns1:Mr._Wolowitz ns1:fullName ns1:Howard_Wolowitz ;
+    ns1:hasChild ns1:Haley_Wolowitz ;
+    ns1:hasMother ns1:Mrs._Wolowitz ;
+    ns1:hasSpouse ns1:Bernadette_Rostenkowski-Wolowitz .
+
+ns1:Season_10 ns1:finaleDate "May 11, 2017" ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 11, 2017" ;
+    ns1:originalAirDateStart "September 19, 2016" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 19, 2016" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+<http://minigptkb/Season_2,_Episode_22> ns1:airDate "May 4, 2009" ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:instanceOf "Episode" ;
+    ns1:mainCharacters ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Sheldon_Cooper ;
+    ns1:partOfSeason ns1:Season_2 ;
+    ns1:partOfSeries ns1:The_Big_Bang_Theory ;
+    ns1:title ns1:The_Classified_Materials_Turbulence ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:Season_4 ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:mainCharacters ns1:Amy_Farrah_Fowler,
+        ns1:Bernadette_Rostenkowski,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:notableEvents "Howard and Bernadette get engaged",
+        "Sheldon and Amy start dating" ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 19, 2011" ;
+    ns1:originalAirDateStart "September 23, 2010" ;
+    ns1:originalReleaseEndDate "2010-05-06" ;
+    ns1:originalReleaseStartDate "2009-09-23" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Season_5 ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableEvents <http://minigptkb/Leonard_and_Penny's_relationship_challenges>,
+        <http://minigptkb/Sheldon_and_Amy's_relationship_development> ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 10, 2012" ;
+    ns1:originalAirDateStart "September 22, 2011" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2012-05-10" ;
+    ns1:originalReleaseStartDate "2011-09-22" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Season_8 ns1:genre "Sitcom" ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableEvents ns1:Leonard_and_Penny_get_married ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 7, 2015" ;
+    ns1:originalAirDateStart "September 22, 2014" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2015-05-07" ;
+    ns1:originalReleaseStartDate "2014-09-22" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:Season_9 ns1:finaleDate "May 12, 2016" ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableEvents ns1:Leonard_and_Penny_get_married ;
+    ns1:notableGuestStars ns1:Brian_Posehn,
+        ns1:Kevin_Sussman,
+        ns1:Wil_Wheaton ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 12, 2016" ;
+    ns1:originalAirDateStart "September 21, 2015" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 21, 2015" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:Sheldon_Cooper_and_Amy_Farrah_Fowler ns1:won ns1:Nobel_Prize_in_Physics .
+
+ns1:The_Big_Bang_Theory_Season_1 ns1:numberOfEpisodes "17" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Big_Bang_Theory_Season_10 ns1:finaleDate "May 11, 2017" ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf "TV Season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 19, 2016" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:The_Big_Bang_Theory_Season_12 ns1:finaleDate <http://minigptkb/May_16,_2019> ;
+    ns1:instanceOf "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableEvent ns1:Final_season_of_the_series,
+        ns1:Sheldon_and_Amy_win_Nobel_Prize ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 24, 2018" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:The_Big_Bang_Theory_Season_4 ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2010-05-06" ;
+    ns1:originalReleaseStartDate "2009-09-22" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Big_Bang_Theory_Season_7 ns1:instanceOf "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2014-05-15" ;
+    ns1:originalReleaseStartDate "2013-09-26" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Big_Bang_Theory_Season_9 ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableGuestStars ns1:Stephen_Hawking,
+        ns1:Wil_Wheaton ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2016-05-12" ;
+    ns1:originalReleaseStartDate "2015-09-21" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:The_Big_Bang_Theory_episodes ns1:createdBy ns1:Bill_Prady,
+        ns1:Chuck_Lorre ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf "TV series episodes" ;
+    ns1:mainCharacters ns1:Amy_Farrah_Fowler,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Rajesh_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:numberOfEpisodes "279" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Big_Bang_Theory_theme_song ns1:genre "Alternative rock" ;
+    ns1:performedBy ns1:Barenaked_Ladies ;
+    ns1:title ns1:The_History_of_Everything .
+
+ns1:The_Bow_Tie_Asymmetry ns1:airDate "2018-05-10" ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:episodeNumber "24" ;
+    ns1:instanceOf "episode" ;
+    ns1:partOf ns1:The_Big_Bang_Theory_Season_11 ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:The_Creepy_Candy_Coating_Corollary ns1:airDate <http://minigptkb/October_13,_2009> ;
+    ns1:episodeNumber "5" ;
+    ns1:featuresCharacter ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Sheldon_Cooper ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Aarti_Mann ns1:roleInTheBigBangTheory ns1:Priya_Koothrappali .
+
+ns1:Alessandra_Torresani ns1:instanceOf "Person" .
+
+ns1:Allegra_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:gender "Female" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Neuroscientist" ;
+    ns1:parent ns1:Leonard_Hofstadter .
+
+ns1:Arthur_Jeffries ns1:alsoKnownAs ns1:Professor_Proton ;
+    ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:hasRole "Inspiration for Sheldon Cooper",
+        "Mentor to Sheldon Cooper" ;
+    ns1:instanceOf "Fictional Character" ;
+    ns1:occupation "Children's TV Show Host",
+        "Scientist" ;
+    ns1:portrayedBy ns1:Bob_Newhart .
+
+<http://minigptkb/Bazinga!> ns1:instanceOf "Catchphrase" ;
+    ns1:meaning "Joke or prank" ;
+    ns1:originatedIn ns1:The_Big_Bang_Theory ;
+    ns1:usedBy ns1:Sheldon_Cooper .
+
+ns1:Bert_Kibbler ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance ns1:Season_6 ;
+    ns1:friendOf ns1:Howard_Wolowitz ;
+    ns1:instanceOf "Character" ;
+    ns1:occupation "Geologist" ;
+    ns1:portrayedBy ns1:Brian_Posehn ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:Caltech_Theoretical_Physicist ns1:instanceOf "Occupation" .
+
+ns1:Chuck_Lorre_Productions ns1:instanceOf "Production Company" ;
+    ns1:produced ns1:The_Big_Bang_Theory .
+
+ns1:Cinnamon_\(dog\) ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Dog" ;
+    ns1:owner ns1:Howard_Wolowitz .
+
+ns1:Claire ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:portrayedBy ns1:Alessandra_Torresani .
+
+ns1:Comic_Book_Store ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:frequentedBy ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:instanceOf "Location" ;
+    ns1:locationType "Retail Store" ;
+    ns1:ownedBy ns1:Stuart_Bloom .
+
+ns1:Courtney_Henggeler ns1:appearedInSeason ns1:Season_11,
+        ns1:Season_11_of_The_Big_Bang_Theory,
+        ns1:Season_12,
+        ns1:Season_12_of_The_Big_Bang_Theory ;
+    ns1:characterName ns1:Missy_Cooper ;
+    ns1:instanceOf "Person" ;
+    ns1:profession "Actress" ;
+    ns1:roleIn ns1:The_Big_Bang_Theory .
+
+ns1:Dr._Elizabeth_Plimpton ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Physicist" ;
+    ns1:portrayedBy ns1:Judy_Greer ;
+    ns1:relationshipWithSheldon "Brief romantic interest" .
+
+ns1:Dr._Stephanie_Barnett ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance <http://minigptkb/Season_2,_Episode_15> ;
+    ns1:occupation "Doctor",
+        "Surgeon" ;
+    ns1:portrayedBy ns1:Sara_Rue ;
+    ns1:romanticInterestOf ns1:Leonard_Hofstadter .
+
+ns1:Emmy_Awards ns1:awardedFor "Outstanding achievements in television" ;
+    ns1:instanceOf "Award" ;
+    ns1:relatedTo ns1:The_Big_Bang_Theory .
+
+ns1:George_Cooper_III ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:isFatherOf <http://minigptkb/George_Cooper_Jr.>,
+        ns1:Missy_Cooper,
+        ns1:Sheldon_Cooper ;
+    ns1:marriedTo ns1:Mary_Cooper ;
+    ns1:occupation "Football player" ;
+    ns1:spouse ns1:Mary_Cooper .
+
+<http://minigptkb/George_Cooper_Sr.> ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:fatherOf <http://minigptkb/George_Cooper_Jr.>,
+        ns1:Missy_Cooper,
+        ns1:Sheldon_Cooper ;
+    ns1:instanceOf "Character" ;
+    ns1:occupation ns1:Used_car_salesman ;
+    ns1:portrayedBy ns1:Lance_Barber ;
+    ns1:spouse ns1:Mary_Cooper .
+
+<http://minigptkb/Howard_Wolowitz's_mother> ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "Loud",
+        "Overbearing" ;
+    ns1:instanceOf "Character" ;
+    ns1:relationTo ns1:Howard_Wolowitz ;
+    ns1:voiceActor ns1:Carol_Ann_Susi .
+
+ns1:Howard_Wolowitz_\(father\) ns1:child ns1:Howard_Wolowitz ;
+    ns1:instanceOf "Character" ;
+    ns1:relation ns1:Father_of_Howard_Wolowitz ;
+    ns1:spouse ns1:Debbie_Wolowitz .
+
+ns1:Jimmy_Speckerman ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:isHighSchoolBullyingTargetOf ns1:Leonard_Hofstadter ;
+    ns1:occupation "Computer Programmer" .
+
+ns1:Judith_Feldman ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:hasChild ns1:Halley_Wolowitz ;
+    ns1:instanceOf "Character" ;
+    ns1:isExWifeOf ns1:Howard_Wolowitz ;
+    ns1:occupation "Doctor" .
+
+ns1:Kate_Micucci ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Actress",
+        "Comedian" ;
+    ns1:roleInTheBigBangTheory ns1:Lucy .
+
+ns1:Lance_Barber ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Actor" ;
+    ns1:profession "Actor" ;
+    ns1:roleInTheBigBangTheory ns1:Jimmy_Speckerman .
+
+ns1:Laura_Spencer ns1:characterOccupation "Dermatologist" ;
+    ns1:characterRelationship <http://minigptkb/Leonard_Hofstadter's_girlfriend> ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:The_Big_Bang_Theory ;
+    ns1:occupation "Actress" ;
+    ns1:roleInTheBigBangTheory ns1:Emily_Sweeney .
+
+ns1:Laurie_Metcalf ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:characterOccupation "Christian mother" ;
+    ns1:characterRelation <http://minigptkb/Mother_of_George_Cooper_Jr.>,
+        ns1:Mother_of_Missy_Cooper,
+        ns1:Mother_of_Sheldon_Cooper ;
+    ns1:instanceOf "Person" ;
+    ns1:playedCharacter ns1:Mary_Cooper ;
+    ns1:profession "Actress" ;
+    ns1:roleInTheBigBangTheory ns1:Mary_Cooper .
+
+ns1:Michael_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:childOf ns1:Leonard_Hofstadter,
+        ns1:Penny_Hofstadter ;
+    ns1:instanceOf "Fictional character" .
+
+<http://minigptkb/Michael_Wolowitz_Jr.> ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:childOf ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Howard_Wolowitz ;
+    ns1:gender "Male" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:nickname <http://minigptkb/Michael_Jr.> .
+
+ns1:Penny_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "Friendly",
+        "Outgoing",
+        "Social" ;
+    ns1:friendOf ns1:Leonard_Hofstadter,
+        ns1:Sheldon_Cooper ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:marriedTo ns1:Leonard_Hofstadter ;
+    ns1:occupation "Pharmaceutical sales representative" ;
+    ns1:portrayedBy ns1:Kaley_Cuoco ;
+    ns1:residence <http://minigptkb/Pasadena,_California> .
+
+ns1:Primetime_Emmy_Award_for_Outstanding_Lead_Actor_in_a_Comedy_Series ns1:awardedFor ns1:Role_of_Sheldon_Cooper_in_The_Big_Bang_Theory ;
+    ns1:awardedTo ns1:Jim_Parsons ;
+    ns1:instanceOf "Award" ;
+    ns1:relatedTo ns1:The_Big_Bang_Theory .
+
+ns1:Primetime_Emmy_Award_nominations_for_The_Big_Bang_Theory ns1:nominatedFor ns1:Outstanding_Comedy_Series,
+        ns1:Outstanding_Lead_Actor_in_a_Comedy_Series,
+        ns1:Outstanding_Supporting_Actor_in_a_Comedy_Series,
+        ns1:Outstanding_Supporting_Actress_in_a_Comedy_Series,
+        "Outstanding Directing for a Comedy Series",
+        "Outstanding Writing for a Comedy Series" .
+
+ns1:Rati_Gupta ns1:appearedInSeason ns1:Season_11,
+        ns1:Season_12 ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Actress" ;
+    ns1:roleInTheBigBangTheory ns1:Anu .
+
+ns1:Sam_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:isFatherOf ns1:Howard_Wolowitz .
+
+<http://minigptkb/Season_1,_Episode_15> ns1:airDate <http://minigptkb/March_2,_2008> ;
+    ns1:director ns1:Anthony_Rich ;
+    ns1:instanceOf "Episode" ;
+    ns1:mainCharacters ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Sheldon_Cooper ;
+    ns1:partOfSeason ns1:Season_1 ;
+    ns1:series ns1:The_Big_Bang_Theory ;
+    ns1:title ns1:The_Pork_Chop_Indeterminacy ;
+    ns1:writer ns1:Chuck_Lorre .
+
+<http://minigptkb/Season_1,_Episode_15_(The_Pork_Chop_Indeterminacy)> ns1:director ns1:Anthony_Rich ;
+    ns1:episodeNumber "15" ;
+    ns1:instanceOf "Episode",
+        "TV series episode" ;
+    ns1:originalAirDate "April 6, 2008" ;
+    ns1:partOfSeason ns1:Season_1 ;
+    ns1:partOfSeries ns1:The_Big_Bang_Theory ;
+    ns1:title ns1:The_Pork_Chop_Indeterminacy ;
+    ns1:writer ns1:Chuck_Lorre .
+
+ns1:Season_11_of_The_Big_Bang_Theory ns1:filmingLocation <http://minigptkb/Warner_Bros._Studios,_Burbank,_California> ;
+    ns1:finaleDate "May 10, 2018" ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 25, 2017" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+ns1:Season_12_of_The_Big_Bang_Theory ns1:finaleDate <http://minigptkb/May_16,_2019> ;
+    ns1:instanceOf "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:network ns1:CBS ;
+    ns1:notableEvent ns1:Final_season_of_the_series,
+        ns1:Sheldon_and_Amy_win_Nobel_Prize ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 24, 2018" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+<http://minigptkb/Season_3,_Episode_13> ns1:airDate <http://minigptkb/January_12,_2010> ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:instanceOf "Episode" ;
+    ns1:title ns1:The_Bozeman_Reaction ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:Season_6 ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCharacters ns1:Amy_Farrah_Fowler,
+        ns1:Bernadette_Rostenkowski,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:notableEvents <http://minigptkb/Raj's_romantic_struggles>,
+        <http://minigptkb/Sheldon_and_Amy's_relationship_development> ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 16, 2013" ;
+    ns1:originalAirDateStart "September 27, 2012" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2013-05-16" ;
+    ns1:originalReleaseStartDate "2012-09-27" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Season_7 ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableEvents <http://minigptkb/Sheldon_and_Amy's_relationship_development> ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 15, 2014" ;
+    ns1:originalAirDateStart "September 26, 2013" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2014-05-15" ;
+    ns1:originalReleaseStartDate "2013-09-26" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Chuck_Lorre .
+
+ns1:Stan_Lee ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Marvel_Comics ;
+    ns1:occupation "Comic book writer",
+        "Editor",
+        "Publisher" .
+
+ns1:The_Big_Bang_Theory_Season_11 ns1:filmingLocation <http://minigptkb/Warner_Bros._Studios,_Burbank,_California> ;
+    ns1:finaleDate "May 10, 2018" ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf "TV Season",
+        "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 25, 2017" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+<http://minigptkb/The_Big_Bang_Theory_Season_3,_Episode_23> ns1:airDate <http://minigptkb/May_3,_2010> ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:episodeNumber "23" ;
+    ns1:instanceOf "TV episode" ;
+    ns1:mainCharacters ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:partOfSeason ns1:The_Big_Bang_Theory_Season_3 ;
+    ns1:seasonNumber "3" ;
+    ns1:title ns1:The_Lunar_Excitation ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:The_Bozeman_Reaction ns1:episodeNumber "15" ;
+    ns1:instanceOf "Episode" .
+
+ns1:The_Comic_Center ns1:featuredIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf ns1:Comic_Book_Store,
+        ns1:Comic_book_store ;
+    ns1:location <http://minigptkb/Pasadena,_California> .
+
+ns1:The_Lunar_Excitation ns1:airDate <http://minigptkb/May_3,_2010> ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:episodeNumber "23" ;
+    ns1:featuresCharacter ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:instanceOf "episode" ;
+    ns1:mainCharacters ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Sheldon_Cooper ;
+    ns1:originalAirDate <http://minigptkb/May_3,_2010> ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:partOfSeries ns1:The_Big_Bang_Theory ;
+    ns1:plotSummary "Sheldon is upset about the moon landing anniversary and Leonard tries to cheer him up." ;
+    ns1:seasonNumber "3" ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:The_Maternal_Capacitance ns1:airDate <http://minigptkb/February_2,_2010> ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:episodeNumber "15" ;
+    ns1:featuresCharacter ns1:Sheldon_Cooper ;
+    ns1:instanceOf "episode" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:writer ns1:Steven_Molaro .
+
+ns1:Theme_song_of_The_Big_Bang_Theory ns1:performedBy ns1:Barenaked_Ladies ;
+    ns1:title ns1:The_History_of_Everything .
+
+ns1:Warner_Bros._Television ns1:instanceOf "Television production company" ;
+    ns1:produced ns1:The_Big_Bang_Theory .
+
+ns1:Alfred_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character",
+        "Fictional character" ;
+    ns1:maritalStatus "Widower" ;
+    ns1:occupation "Physicist" ;
+    ns1:portrayedBy ns1:Judith_Feldman ;
+    ns1:relation ns1:Father_of_Leonard_Hofstadter .
+
+ns1:Bob_Newhart ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Actor" ;
+    ns1:role ns1:Professor_Proton .
+
+ns1:Brian_Posehn ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Actor" ;
+    ns1:role ns1:Bert_Kibbler .
+
+ns1:Christine_Baranski ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:characterRelation <http://minigptkb/Leonard_Hofstadter's_mother> ;
+    ns1:instanceOf "Actress" ;
+    ns1:playedCharacter ns1:Beverly_Hofstadter .
+
+ns1:Judy_Greer ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Person" ;
+    ns1:roleInTheBigBangTheory ns1:Dr._Elizabeth_Plimpton,
+        ns1:Dr._Stephanie_Barnett .
+
+<http://minigptkb/Leonard_Hofstadter's_mother> ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:name ns1:Beverly_Hofstadter ;
+    ns1:personality "cold and analytical" ;
+    ns1:portrayedBy ns1:Christine_Baranski ;
+    ns1:profession "neuroscientist",
+        "psychiatrist" ;
+    ns1:relation ns1:mother_of_Leonard_Hofstadter .
+
+ns1:Neil_Michael_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:fullName ns1:Neil_Michael_Wolowitz ;
+    ns1:gender "Male" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Aerospace engineer" ;
+    ns1:relation ns1:Bernadette_Rostenkowski-Wolowitz_\(mother\),
+        ns1:Haley_Wolowitz_\(sister\),
+        ns1:Howard_Wolowitz_\(father\) .
+
+ns1:Professor_Proton ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance "Season 7, Episode 22" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Children's science show host",
+        "Physicist" ;
+    ns1:portrayedBy ns1:Bob_Newhart ;
+    ns1:realName ns1:Arthur_Jeffries ;
+    ns1:relationship ns1:Leonard_Hofstadter_\(fan\),
+        ns1:Sheldon_Cooper_\(fan\) .
+
+ns1:Season_1 ns1:creator ns1:Bill_Prady,
+        ns1:Chuck_Lorre ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory,
+        "Season" ;
+    ns1:mainCharacters ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:numberOfEpisodes "17" ;
+    ns1:originalAirDateEnd "May 19, 2008" ;
+    ns1:originalAirDateStart <http://minigptkb/September_24,_2007> ;
+    ns1:originalReleaseDate <http://minigptkb/September_24,_2007>,
+        "May 19, 2008" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Season_12 ns1:finaleDate <http://minigptkb/May_16,_2019> ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:network ns1:CBS ;
+    ns1:notableEvent ns1:Final_season_of_The_Big_Bang_Theory,
+        "Series finale aired" ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd <http://minigptkb/May_16,_2019> ;
+    ns1:originalAirDateStart "September 24, 2018" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 24, 2018" ;
+    ns1:seasonNumber "12" ;
+    ns1:showrunner ns1:Bill_Prady,
+        ns1:Steve_Molaro .
+
+<http://minigptkb/Season_2,_Episode_15> ns1:airDate "February 2, 2009" ;
+    ns1:director ns1:Mark_Cendrowski ;
+    ns1:instanceOf "Episode" ;
+    ns1:partOfSeason ns1:Season_2 ;
+    ns1:partOfSeries ns1:The_Big_Bang_Theory ;
+    ns1:title ns1:The_Maternal_Capacitance ;
+    ns1:writer ns1:Maria_Ferrari .
+
+ns1:Season_3 ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Sara_Gilbert,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "23" ;
+    ns1:originalAirDateEnd "May 24, 2010" ;
+    ns1:originalAirDateStart "September 21, 2009" ;
+    ns1:originalReleaseEndDate "2010-05-24" ;
+    ns1:originalReleaseStartDate "2009-09-21" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Big_Bang_Theory_Season_3 ns1:creator ns1:Bill_Prady,
+        ns1:Chuck_Lorre ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf "TV Season",
+        "TV season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kevin_Sussman,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:notableGuestStars ns1:LeVar_Burton,
+        ns1:Stephen_Hawking,
+        ns1:Wil_Wheaton ;
+    ns1:numberOfEpisodes "23" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2010-05-24" ;
+    ns1:originalReleaseStartDate "2009-09-21" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:The_Pork_Chop_Indeterminacy ns1:airDate "2008-03-24" ;
+    ns1:director ns1:Anthony_Rich ;
+    ns1:episodeNumber "15" ;
+    ns1:instanceOf "episode" ;
+    ns1:originalAirDate "2008-03-24" ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:seasonNumber "1" ;
+    ns1:writer ns1:Chuck_Lorre .
+
+ns1:Young_Sheldon ns1:actor ns1:Iain_Armitage ;
+    ns1:basedOn ns1:The_Big_Bang_Theory ;
+    ns1:creator ns1:Chuck_Lorre,
+        ns1:Steven_Molaro ;
+    ns1:genre "Comedy",
+        "Sitcom" ;
+    ns1:instanceOf "TV series" ;
+    ns1:isSpinOffOf ns1:The_Big_Bang_Theory ;
+    ns1:mainCharacter ns1:Sheldon_Cooper ;
+    ns1:narrator ns1:Jim_Parsons ;
+    ns1:network ns1:CBS ;
+    ns1:numberOfEpisodes "100+" ;
+    ns1:numberOfSeasons "7" ;
+    ns1:premiereDate "2017-09-25",
+        "September 25, 2017" ;
+    ns1:setting ns1:East_Texas ;
+    ns1:timePeriod "1989-1990s" .
+
+ns1:Anthony_Rich ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:occupation "Physicist" ;
+    ns1:relationship <http://minigptkb/Leonard_Hofstadter's_colleague> .
+
+<http://minigptkb/George_Cooper_Jr.> ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:deceased "True" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:isFatherOf ns1:George_Cooper_III,
+        ns1:Missy_Cooper,
+        ns1:Sheldon_Cooper ;
+    ns1:marriedTo ns1:Mary_Cooper ;
+    ns1:occupation ns1:Used_car_salesman ;
+    ns1:spouse ns1:Mary_Cooper .
+
+ns1:Nobel_Prize_in_Physics ns1:awardedFor "Outstanding contributions in Physics" ;
+    ns1:instanceOf "Award" ;
+    ns1:mentionedIn ns1:The_Big_Bang_Theory .
+
+ns1:Season_11 ns1:finaleDate "May 10, 2018" ;
+    ns1:genre "Sitcom" ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "24" ;
+    ns1:originalAirDateEnd "May 10, 2018" ;
+    ns1:originalAirDateStart "September 25, 2017" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:partOf ns1:The_Big_Bang_Theory ;
+    ns1:premiereDate "September 25, 2017" ;
+    ns1:showrunner ns1:Steve_Molaro .
+
+ns1:Season_2 ns1:genre "Sitcom" ;
+    ns1:instanceOf ns1:Season_of_The_Big_Bang_Theory,
+        "Season" ;
+    ns1:mainCast ns1:Jim_Parsons,
+        ns1:Johnny_Galecki,
+        ns1:Kaley_Cuoco,
+        ns1:Kunal_Nayyar,
+        ns1:Mayim_Bialik,
+        ns1:Melissa_Rauch,
+        ns1:Simon_Helberg ;
+    ns1:numberOfEpisodes "23" ;
+    ns1:originalAirDateEnd "May 11, 2009" ;
+    ns1:originalAirDateStart "September 22, 2008" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:originalReleaseEndDate "2009-05-11",
+        "May 11, 2009" ;
+    ns1:originalReleaseStartDate "2008-09-22",
+        "September 22, 2008" ;
+    ns1:partOf ns1:The_Big_Bang_Theory .
+
+ns1:Stephen_Hawking ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:guestStarredAsHimselfInSeason "5",
+        "7",
+        "9" ;
+    ns1:instanceOf "Character" ;
+    ns1:profession "Theoretical Physicist" .
+
+ns1:Stuart_Bloom ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "lonely",
+        "socially awkward" ;
+    ns1:friendOf ns1:Leonard_Hofstadter,
+        ns1:Sheldon_Cooper ;
+    ns1:hasPersonalityTrait "lonely",
+        "socially awkward" ;
+    ns1:hasRomanticInterest ns1:Amy_Farrah_Fowler,
+        ns1:Penny ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Comic book store owner" ;
+    ns1:owns ns1:The_Comic_Center .
+
+ns1:Wil_Wheaton ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearanceSeason ns1:Season_3 ;
+    ns1:guestStarredIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Actor",
+        "Person" ;
+    ns1:knownFor "Playing Wesley Crusher in Star Trek: The Next Generation" ;
+    ns1:occupation "Actor",
+        "Voice Actor",
+        "Writer" ;
+    ns1:role "Himself" .
+
+ns1:Beverly_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:motherOf ns1:Leonard_Hofstadter ;
+    ns1:occupation "Neuroscientist",
+        "Psychiatrist" ;
+    ns1:personalityTrait "Emotionally distant",
+        "Highly analytical" ;
+    ns1:portrayedBy ns1:Christine_Baranski ;
+    ns1:profession "Neuroscientist",
+        "Psychiatrist" ;
+    ns1:relation <http://minigptkb/Leonard_Hofstadter's_mother> ;
+    ns1:relationshipWithLeonard "Distant and analytical",
+        "Strained but caring" .
+
+ns1:Debbie_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "Loud voice",
+        "Overbearing mother" ;
+    ns1:instanceOf "Character",
+        "Fictional character" ;
+    ns1:isMotherOf ns1:Howard_Wolowitz ;
+    ns1:marriedTo ns1:Sam_Wolowitz ;
+    ns1:motherOf ns1:Howard_Wolowitz ;
+    ns1:occupation "Housewife" ;
+    ns1:residence <http://minigptkb/Pasadena,_California> ;
+    ns1:spouse ns1:Howard_Wolowitz ;
+    ns1:voiceActor ns1:Carol_Ann_Susi ;
+    ns1:voicedBy ns1:Carol_Ann_Susi .
+
+ns1:Emily_Sweeney ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance ns1:Season_7 ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:occupation "Dermatologist" ;
+    ns1:personalityTrait "Dark sense of humor",
+        "Quirky" ;
+    ns1:portrayedBy ns1:Laura_Spencer ;
+    ns1:romanticPartner ns1:Rajesh_Koothrappali .
+
+ns1:Halley_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:childOf ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Howard_Wolowitz ;
+    ns1:instanceOf "Fictional character" .
+
+ns1:Mrs._Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "Loud voice",
+        "Overbearing mother" ;
+    ns1:fullName ns1:Debbie_Wolowitz ;
+    ns1:instanceOf "Character" ;
+    ns1:isMotherOf ns1:Howard_Wolowitz ;
+    ns1:notShownOnScreen "True" ;
+    ns1:relation <http://minigptkb/Howard_Wolowitz's_mother> ;
+    ns1:relationshipWithHoward "Overprotective mother" ;
+    ns1:voiceActor ns1:Carol_Ann_Susi ;
+    ns1:voicedBy ns1:Carol_Ann_Susi .
+
+ns1:Priya_Koothrappali ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance ns1:Season_2 ;
+    ns1:hasBrother ns1:Raj_Koothrappali ;
+    ns1:hasRomanticRelationshipWith ns1:Leonard_Hofstadter ;
+    ns1:instanceOf "Character",
+        "Fictional character" ;
+    ns1:nationality "Indian" ;
+    ns1:occupation "Lawyer" ;
+    ns1:portrayedBy ns1:Aarti_Mann .
+
+ns1:The_History_of_Everything ns1:genre "Alternative rock",
+        "alternative rock" ;
+    ns1:instanceOf "Song",
+        "song" ;
+    ns1:performedBy ns1:Barenaked_Ladies ;
+    ns1:releasedIn "2007" ;
+    ns1:usedAs ns1:Theme_song_of_The_Big_Bang_Theory,
+        "theme song of The Big Bang Theory" .
+
+ns1:Carol_Ann_Susi ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:characterName ns1:Mrs._Wolowitz ;
+    ns1:characterRelation ns1:Mother_of_Howard_Wolowitz ;
+    ns1:deathYear "2014" ;
+    ns1:instanceOf "Person" ;
+    ns1:role ns1:Mrs._Wolowitz ;
+    ns1:roleIn ns1:The_Big_Bang_Theory ;
+    ns1:voiceOnlyRole "Yes" ;
+    ns1:voiceRole ns1:Mrs._Wolowitz ;
+    ns1:yearsActiveInShow "2007-2014" .
+
+ns1:Haley_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:familyMember ns1:Debbie_Wolowitz,
+        ns1:Howard_Wolowitz ;
+    ns1:hasBrother ns1:Michael_Wolowitz ;
+    ns1:hasRelationshipWith ns1:Rajesh_Koothrappali ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:isDaughterOf ns1:Beverly_Hofstadter,
+        ns1:Howard_Wolowitz ;
+    ns1:portrayedBy ns1:Kaley_Cuoco,
+        ns1:Melanie_Lynskey ;
+    ns1:sibling ns1:Howard_Wolowitz .
+
+ns1:Lucy ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Character" ;
+    ns1:portrayedBy ns1:Kate_Micucci .
+
+ns1:Missy_Cooper ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance <http://minigptkb/Season_1,_Episode_15_(The_Pork_Chop_Indeterminacy)> ;
+    ns1:gender "Female" ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:isSiblingOf ns1:Sheldon_Cooper ;
+    ns1:portrayedBy ns1:Courtney_Henggeler ;
+    ns1:relationToSheldon "Twin sister" .
+
+ns1:Anu ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance ns1:Season_11 ;
+    ns1:instanceOf "Character" ;
+    ns1:isFianceeOf ns1:Rajesh_Koothrappali ;
+    ns1:occupation "Doctor" ;
+    ns1:portrayedBy ns1:Rati_Gupta .
+
+ns1:Michael_Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:fullName ns1:Michael_Wolowitz ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:relation ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Haley_Wolowitz,
+        ns1:Howard_Wolowitz,
+        <http://minigptkb/Michael_Wolowitz_Jr.> .
+
+ns1:Bernadette_Rostenkowski ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:characterTrait "Assertive personality",
+        "High-pitched voice" ;
+    ns1:hasChild ns1:Haley_Wolowitz,
+        ns1:Michael_Wolowitz,
+        ns1:Neil_Michael_Wolowitz ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:marriedTo ns1:Howard_Wolowitz ;
+    ns1:occupation "Microbiologist" ;
+    ns1:portrayedBy ns1:Melissa_Rauch ;
+    ns1:spouse ns1:Howard_Wolowitz .
+
+ns1:Caltech ns1:featuredIn ns1:The_Big_Bang_Theory ;
+    ns1:field "Science and Engineering" ;
+    ns1:fieldOfStudy "Science and Engineering" ;
+    ns1:instanceOf "University" ;
+    ns1:knownFor "Research and Education" ;
+    ns1:location <http://minigptkb/Pasadena,_California> .
+
+ns1:Mark_Cendrowski ns1:directed ns1:The_Big_Bang_Theory ;
+    ns1:directedEpisodesOf ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Directing_The_Big_Bang_Theory ;
+    ns1:occupation "Television director" .
+
+ns1:Steven_Molaro ns1:collaboratedWith ns1:Chuck_Lorre ;
+    ns1:contributedTo ns1:Episodes_of_The_Big_Bang_Theory ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:The_Big_Bang_Theory ;
+    ns1:occupation "Television producer",
+        "Television writer" ;
+    ns1:role ns1:Executive_producer_of_The_Big_Bang_Theory,
+        ns1:Writer_for_The_Big_Bang_Theory .
+
+ns1:Kevin_Sussman ns1:appearedIn ns1:The_Big_Bang_Theory ;
+    ns1:appearedInTVSeries ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Actor" ;
+    ns1:playedCharacter ns1:Stuart_Bloom ;
+    ns1:portrayedCharacter ns1:Stuart_Bloom ;
+    ns1:profession "Actor",
+        "Comedian" .
+
+ns1:Mary_Cooper ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance <http://minigptkb/Season_1,_Episode_15> ;
+    ns1:instanceOf "Character" ;
+    ns1:motherOf ns1:Sheldon_Cooper ;
+    ns1:personalityTrait "Caring",
+        "Devout",
+        "Devoutly religious" ;
+    ns1:portrayedBy ns1:Laurie_Metcalf ;
+    ns1:relationshipWithSheldon "Supportive" ;
+    ns1:religion ns1:Christianity,
+        "Christian" ;
+    ns1:residence ns1:Texas .
+
+ns1:Amy_Farrah_Fowler ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:firstAppearance <http://minigptkb/The_Big_Bang_Theory_Season_3,_Episode_23> ;
+    ns1:friend ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Penny ;
+    ns1:friendOf ns1:Bernadette_Rostenkowski,
+        ns1:Penny ;
+    ns1:gender "Female" ;
+    ns1:hasBestFriend ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Penny ;
+    ns1:hasCatchphrase "I'm not crazy, my mother had me tested." ;
+    ns1:hasFriend ns1:Bernadette_Rostenkowski ;
+    ns1:hasPhD "Yes" ;
+    ns1:hasSpouse ns1:Sheldon_Cooper ;
+    ns1:hobby "Playing the harp" ;
+    ns1:instanceOf "Fictional Character",
+        "Fictional character" ;
+    ns1:maritalStatus "Married to Sheldon Cooper" ;
+    ns1:occupation "Neurobiologist" ;
+    ns1:personalityTrait "Intelligent",
+        "Socially awkward" ;
+    ns1:portrayedBy ns1:Mayim_Bialik ;
+    ns1:relationship ns1:Sheldon_Cooper ;
+    ns1:won ns1:Nobel_Prize_in_Physics .
+
+ns1:Bernadette_Rostenkowski-Wolowitz ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:children ns1:Halley_Wolowitz,
+        ns1:Michael_Wolowitz ;
+    ns1:education "PhD in Microbiology" ;
+    ns1:firstAppearance <http://minigptkb/Season_3,_Episode_13>,
+        ns1:The_Big_Bang_Theory_Season_3 ;
+    ns1:hasChild ns1:Haley_Wolowitz,
+        ns1:Michael_Wolowitz ;
+    ns1:instanceOf "Character",
+        "Fictional character" ;
+    ns1:knownFor "High-pitched voice" ;
+    ns1:occupation "Microbiologist" ;
+    ns1:personalityTrait "Ambitious",
+        "Assertive",
+        "Sweet" ;
+    ns1:portrayedBy ns1:Melissa_Rauch ;
+    ns1:spouse ns1:Howard_Wolowitz ;
+    ns1:worksAt "Pharmaceutical company" .
+
+ns1:Raj_Koothrappali ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:hasFriend ns1:Amy_Farrah_Fowler,
+        ns1:Bernadette_Rostenkowski,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Sheldon_Cooper ;
+    ns1:hasPet ns1:Cinnamon_\(dog\) ;
+    ns1:hasRomanticInterest ns1:Emily_Sweeney,
+        ns1:Lucy ;
+    ns1:hasSibling ns1:Anu ;
+    ns1:hasSister ns1:Priya_Koothrappali ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:livesIn <http://minigptkb/Pasadena,_California> ;
+    ns1:nationality "Indian" ;
+    ns1:occupation "Astrophysicist" ;
+    ns1:origin <http://minigptkb/New_Delhi,_India> ;
+    ns1:portrayedBy ns1:Kunal_Nayyar ;
+    ns1:romanticInterest ns1:Anu,
+        ns1:Claire,
+        ns1:Emily_Sweeney,
+        ns1:Lucy ;
+    ns1:worksAt ns1:California_Institute_of_Technology,
+        ns1:Caltech .
+
+ns1:Rajesh_Koothrappali ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:hasFriend ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Sheldon_Cooper ;
+    ns1:hasLoveInterest ns1:Anu ;
+    ns1:hasNationality "Indian" ;
+    ns1:hasPet ns1:Dog_named_Cinnamon ;
+    ns1:hasPhobia "Selective mutism" ;
+    ns1:hasRomanticInterest ns1:Anu,
+        ns1:Emily_Sweeney,
+        ns1:Lucy ;
+    ns1:hasSibling ns1:Priya_Koothrappali ;
+    ns1:hasSister ns1:Priya_Koothrappali ;
+    ns1:instanceOf "Fictional character" ;
+    ns1:livesIn <http://minigptkb/Pasadena,_California> ;
+    ns1:occupation "Astrophysicist" ;
+    ns1:portrayedBy ns1:Kunal_Nayyar ;
+    ns1:romanticInterest ns1:Anu,
+        ns1:Lucy ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:Chuck_Lorre ns1:birthDate "1952-10-18" ;
+    ns1:created ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:The_Big_Bang_Theory ;
+    ns1:nationality "American" ;
+    ns1:occupation "Television producer",
+        "Television writer" .
+
+ns1:Steve_Molaro ns1:instanceOf "Person" ;
+    ns1:occupation "Television producer",
+        "Television writer" ;
+    ns1:role ns1:Co-creator_of_Young_Sheldon,
+        ns1:Executive_producer_of_The_Big_Bang_Theory ;
+    ns1:workedOn ns1:The_Big_Bang_Theory,
+        ns1:Young_Sheldon .
+
+ns1:Bill_Prady ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:Co-creator_of_The_Big_Bang_Theory ;
+    ns1:occupation "Television producer",
+        "Television writer" ;
+    ns1:role ns1:Executive_producer_of_The_Big_Bang_Theory ;
+    ns1:roleInTheBigBangTheory "Co-creator",
+        "Executive producer" .
+
+ns1:Mayim_Bialik ns1:awards <http://minigptkb/Critics'_Choice_Television_Award>,
+        ns1:Primetime_Emmy_Award,
+        ns1:Primetime_Emmy_Award_nominations_for_The_Big_Bang_Theory ;
+    ns1:birthDate "December 12, 1975" ;
+    ns1:characterName ns1:Amy_Farrah_Fowler ;
+    ns1:firstAppearanceInSeries ns1:Season_3 ;
+    ns1:instanceOf "Person" ;
+    ns1:occupation "Actress",
+        "Neuroscientist" ;
+    ns1:profession "Actress",
+        "Neuroscientist" ;
+    ns1:roleIn ns1:The_Big_Bang_Theory .
+
+ns1:Simon_Helberg ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:birthDate "December 9, 1980" ;
+    ns1:birthPlace <http://minigptkb/Los_Angeles,_California,_USA> ;
+    ns1:children "2" ;
+    ns1:childrenCount "2" ;
+    ns1:instanceOf "Actor" ;
+    ns1:occupation "Actor",
+        "Comedian" ;
+    ns1:portrays ns1:Howard_Wolowitz ;
+    ns1:spouse ns1:Judy_Greer .
+
+ns1:CBS ns1:broadcasted ns1:The_Big_Bang_Theory ;
+    ns1:instanceOf "Television network" .
+
+ns1:Johnny_Galecki ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:birthDate "April 30, 1975" ;
+    ns1:birthPlace ns1:Belgium ;
+    ns1:instanceOf "Actor" ;
+    ns1:nationality "American" ;
+    ns1:playedCharacter ns1:Leonard_Hofstadter ;
+    ns1:portrays ns1:Leonard_Hofstadter .
+
+ns1:Kunal_Nayyar ns1:actedIn ns1:The_Big_Bang_Theory ;
+    ns1:birthDate "1981-04-30" ;
+    ns1:instanceOf "Actor" ;
+    ns1:nationality "British-Indian" ;
+    ns1:profession "Actor" ;
+    ns1:roleInTheBigBangTheory ns1:Rajesh_Koothrappali .
+
+ns1:Jim_Parsons ns1:birthDate "1973-03-24" ;
+    ns1:birthPlace <http://minigptkb/Houston,_Texas,_USA> ;
+    ns1:instanceOf "Actor" ;
+    ns1:knownFor ns1:The_Big_Bang_Theory ;
+    ns1:playedCharacter ns1:Sheldon_Cooper ;
+    ns1:portrays ns1:Sheldon_Cooper ;
+    ns1:starredIn ns1:The_Big_Bang_Theory ;
+    ns1:wonAward ns1:Primetime_Emmy_Award_for_Outstanding_Lead_Actor_in_a_Comedy_Series .
+
+ns1:Kaley_Cuoco ns1:birthDate "November 30, 1985" ;
+    ns1:birthPlace <http://minigptkb/Camden,_California,_USA> ;
+    ns1:characterInTheBigBangTheory ns1:Penny ;
+    ns1:instanceOf "Person" ;
+    ns1:nationality "American" ;
+    ns1:occupation "Actress" ;
+    ns1:roleInTheBigBangTheory ns1:Penny ;
+    ns1:starredIn ns1:The_Big_Bang_Theory .
+
+ns1:Melissa_Rauch ns1:birthDate "June 23, 1980" ;
+    ns1:birthYear "1980" ;
+    ns1:characterProfession "Microbiologist" ;
+    ns1:characterSpouse ns1:Howard_Wolowitz ;
+    ns1:instanceOf "Person" ;
+    ns1:knownFor ns1:The_Big_Bang_Theory ;
+    ns1:maritalStatus "Married to Winston Rauch" ;
+    ns1:nationality "American" ;
+    ns1:occupation "Actress" ;
+    ns1:roleInTheBigBangTheory ns1:Bernadette_Rostenkowski-Wolowitz .
+
+ns1:Penny ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:bestFriend ns1:Bernadette_Rostenkowski ;
+    ns1:characterTrait "Friendly",
+        "Outgoing",
+        "Social" ;
+    ns1:hasRomanticRelationshipWith ns1:Leonard_Hofstadter ;
+    ns1:hobby "Acting" ;
+    ns1:instanceOf "Fictional Character",
+        "Fictional character" ;
+    ns1:maritalStatus "Married to Leonard Hofstadter" ;
+    ns1:marriedTo ns1:Leonard_Hofstadter ;
+    ns1:occupation "Pharmaceutical Sales Representative",
+        "Pharmaceutical sales representative",
+        "Waitress" ;
+    ns1:origin ns1:Nebraska ;
+    ns1:portrayedBy ns1:Kaley_Cuoco ;
+    ns1:relationship ns1:Leonard_Hofstadter ;
+    ns1:residence "Apartment across from Leonard and Sheldon",
+        "Apartment across the hall from Leonard and Sheldon" ;
+    ns1:spouse ns1:Leonard_Hofstadter .
+
+ns1:Leonard_Hofstadter ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:bestFriend ns1:Sheldon_Cooper ;
+    ns1:favoriteComicBook ns1:The_Flash ;
+    ns1:hasFather ns1:Alfred_Hofstadter ;
+    ns1:hasFriend ns1:Howard_Wolowitz,
+        ns1:Penny,
+        ns1:Rajesh_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:hasGlasses "true" ;
+    ns1:hasIQ "173" ;
+    ns1:hasMother ns1:Beverly_Hofstadter ;
+    ns1:hasPersonalityTrait "Intelligent",
+        "Kind",
+        "Sensitive" ;
+    ns1:hasPhDIn ns1:Physics ;
+    ns1:hasRomanticRelationshipWith ns1:Penny ;
+    ns1:hasRoommate ns1:Sheldon_Cooper ;
+    ns1:hasSibling ns1:Michael_Hofstadter ;
+    ns1:hasSister ns1:Allegra_Hofstadter ;
+    ns1:instanceOf "Character",
+        "Fictional Character",
+        "Fictional character" ;
+    ns1:occupation "Experimental Physicist",
+        "Experimental physicist" ;
+    ns1:playedBy ns1:Johnny_Galecki ;
+    ns1:portrayedBy ns1:Johnny_Galecki ;
+    ns1:romanticInterest ns1:Penny ;
+    ns1:roommate ns1:Sheldon_Cooper ;
+    ns1:spouse ns1:Penny ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:Sheldon_Cooper ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:favoriteDrink ns1:Coca-Cola ;
+    ns1:favoriteFood "Thai Food",
+        "Thai food" ;
+    ns1:hasAcademicPosition ns1:Caltech_Theoretical_Physicist ;
+    ns1:hasBestFriend ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Raj_Koothrappali ;
+    ns1:hasCatchphrase <http://minigptkb/Bazinga!>,
+        "I'm not crazy, my mother had me tested." ;
+    ns1:hasFather <http://minigptkb/George_Cooper_Sr.> ;
+    ns1:hasFavoriteBoardGame <http://minigptkb/Mystic_Warlords_of_Ka'a>,
+        ns1:Settlers_of_Catan ;
+    ns1:hasFavoriteColor "Red" ;
+    ns1:hasFavoriteComic ns1:The_Flash ;
+    ns1:hasFavoriteComicBook ns1:The_Flash ;
+    ns1:hasFavoriteDrink ns1:Coca-Cola ;
+    ns1:hasFavoriteFood "Thai Food",
+        "Thai food" ;
+    ns1:hasFavoriteHoliday ns1:Christmas ;
+    ns1:hasFavoriteMovie ns1:Star_Trek,
+        ns1:Star_Wars ;
+    ns1:hasFavoriteNumber "73" ;
+    ns1:hasFavoriteSuperhero ns1:The_Flash ;
+    ns1:hasFavoriteTVShow ns1:Doctor_Who ;
+    ns1:hasFavoriteVideoGame ns1:Age_of_Conan ;
+    ns1:hasFriend ns1:Amy_Farrah_Fowler,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Raj_Koothrappali ;
+    ns1:hasIQ "187" ;
+    ns1:hasMother ns1:Mary_Cooper ;
+    ns1:hasPersonalityTrait "Eccentric",
+        "Highly Intelligent",
+        "Highly intelligent",
+        "Obsessive-Compulsive",
+        "Obsessive-compulsive tendencies",
+        "Socially Awkward",
+        "Socially awkward" ;
+    ns1:hasPet <http://minigptkb/A_turtle_named_Sheldon_Jr.> ;
+    ns1:hasPhD "Yes" ;
+    ns1:hasPhobia "Change",
+        "Germs",
+        "Social Interaction",
+        "Social situations" ;
+    ns1:hasRoommate ns1:Leonard_Hofstadter ;
+    ns1:hasSibling <http://minigptkb/George_Cooper_Jr.>,
+        ns1:Missy_Cooper ;
+    ns1:hasSpouse ns1:Amy_Farrah_Fowler ;
+    ns1:instanceOf "Fictional Character",
+        "Fictional character" ;
+    ns1:occupation "Theoretical Physicist",
+        "Theoretical physicist" ;
+    ns1:portrayedBy ns1:Jim_Parsons ;
+    ns1:won ns1:Nobel_Prize_in_Physics ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:Howard_Wolowitz ns1:actor ns1:Simon_Helberg ;
+    ns1:appearsIn ns1:The_Big_Bang_Theory ;
+    ns1:bestFriend ns1:Rajesh_Koothrappali ;
+    ns1:education <http://minigptkb/Master's_degree_from_MIT> ;
+    ns1:family ns1:Mother_\(Debbie_Wolowitz\) ;
+    ns1:hasChild ns1:Haley_Wolowitz,
+        ns1:Halley_Wolowitz ;
+    ns1:hasFriend ns1:Leonard_Hofstadter,
+        ns1:Rajesh_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:hobby "Collecting comic books",
+        "Magic tricks" ;
+    ns1:instanceOf "Character",
+        "Fictional Character",
+        "Fictional character" ;
+    ns1:knownFor "Wearing colorful and tight clothing" ;
+    ns1:livesIn <http://minigptkb/Pasadena,_California> ;
+    ns1:mother ns1:Debbie_Wolowitz ;
+    ns1:occupation ns1:Aerospace_Engineer,
+        "Aerospace engineer" ;
+    ns1:personalityTrait "Confident",
+        "Sometimes arrogant" ;
+    ns1:spouse ns1:Bernadette_Rostenkowski-Wolowitz ;
+    ns1:worksAt ns1:Caltech .
+
+ns1:The_Big_Bang_Theory ns1:awardsWon ns1:Emmy_Awards,
+        <http://minigptkb/People's_Choice_Award>,
+        <http://minigptkb/People's_Choice_Awards>,
+        ns1:Primetime_Emmy_Award ;
+    ns1:characterOccupation "Astrophysicist",
+        "Engineer",
+        "Microbiologist",
+        "Physicist" ;
+    ns1:createdBy ns1:Bill_Prady,
+        ns1:Chuck_Lorre ;
+    ns1:finaleDate <http://minigptkb/May_16,_2019> ;
+    ns1:genre "Sitcom" ;
+    ns1:hasWriter ns1:Bill_Prady,
+        ns1:Chuck_Lorre ;
+    ns1:instanceOf "TV series" ;
+    ns1:mainCharacter ns1:Amy_Farrah_Fowler,
+        ns1:Bernadette_Rostenkowski,
+        ns1:Bernadette_Rostenkowski-Wolowitz,
+        ns1:Howard_Wolowitz,
+        ns1:Leonard_Hofstadter,
+        ns1:Penny,
+        ns1:Rajesh_Koothrappali,
+        ns1:Sheldon_Cooper ;
+    ns1:notableGuestStar ns1:Bill_Gates,
+        ns1:Elon_Musk,
+        ns1:Mark_Hamill,
+        ns1:Stan_Lee,
+        ns1:Stephen_Hawking ;
+    ns1:numberOfEpisodes "279" ;
+    ns1:numberOfSeasons "12" ;
+    ns1:originalLanguage "English" ;
+    ns1:originalNetwork ns1:CBS ;
+    ns1:premiereDate <http://minigptkb/September_24,_2007> ;
+    ns1:productionCompany ns1:Chuck_Lorre_Productions,
+        ns1:Warner_Bros._Television ;
+    ns1:setting <http://minigptkb/Pasadena,_California> ;
+    ns1:spinOff ns1:Young_Sheldon ;
+    ns1:themeMusicComposer ns1:Barenaked_Ladies ;
+    ns1:themeSong ns1:The_History_of_Everything ;
+    ns1:themeSongTitle ns1:The_History_of_Everything .
+

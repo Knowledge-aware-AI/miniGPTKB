@@ -1,0 +1,61 @@
+{
+  "custom_id": {{ custom_id|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Выполни Named Entity Recognition (NER) на тему древнего города Вавилона. Твоя задача - классифицировать, являются ли заданные предложения Named Entities, относящимися к теме, или нет (например, литералы, даты, URL, многословные предложения...). Каждое предложение дается тебе в строке."
+      },
+      {
+        "role": "user",
+        "content": {{ phrases|tojson }}
+      }
+    ],
+    "max_tokens": 2048,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "phrase_list",
+        "schema": {
+          "type": "object",
+          "required": [
+            "phrases"
+          ],
+          "properties": {
+            "phrases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "phrase",
+                  "is_ne"
+                ],
+                "properties": {
+                  "phrase": {
+                    "type": "string",
+                    "description": "Предложение, которое анализируется."
+                  },
+                  "is_ne": {
+                    "type": "boolean",
+                    "description": "Указывает, является ли предложение Named Entity."
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "Список предложений с соответствующим статусом NE."
+            }
+          },
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "custom_id": {{ subject_name|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Eski Babil şehri konusu üzerine bir bilgi grafiği oluşturmak istiyorum. Bir konu varlığı verildiğinde, konu hakkında bildiğiniz tüm gerçekleri (konu, yüklem, nesne) üçlüleri listesi olarak döndürün. Gerçeklerin sayısı çok yüksek olabilir, çok popüler konular için 50 ile 100 veya daha fazla olabilir. Daha az popüler konular için gerçek sayısı çok düşük olabilir, örneğin 5 veya 10.\n\nÖnemli:\n- Konuyu bilmiyorsanız, boş liste döndürün.\n- Konu bir adlandırılmış varlık değilse, boş liste döndürün.\n- Konu eski Babil şehri konusuna ait değilse, boş liste döndürün.\n- Konu adlandırılmış bir varlık ise, yüklemi \"nedir\" olan en az bir üçlü dahil edin.\n- Çok ayrıntıya girmeyin.\n- Birden fazla nesneyi, her biri tek nesne içeren birden fazla üçlüye ayırın.\n- Tüm üçlüler Türkçe olmalıdır."
+      },
+      {
+        "role": "user",
+        "content": {{ subject_name|tojson }}
+      }
+    ],
+    "max_tokens": 4096,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "triple_array_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "predicate": {
+                    "type": "string"
+                  },
+                  "object": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "predicate",
+                  "object"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "facts"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

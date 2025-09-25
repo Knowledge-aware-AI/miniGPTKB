@@ -1,0 +1,61 @@
+{
+  "custom_id": {{ custom_id|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Deves realizar a tarefa de reconhecimento de entidades nomeadas (NER) sobre o tema da antiga cidade da Babilônia. A tua tarefa é classificar se uma dada expressão em língua portuguesa é uma named entity relevante para o tema ou não (por exemplo literal, data, URL, expressões prolixas...). Cada expressão ser-te-á fornecida numa linha."
+      },
+      {
+        "role": "user",
+        "content": {{ phrases|tojson }}
+      }
+    ],
+    "max_tokens": 2048,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "phrase_list",
+        "schema": {
+          "type": "object",
+          "required": [
+            "phrases"
+          ],
+          "properties": {
+            "phrases": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "phrase",
+                  "is_ne"
+                ],
+                "properties": {
+                  "phrase": {
+                    "type": "string",
+                    "description": "A expressão que está a ser analisada."
+                  },
+                  "is_ne": {
+                    "type": "boolean",
+                    "description": "Indica se a expressão é uma named entity."
+                  }
+                },
+                "additionalProperties": false
+              },
+              "description": "Uma lista de expressões com os seus respetivos status de NE."
+            }
+          },
+          "additionalProperties": false
+        },
+        "strict": true
+      }
+    }
+  }
+}

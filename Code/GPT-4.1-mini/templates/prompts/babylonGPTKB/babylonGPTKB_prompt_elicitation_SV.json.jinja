@@ -1,0 +1,62 @@
+{
+  "custom_id": {{ subject_name|tojson }},
+  "method": "POST",
+  "url": "/v1/chat/completions",
+  "body": {
+    "model": "{{ model }}",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Jag vill bygga en knowledge graph om ämnet den antika staden Babylon. Givet ett subjekt som entitet, ge alla fakta du känner till om subjektet i form av en lista med tripler (subjekt, predikat, objekt). Antalet fakta kan vara mycket högt, från 50 till 100 eller fler, för mycket populära subjekt. För mindre populära subjekt kan antalet fakta vara mycket lågt, som 5 eller 10.\n\nViktigt: \n- Om du inte känner till subjektet, ge en tom lista. \n- Om subjektet inte är en namngiven entitet, ge en tom lista.\n- Om subjektet inte tillhör ämnet den antika staden Babylon, ge en tom lista.\n- Om subjektet är en namngiven entitet, inkludera minst en trippel där predikatet är \"ärInstansAv\".\n- Var inte alltför långrandig.\n- Separera flera objekt i flera tripler med ett objekt.\n- Alla tripler ska vara på svenska."
+      },
+      {
+        "role": "user",
+        "content": {{ subject_name|tojson }}
+      }
+    ],
+    "max_tokens": 4096,
+    "top_p": 0,
+    "temperature": 0,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "triple_array_response",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "type": "string"
+                  },
+                  "predicate": {
+                    "type": "string"
+                  },
+                  "object": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "predicate",
+                  "object"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "facts"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

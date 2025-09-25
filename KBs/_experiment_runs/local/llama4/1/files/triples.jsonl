@@ -1,0 +1,723 @@
+{"s": "Hammurabi", "p": "instanceOf", "o": "King"}
+{"s": "Hammurabi", "p": "instanceOf", "o": "Ruler of Babylon"}
+{"s": "Hammurabi", "p": "givenName", "o": "Hammurabi"}
+{"s": "Hammurabi", "p": "reign", "o": "1792-1750 BCE"}
+{"s": "Hammurabi", "p": "dynasty", "o": "First Dynasty of Babylon"}
+{"s": "Hammurabi", "p": "capital", "o": "Babylon"}
+{"s": "Hammurabi", "p": "notableWork", "o": "Code of Hammurabi"}
+{"s": "Hammurabi", "p": "father", "o": "Sin-muballit"}
+{"s": "Hammurabi", "p": "successor", "o": "Samsu-iluna"}
+{"s": "Hammurabi", "p": "conquered", "o": "Eshnunna"}
+{"s": "Hammurabi", "p": "conquered", "o": "Mari"}
+{"s": "Hammurabi", "p": "conquered", "o": "Assyria"}
+{"s": "Hammurabi", "p": "alliedWith", "o": "Qatna"}
+{"s": "Hammurabi", "p": "battles", "o": "Battle of Sippar"}
+{"s": "Hammurabi", "p": "knownFor", "o": "Unification of Mesopotamia"}
+{"s": "Unification of Mesopotamia", "p": "instanceOf", "o": "historical event"}
+{"s": "Unification of Mesopotamia", "p": "location", "o": "Mesopotamia"}
+{"s": "Unification of Mesopotamia", "p": "time period", "o": "3rd millennium BC"}
+{"s": "Unification of Mesopotamia", "p": "resulted in", "o": "Akkadian Empire"}
+{"s": "Unification of Mesopotamia", "p": "facilitated by", "o": "Sargon the Great"}
+{"s": "Unification of Mesopotamia", "p": "followed by", "o": "Period of fragmentation"}
+{"s": "Unification of Mesopotamia", "p": "related to", "o": "Ancient Mesopotamian history"}
+{"s": "Unification of Mesopotamia", "p": "precedes", "o": "Old Babylonian Empire"}
+{"s": "Battle of Sippar", "p": "instanceOf", "o": "battle"}
+{"s": "Battle of Sippar", "p": "location", "o": "Sippar"}
+{"s": "Battle of Sippar", "p": "partOf", "o": "Neo-Babylonian Empire"}
+{"s": "Battle of Sippar", "p": "date", "o": "October 539 BCE"}
+{"s": "Battle of Sippar", "p": "result", "o": "Babylonian victory"}
+{"s": "Battle of Sippar", "p": "combatant", "o": "Neo-Babylonian Empire"}
+{"s": "Battle of Sippar", "p": "combatant", "o": "Achaemenid Empire"}
+{"s": "Battle of Sippar", "p": "commander", "o": "Gobryas"}
+{"s": "Battle of Sippar", "p": "commander", "o": "Cyrus the Great"}
+{"s": "Ruler of Babylon", "p": "instanceOf", "o": "title"}
+{"s": "Ruler of Babylon", "p": "subClassOf", "o": "head of state"}
+{"s": "Ruler of Babylon", "p": "hasDomain", "o": "Babylon"}
+{"s": "Ruler of Babylon", "p": "hasPeriod", "o": "Neo-Babylonian Empire"}
+{"s": "Ruler of Babylon", "p": "hasPeriod", "o": "Old Babylonian Period"}
+{"s": "Ruler of Babylon", "p": "hasNotablePosition", "o": "King of Kings"}
+{"s": "Ruler of Babylon", "p": "hasPower", "o": "absolute authority"}
+{"s": "Ruler of Babylon", "p": "responsibleFor", "o": "administration of justice"}
+{"s": "Ruler of Babylon", "p": "responsibleFor", "o": "maintenance of temples"}
+{"s": "Ruler of Babylon", "p": "responsibleFor", "o": "protection of trade routes"}
+{"s": "Mari", "p": "instanceOf", "o": "ancient city"}
+{"s": "Mari", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Mari", "p": "contemporaryWith", "o": "Babylon"}
+{"s": "Mari", "p": "ruler", "o": "Zimri-Lim"}
+{"s": "Mari", "p": "wasCapitalOf", "o": "Kingdom of Mari"}
+{"s": "Mari", "p": "destroyedBy", "o": "Hammurabi"}
+{"s": "Mari", "p": "excavatedBy", "o": "Andr\u00e9 Parrot"}
+{"s": "Mari", "p": "hasSite", "o": "Tell Hariri"}
+{"s": "Mari", "p": "partOf", "o": "Syrian Desert"}
+{"s": "Mari", "p": "hasPeriod", "o": "Bronze Age"}
+{"s": "Mari", "p": "influencedBy", "o": "Akkadian Empire"}
+{"s": "Sin-muballit", "p": "instanceOf", "o": "King of Babylon"}
+{"s": "Sin-muballit", "p": "givenName", "o": "Sin-muballit"}
+{"s": "Sin-muballit", "p": "familyName", "o": "Sin-muballit"}
+{"s": "Sin-muballit", "p": "reign", "o": "1625-1615 BCE"}
+{"s": "Sin-muballit", "p": "predecessor", "o": "Iltani"}
+{"s": "Sin-muballit", "p": "successor", "o": "Hammurabi"}
+{"s": "Sin-muballit", "p": "dynasty", "o": "First Dynasty of Babylon"}
+{"s": "Sin-muballit", "p": "father", "o": "Iltani"}
+{"s": "Sin-muballit", "p": "knownFor", "o": "Father of Hammurabi"}
+{"s": "Sin-muballit", "p": "burialPlace", "o": "Babylon"}
+{"s": "Code of Hammurabi", "p": "instanceOf", "o": "code of law"}
+{"s": "Code of Hammurabi", "p": "createdBy", "o": "Hammurabi"}
+{"s": "Code of Hammurabi", "p": "createdIn", "o": "Babylon"}
+{"s": "Code of Hammurabi", "p": "language", "o": "Akkadian"}
+{"s": "Code of Hammurabi", "p": "discoveredIn", "o": "Susa"}
+{"s": "Code of Hammurabi", "p": "date", "o": "circa 1754 BCE"}
+{"s": "Code of Hammurabi", "p": "content", "o": "laws and regulations"}
+{"s": "Code of Hammurabi", "p": "significance", "o": "one of the earliest surviving codes of law"}
+{"s": "Code of Hammurabi", "p": "medium", "o": "diorite stele"}
+{"s": "Code of Hammurabi", "p": "currentLocation", "o": "Louvre Museum"}
+{"s": "Code of Hammurabi", "p": "partOf", "o": "history of Babylon"}
+{"s": "Code of Hammurabi", "p": "influenced", "o": "Mesopotamian law"}
+{"s": "Qatna", "p": "instanceOf", "o": "ancient city"}
+{"s": "Qatna", "p": "locatedIn", "o": "Syria"}
+{"s": "Qatna", "p": "isPartOf", "o": "History of the ancient Near East"}
+{"s": "Qatna", "p": "hasCapital", "o": "Qatna"}
+{"s": "Qatna", "p": "wasCapitalOf", "o": "Kingdom of Qatna"}
+{"s": "Qatna", "p": "destroyedBy", "o": "Mitanni"}
+{"s": "Qatna", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "Qatna", "p": "conqueredBy", "o": "Hittite Empire"}
+{"s": "Qatna", "p": "hasRuler", "o": "Ammutamru"}
+{"s": "Qatna", "p": "hasRuler", "o": "Niqmaddu II"}
+{"s": "Qatna", "p": "isArchaeologicalSite", "o": "true"}
+{"s": "Qatna", "p": "locatedNear", "o": "Homs"}
+{"s": "Qatna", "p": "hasPeriod", "o": "Bronze Age"}
+{"s": "Qatna", "p": "hasPeriod", "o": "Iron Age"}
+{"s": "Assyria", "p": "instanceOf", "o": "ancient civilization"}
+{"s": "Assyria", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Assyria", "p": "existedFrom", "o": "2500 BCE"}
+{"s": "Assyria", "p": "existedUntil", "o": "612 BCE"}
+{"s": "Assyria", "p": "capital", "o": "Nineveh"}
+{"s": "Assyria", "p": "neighbor", "o": "Babylon"}
+{"s": "Assyria", "p": "rival", "o": "Babylon"}
+{"s": "Assyria", "p": "conqueredBy", "o": "Medes"}
+{"s": "Assyria", "p": "conqueredBy", "o": "Babylonians"}
+{"s": "Assyria", "p": "conqueredBy", "o": "Persians"}
+{"s": "Assyria", "p": "hasKing", "o": "Sargon II"}
+{"s": "Assyria", "p": "hasKing", "o": "Ashurbanipal"}
+{"s": "Assyria", "p": "hasKing", "o": "Sennacherib"}
+{"s": "Assyria", "p": "knownFor", "o": "Assyrian Empire"}
+{"s": "Assyria", "p": "knownFor", "o": "Assyrian art"}
+{"s": "Assyria", "p": "knownFor", "o": "Assyrian literature"}
+{"s": "Eshnunna", "p": "instanceOf", "o": "ancient city"}
+{"s": "Eshnunna", "p": "locatedIn", "o": "ancient Sumer"}
+{"s": "Eshnunna", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Eshnunna", "p": "contemporaryWith", "o": "Babylon"}
+{"s": "Eshnunna", "p": "contemporaryWith", "o": "Mari"}
+{"s": "Eshnunna", "p": "capitalOf", "o": "Eshnunna Dynasty"}
+{"s": "Eshnunna", "p": "foundedBy", "o": "Nammu"}
+{"s": "Eshnunna", "p": "partOf", "o": "Sumerian city-state"}
+{"s": "Eshnunna", "p": "hasRuler", "o": "Ilkalla"}
+{"s": "Eshnunna", "p": "hasRuler", "o": "Puzur-Sin"}
+{"s": "Eshnunna", "p": "hasRuler", "o": "Sargon the Great"}
+{"s": "Eshnunna", "p": "destroyedBy", "o": "Gutian people"}
+{"s": "Eshnunna", "p": "rebuiltBy", "o": "Sargon the Great"}
+{"s": "Eshnunna", "p": "knownFor", "o": "The Code of Ur-Nammu"}
+{"s": "Eshnunna", "p": "knownFor", "o": "Eshnunna Tablets"}
+{"s": "Samsu-iluna", "p": "instanceOf", "o": "King"}
+{"s": "Samsu-iluna", "p": "partOf", "o": "Babylonian Empire"}
+{"s": "Samsu-iluna", "p": "reign", "o": "Amel-Marduk"}
+{"s": "Samsu-iluna", "p": "reign", "o": "1744-1717 BCE"}
+{"s": "Samsu-iluna", "p": "successorOf", "o": "Hammurabi"}
+{"s": "Samsu-iluna", "p": "predecessorOf", "o": "Amel-Marduk"}
+{"s": "Samsu-iluna", "p": "fatherOf", "o": "Kashtilash IV"}
+{"s": "Samsu-iluna", "p": "rulerOf", "o": "Babylon"}
+{"s": "Samsu-iluna", "p": "contemporaryOf", "o": "Zimri-Lim"}
+{"s": "Samsu-iluna", "p": "contemporaryOf", "o": "Ithiel"}
+{"s": "Samsu-iluna", "p": "militaryCampaign", "o": "Mari campaign"}
+{"s": "Samsu-iluna", "p": "militaryCampaign", "o": "Eshnunna campaign"}
+{"s": "Samsu-iluna", "p": "issued", "o": "Samsu-iluna's Edict"}
+{"s": "Samsu-iluna", "p": "built", "o": "Ishtar Gate"}
+{"s": "Samsu-iluna", "p": "built", "o": "Temple of Ninsun"}
+{"s": "First Dynasty of Babylon", "p": "instanceOf", "o": "dynasty"}
+{"s": "First Dynasty of Babylon", "p": "partOf", "o": "Babylon"}
+{"s": "First Dynasty of Babylon", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "First Dynasty of Babylon", "p": "timePeriod", "o": "Early Dynastic Period"}
+{"s": "First Dynasty of Babylon", "p": "founder", "o": "Sumu-abum"}
+{"s": "First Dynasty of Babylon", "p": "capital", "o": "Babylon"}
+{"s": "First Dynasty of Babylon", "p": "knownFor", "o": "Code of Sumu-abum"}
+{"s": "First Dynasty of Babylon", "p": "precededBy", "o": "Dynasty of Ur"}
+{"s": "First Dynasty of Babylon", "p": "followedBy", "o": "First Intermediate Period of Babylon"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Sumu-la-El"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Sabin"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Apil-Sin"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Sin-Muballit"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Hammurabi"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Samsu-iluna"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Abi-Eshuh"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Amdi-El"}
+{"s": "First Dynasty of Babylon", "p": "includes", "o": "Amar-Gula"}
+{"s": "Babylon", "p": "instanceOf", "o": "ancient city"}
+{"s": "Babylon", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Babylon", "p": "locatedIn", "o": "Iraq"}
+{"s": "Babylon", "p": "capitalOf", "o": "Neo-Babylonian Empire"}
+{"s": "Babylon", "p": "foundedBy", "o": "Sumu-abum"}
+{"s": "Babylon", "p": "conqueredBy", "o": "Persian Empire"}
+{"s": "Babylon", "p": "conqueredBy", "o": "Alexander the Great"}
+{"s": "Babylon", "p": "partOf", "o": "UNESCO World Heritage Site"}
+{"s": "Babylon", "p": "hasLandmark", "o": "Hanging Gardens of Babylon"}
+{"s": "Babylon", "p": "hasLandmark", "o": "Ishtar Gate"}
+{"s": "Babylon", "p": "hasLandmark", "o": "Temple of Marduk"}
+{"s": "Babylon", "p": "ruledBy", "o": "Nabonidus"}
+{"s": "Babylon", "p": "ruledBy", "o": "Nebuchadnezzar II"}
+{"s": "Babylon", "p": "hasNeighbor", "o": "Ur"}
+{"s": "Babylon", "p": "hasNeighbor", "o": "Uruk"}
+{"s": "Babylon", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "Babylon", "p": "mentionedIn", "o": "Bible"}
+{"s": "Babylon", "p": "destroyedBy", "o": "Sargon the Great"}
+{"s": "Babylon", "p": "rebuiltBy", "o": "Sennacherib"}
+{"s": "Babylon", "p": "hasRiver", "o": "Euphrates River"}
+{"s": "Ammutamru", "p": "instanceOf", "o": "King of Babylon"}
+{"s": "Ammutamru", "p": "reign", "o": "729-711 BCE"}
+{"s": "Ammutamru", "p": "alsoKnownAs", "o": "Ammu-muttabal"}
+{"s": "Ammutamru", "p": "predecessor", "o": "Humbaya"}
+{"s": "Ammutamru", "p": "successor", "o": "Nabonaid"}
+{"s": "October 539 BCE", "p": "instanceOf", "o": "date"}
+{"s": "October 539 BCE", "p": "partOf", "o": "Siege of Babylon"}
+{"s": "October 539 BCE", "p": "significantEventIn", "o": "History of Babylon"}
+{"s": "October 539 BCE", "p": "year", "o": "539 BCE"}
+{"s": "October 539 BCE", "p": "month", "o": "October"}
+{"s": "October 539 BCE", "p": "relatedTo", "o": "Fall of Babylon"}
+{"s": "October 539 BCE", "p": "topicOf", "o": "Ancient Mesopotamia"}
+{"s": "Ithiel", "p": "instanceOf", "o": "Prophet"}
+{"s": "Ithiel", "p": "givenName", "o": "Ithiel"}
+{"s": "Ithiel", "p": "knownFor", "o": "Wisdom literature"}
+{"s": "Ithiel", "p": "mentionedIn", "o": "Proverbs 30"}
+{"s": "Ithiel", "p": "biblicalFigure", "o": "Yes"}
+{"s": "Ithiel", "p": "associatedWith", "o": "King Solomon"}
+{"s": "Ithiel", "p": "partOf", "o": "Hebrew Bible"}
+{"s": "Ilkalla", "p": "instanceOf", "o": "King of Babylon"}
+{"s": "Ilkalla", "p": "reign", "o": "Ilkalla's reign"}
+{"s": "Ilkalla", "p": "predecessor", "o": "Samsu-ditana"}
+{"s": "Ilkalla", "p": "successor", "o": "Samsu-iluna"}
+{"s": "Ilkalla", "p": "period", "o": "Old Babylonian Empire"}
+{"s": "Ilkalla", "p": "location", "o": "Babylon"}
+{"s": "612 BCE", "p": "instanceOf", "o": "year"}
+{"s": "612 BCE", "p": "significantEventIn", "o": "Neo-Babylonian Empire"}
+{"s": "612 BCE", "p": "yearIn", "o": "ancient Near East"}
+{"s": "612 BCE", "p": "yearIn", "o": "Babylon"}
+{"s": "612 BCE", "p": "partOf", "o": "Siege of Nineveh"}
+{"s": "612 BCE", "p": "precededBy", "o": "626 BCE"}
+{"s": "612 BCE", "p": "followedBy", "o": "605 BCE"}
+{"s": "612 BCE", "p": "isDateOf", "o": "Fall of Nineveh"}
+{"s": "Mari campaign", "p": "instanceOf", "o": "military campaign"}
+{"s": "Mari campaign", "p": "partOf", "o": "Ancient Near Eastern history"}
+{"s": "Mari campaign", "p": "relatedTo", "o": "Babylon"}
+{"s": "Mari campaign", "p": "relatedTo", "o": "Mari"}
+{"s": "Mari campaign", "p": "occurredIn", "o": "18th century BC"}
+{"s": "Mari campaign", "p": "ledBy", "o": "Hammurabi"}
+{"s": "Mari campaign", "p": "result", "o": "Conquest of Mari"}
+{"s": "Mari campaign", "p": "impact", "o": "Destruction of Mari"}
+{"s": "Mari campaign", "p": "context", "o": "Old Babylonian Empire"}
+{"s": "Father of Hammurabi", "p": "instanceOf", "o": "Person"}
+{"s": "Father of Hammurabi", "p": "name", "o": "Sumu-abum"}
+{"s": "Father of Hammurabi", "p": "title", "o": "King of Babylon"}
+{"s": "Father of Hammurabi", "p": "successor", "o": "Hammurabi"}
+{"s": "Father of Hammurabi", "p": "predecessor", "o": "Apil-Sin"}
+{"s": "Father of Hammurabi", "p": "dynasty", "o": "First Dynasty of Babylon"}
+{"s": "Father of Hammurabi", "p": "reign", "o": "Sumu-abum (c. 1830-1817 BC)"}
+{"s": "Father of Hammurabi", "p": "family", "o": "Royal House of Babylon"}
+{"s": "King of Kings", "p": "instanceOf", "o": "title"}
+{"s": "King of Kings", "p": "usedBy", "o": "Neo-Babylonian Empire"}
+{"s": "King of Kings", "p": "usedBy", "o": "Achaemenid Empire"}
+{"s": "King of Kings", "p": "meaning", "o": "supreme monarch"}
+{"s": "King of Kings", "p": "equivalentTo", "o": "Shahanshah"}
+{"s": "King of Kings", "p": "notableHolder", "o": "Nebuchadnezzar II"}
+{"s": "King of Kings", "p": "notableHolder", "o": "Cyrus the Great"}
+{"s": "King of Kings", "p": "language", "o": "Akkadian"}
+{"s": "King of Kings", "p": "language", "o": "Old Persian"}
+{"s": "Puzur-Sin", "p": "instanceOf", "o": "King"}
+{"s": "Puzur-Sin", "p": "partOf", "o": "Ancient Mesopotamia"}
+{"s": "Puzur-Sin", "p": "partOf", "o": "Babylon"}
+{"s": "Puzur-Sin", "p": "reign", "o": "1740-1737 BCE"}
+{"s": "Puzur-Sin", "p": "predecessor", "o": "Ipiq-I\u0161tar"}
+{"s": "Puzur-Sin", "p": "successor", "o": "Urukagina"}
+{"s": "Puzur-Sin", "p": "father", "o": "Ipiq-I\u0161tar"}
+{"s": "Puzur-Sin", "p": "knownFor", "o": "King of Babylon"}
+{"s": "Iltani", "p": "instanceOf", "o": "Queen"}
+{"s": "Iltani", "p": "givenName", "o": "Iltani"}
+{"s": "Iltani", "p": "familyName", "o": "Kassite"}
+{"s": "Iltani", "p": "reign", "o": "Kassite dynasty"}
+{"s": "Iltani", "p": "husband", "o": "Kadasman-Enlil II"}
+{"s": "Iltani", "p": "child", "o": "Kadasman-Turgu"}
+{"s": "Iltani", "p": "activeDuring", "o": "Ancient Mesopotamia"}
+{"s": "Iltani", "p": "activeDuring", "o": "Babylon"}
+{"s": "Iltani", "p": "partOf", "o": "Kassite dynasty of Babylon"}
+{"s": "Hittite Empire", "p": "instanceOf", "o": "ancient empire"}
+{"s": "Hittite Empire", "p": "locatedIn", "o": "Anatolia"}
+{"s": "Hittite Empire", "p": "existedIn", "o": "2nd millennium BC"}
+{"s": "Hittite Empire", "p": "capital", "o": "Hattusa"}
+{"s": "Hittite Empire", "p": "interactedWith", "o": "Ancient Egypt"}
+{"s": "Hittite Empire", "p": "interactedWith", "o": "Mitanni"}
+{"s": "Hittite Empire", "p": "interactedWith", "o": "Babylon"}
+{"s": "Hittite Empire", "p": "destroyedBy", "o": "Sea Peoples"}
+{"s": "Hittite Empire", "p": "partOf", "o": "Late Bronze Age"}
+{"s": "Syrian Desert", "p": "instanceOf", "o": "desert"}
+{"s": "Syrian Desert", "p": "locatedIn", "o": "Middle East"}
+{"s": "Syrian Desert", "p": "locatedIn", "o": "Asia"}
+{"s": "Syrian Desert", "p": "borderedBy", "o": "Syria"}
+{"s": "Syrian Desert", "p": "borderedBy", "o": "Jordan"}
+{"s": "Syrian Desert", "p": "borderedBy", "o": "Iraq"}
+{"s": "Syrian Desert", "p": "borderedBy", "o": "Turkey"}
+{"s": "Syrian Desert", "p": "partOf", "o": "Babylon's trade route"}
+{"s": "Syrian Desert", "p": "hasFeature", "o": "sand dunes"}
+{"s": "Syrian Desert", "p": "hasFeature", "o": "oases"}
+{"s": "Gobryas", "p": "instanceOf", "o": "Person"}
+{"s": "Gobryas", "p": "givenName", "o": "Gobryas"}
+{"s": "Gobryas", "p": "partOf", "o": "Achaemenid Empire"}
+{"s": "Gobryas", "p": "conquered", "o": "Babylon"}
+{"s": "Gobryas", "p": "conqueredBy", "o": "Cyrus the Great"}
+{"s": "Gobryas", "p": "rulerOf", "o": "Gutium"}
+{"s": "Gobryas", "p": "mentionedIn", "o": "Behistun Inscription"}
+{"s": "Gobryas", "p": "timePeriod", "o": "6th century BC"}
+{"s": "Gobryas", "p": "associatedWith", "o": "Nebuchadnezzar II"}
+{"s": "diorite stele", "p": "instanceOf", "o": "stele"}
+{"s": "diorite stele", "p": "madeOf", "o": "diorite"}
+{"s": "diorite stele", "p": "usedFor", "o": "inscription"}
+{"s": "diorite stele", "p": "associatedWith", "o": "ancient Mesopotamia"}
+{"s": "diorite stele", "p": "timePeriod", "o": "ancient"}
+{"s": "diorite stele", "p": "partOf", "o": "Babylonian artifact"}
+{"s": "diorite stele", "p": "foundIn", "o": "Babylon"}
+{"s": "diorite stele", "p": "createdBy", "o": "Babylonian craftsman"}
+{"s": "diorite stele", "p": "hasInscription", "o": "cuneiform script"}
+{"s": "Mitanni", "p": "instanceOf", "o": "ancient kingdom"}
+{"s": "Mitanni", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Mitanni", "p": "capital", "o": "Washukanni"}
+{"s": "Mitanni", "p": "neighborOf", "o": "Ancient Egypt"}
+{"s": "Mitanni", "p": "neighborOf", "o": "Babylon"}
+{"s": "Mitanni", "p": "ruler", "o": "Tuwanuwa"}
+{"s": "Mitanni", "p": "ruler", "o": "Suppiluliuma I"}
+{"s": "Mitanni", "p": "destroyedBy", "o": "Hittite Empire"}
+{"s": "Mitanni", "p": "partOf", "o": "History of the ancient Near East"}
+{"s": "Mitanni", "p": "conqueredBy", "o": "Assyria"}
+{"s": "Iron Age", "p": "instanceOf", "o": "historical period"}
+{"s": "Iron Age", "p": "has part", "o": "Ancient Near East"}
+{"s": "Iron Age", "p": "overlaps with", "o": "Bronze Age"}
+{"s": "Iron Age", "p": "followed by", "o": "Roman Empire"}
+{"s": "Iron Age", "p": "has characteristic", "o": "iron smelting"}
+{"s": "Iron Age", "p": "includes", "o": "Neo-Babylonian Empire"}
+{"s": "Iron Age", "p": "occurred in", "o": "Mesopotamia"}
+{"s": "Iron Age", "p": "has cultural movement", "o": "Assyrian Empire"}
+{"s": "Iron Age", "p": "has cultural movement", "o": "Babylonian Empire"}
+{"s": "Iron Age", "p": "relevant to", "o": "history of Babylon"}
+{"s": "Syria", "p": "instanceOf", "o": "country"}
+{"s": "Syria", "p": "locatedIn", "o": "Middle East"}
+{"s": "Syria", "p": "bordering", "o": "Turkey"}
+{"s": "Syria", "p": "bordering", "o": "Iraq"}
+{"s": "Syria", "p": "bordering", "o": "Jordan"}
+{"s": "Syria", "p": "bordering", "o": "Israel"}
+{"s": "Syria", "p": "bordering", "o": "Lebanon"}
+{"s": "Syria", "p": "hasCapital", "o": "Damascus"}
+{"s": "Syria", "p": "partOf", "o": " ancient Near East"}
+{"s": "Syria", "p": "relatedTo", "o": "Babylon"}
+{"s": "Syria", "p": "relatedTo", "o": "Neo-Babylonian Empire"}
+{"s": "Akkadian", "p": "instanceOf", "o": "language"}
+{"s": "Akkadian", "p": "spokenIn", "o": "Akkadian Empire"}
+{"s": "Akkadian", "p": "spokenIn", "o": "Babylon"}
+{"s": "Akkadian", "p": "usedIn", "o": "cuneiform script"}
+{"s": "Akkadian", "p": "replacedBy", "o": "Babylonian language"}
+{"s": "Akkadian", "p": "similarTo", "o": "Sumerian language"}
+{"s": "Akkadian", "p": "hasScript", "o": "cuneiform script"}
+{"s": "Akkadian", "p": "partOf", "o": "Ancient Near Eastern languages"}
+{"s": "Akkadian", "p": "influenced", "o": "Babylonian literature"}
+{"s": "Akkadian", "p": "usedFor", "o": "Epic of Gilgamesh"}
+{"s": "Medes", "p": "instanceOf", "o": "ancient people"}
+{"s": "Medes", "p": "locatedIn", "o": "Media"}
+{"s": "Medes", "p": "conqueredBy", "o": "Achaemenid Empire"}
+{"s": "Medes", "p": "hadLeader", "o": "Cyaxares"}
+{"s": "Medes", "p": "hadLeader", "o": "Astyages"}
+{"s": "Medes", "p": "foughtAgainst", "o": "Neo-Babylonian Empire"}
+{"s": "Medes", "p": "foughtAgainst", "o": "Assyria"}
+{"s": "Medes", "p": "alliedWith", "o": "Neo-Babylonian Empire"}
+{"s": "Medes", "p": "conquered", "o": "Assyria"}
+{"s": "Medes", "p": "partOf", "o": "Achaemenid Empire"}
+{"s": "Nammu", "p": "instanceOf", "o": "Mesopotamian deity"}
+{"s": "Nammu", "p": "partOf", "o": "Babylonian mythology"}
+{"s": "Nammu", "p": "associatedWith", "o": "creation of humans"}
+{"s": "Nammu", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "Nammu", "p": "worshippedIn", "o": "Ancient Sumer"}
+{"s": "Nammu", "p": "hasRole", "o": "goddess of the sea"}
+{"s": "Nammu", "p": "hasRole", "o": "goddess of freshwater"}
+{"s": "Nammu", "p": "parentOf", "o": "Tiamat"}
+{"s": "Nammu", "p": "parentOf", "o": "Apsu"}
+{"s": "Nammu", "p": "is", "o": "primordial goddess"}
+{"s": "Susa", "p": "instanceOf", "o": "ancient city"}
+{"s": "Susa", "p": "locatedIn", "o": "Elam"}
+{"s": "Susa", "p": "locatedNear", "o": "Persian Gulf"}
+{"s": "Susa", "p": "has ruins", "o": "Shush"}
+{"s": "Susa", "p": "wasCapitalOf", "o": "Elam"}
+{"s": "Susa", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "Susa", "p": "destroyedBy", "o": "Assyrians"}
+{"s": "Susa", "p": "rebuiltBy", "o": "Persians"}
+{"s": "Susa", "p": "has archaeologicalSite", "o": "Susa archaeological site"}
+{"s": "Susa", "p": "relatedTo", "o": "Ancient Mesopotamia"}
+{"s": "Susa", "p": "has significanceIn", "o": "Ancient Near East"}
+{"s": "Andr\u00e9 Parrot", "p": "instanceOf", "o": "Q5"}
+{"s": "Andr\u00e9 Parrot", "p": "birthDate", "o": "1901-02-02"}
+{"s": "Andr\u00e9 Parrot", "p": "deathDate", "o": "1986-01-24"}
+{"s": "Andr\u00e9 Parrot", "p": "nationality", "o": "French"}
+{"s": "Andr\u00e9 Parrot", "p": "occupation", "o": "archaeologist"}
+{"s": "Andr\u00e9 Parrot", "p": "occupation", "o": " Assyriologist"}
+{"s": "Andr\u00e9 Parrot", "p": "knownFor", "o": "excavation of Mari"}
+{"s": "Andr\u00e9 Parrot", "p": "knownFor", "o": "studies on Babylon"}
+{"s": "Andr\u00e9 Parrot", "p": "awarded", "o": "Grand Prix National des Lettres"}
+{"s": "Andr\u00e9 Parrot", "p": "memberOf", "o": "Acad\u00e9mie des Inscriptions et Belles-Lettres"}
+{"s": "Bronze Age", "p": "instanceOf", "o": "historical period"}
+{"s": "Bronze Age", "p": "has part", "o": "Early Bronze Age"}
+{"s": "Bronze Age", "p": "has part", "o": "Middle Bronze Age"}
+{"s": "Bronze Age", "p": "has part", "o": "Late Bronze Age"}
+{"s": "Bronze Age", "p": "preceded by", "o": "Copper Age"}
+{"s": "Bronze Age", "p": "followed by", "o": "Iron Age"}
+{"s": "Bronze Age", "p": "overlaps with", "o": "Ancient Near East history"}
+{"s": "Bronze Age", "p": "includes", "o": "Minoan civilization"}
+{"s": "Bronze Age", "p": "includes", "o": "Mycenaean Greece"}
+{"s": "Bronze Age", "p": "includes", "o": "Ancient Egypt history"}
+{"s": "Bronze Age", "p": "includes", "o": "Babylon history"}
+{"s": "Persians", "p": "instanceOf", "o": "ancient people"}
+{"s": "Persians", "p": "conquered", "o": "Babylon"}
+{"s": "Persians", "p": "ruled", "o": "Mesopotamia"}
+{"s": "Persians", "p": "established", "o": "Achaemenid Empire"}
+{"s": "Persians", "p": "fought", "o": "Neo-Babylonian Empire"}
+{"s": "Persians", "p": "defeated", "o": "Babylonian army"}
+{"s": "Persians", "p": "captured", "o": "Babylon"}
+{"s": "Persians", "p": "adopted", "o": "Babylonian culture"}
+{"s": "Persians", "p": "used", "o": "cuneiform script"}
+{"s": "Persians", "p": "worshipped", "o": "Zoroaster"}
+{"s": "Persians", "p": "had leader", "o": "Cyrus the Great"}
+{"s": "Persians", "p": "had leader", "o": "Cambyses II"}
+{"s": "Amel-Marduk", "p": "instanceOf", "o": "King of Babylon"}
+{"s": "Amel-Marduk", "p": "reign", "o": "560-562 BCE"}
+{"s": "Amel-Marduk", "p": "predecessor", "o": "Nebuchadnezzar II"}
+{"s": "Amel-Marduk", "p": "successor", "o": "Neriglissar"}
+{"s": "Amel-Marduk", "p": "alsoKnownAs", "o": "Amel Marduk"}
+{"s": "Amel-Marduk", "p": "alsoKnownAs", "o": "Evil-Merodach"}
+{"s": "Amel-Marduk", "p": "mentionedIn", "o": "The Babylonian Chronicle"}
+{"s": "Amel-Marduk", "p": "mentionedIn", "o": "The Epic of Gilgamesh"}
+{"s": "Amel-Marduk", "p": "ruled", "o": "Babylon"}
+{"s": "Amel-Marduk", "p": "dynasty", "o": "Neo-Babylonian Empire"}
+{"s": "Niqmaddu II", "p": "instanceOf", "o": "King of Ugarit"}
+{"s": "Niqmaddu II", "p": "reign", "o": "circa 1295-1265 BCE"}
+{"s": "Niqmaddu II", "p": "predecessor", "o": "Ammurapi"}
+{"s": "Niqmaddu II", "p": "successor", "o": "Niqmepa"}
+{"s": "Niqmaddu II", "p": "knownFor", "o": "Trade relations with ancient Egypt and Babylon"}
+{"s": "Niqmaddu II", "p": "correspondence", "o": "Letters with Pharaohs of Egypt"}
+{"s": "Niqmaddu II", "p": "vassalOf", "o": "Muwallil wahshete"}
+{"s": "Niqmaddu II", "p": "partOf", "o": "Ugarit Kingdom"}
+{"s": "Niqmaddu II", "p": "mentionedIn", "o": "Ugaritic texts"}
+{"s": "Niqmaddu II", "p": "family", "o": "Ugaritic royal family"}
+{"s": "Akkadian Empire", "p": "instanceOf", "o": "ancient empire"}
+{"s": "Akkadian Empire", "p": "capital", "o": "Akkad"}
+{"s": "Akkadian Empire", "p": "capital", "o": "Babylon"}
+{"s": "Akkadian Empire", "p": "successor", "o": "Gutian Period"}
+{"s": "Akkadian Empire", "p": "founder", "o": "Sargon the Great"}
+{"s": "Akkadian Empire", "p": "dissolved", "o": "2154 BC"}
+{"s": "Akkadian Empire", "p": "established", "o": "2334 BC"}
+{"s": "Akkadian Empire", "p": "location", "o": "Mesopotamia"}
+{"s": "Akkadian Empire", "p": "language", "o": "Akkadian language"}
+{"s": "Akkadian Empire", "p": "partOf", "o": "Ancient Near East"}
+{"s": "Akkadian Empire", "p": "precededBy", "o": "Sumer"}
+{"s": "Akkadian Empire", "p": "replacedBy", "o": "Ur-III Dynasty"}
+{"s": "Nineveh", "p": "instanceOf", "o": "ancient city"}
+{"s": "Nineveh", "p": "locatedIn", "o": "Assyria"}
+{"s": "Nineveh", "p": "capitalOf", "o": "Assyria"}
+{"s": "Nineveh", "p": "mentionedIn", "o": "Bible"}
+{"s": "Nineveh", "p": "destroyedBy", "o": "Medes"}
+{"s": "Nineveh", "p": "destroyedBy", "o": "Babylonians"}
+{"s": "Nineveh", "p": "destroyedBy", "o": "Scythians"}
+{"s": "Nineveh", "p": "famousKing", "o": "Sennacherib"}
+{"s": "Nineveh", "p": "famousKing", "o": "Ashurbanipal"}
+{"s": "Nineveh", "p": "relatedTo", "o": "Babylon"}
+{"s": "Nineveh", "p": "conqueredBy", "o": "Cyaxares"}
+{"s": "Nineveh", "p": "near", "o": "Mosul"}
+{"s": "Nineveh", "p": "hasRemainsIn", "o": "Nineveh Governorate"}
+{"s": "Eshnunna Tablets", "p": "instanceOf", "o": "cuneiform tablet"}
+{"s": "Eshnunna Tablets", "p": "createdIn", "o": "Eshnunna"}
+{"s": "Eshnunna Tablets", "p": "createdIn", "o": "ancient Sumeria"}
+{"s": "Eshnunna Tablets", "p": "date", "o": "Early Dynastic Period III"}
+{"s": "Eshnunna Tablets", "p": "contains", "o": "code of laws"}
+{"s": "Eshnunna Tablets", "p": "writtenIn", "o": "Akkadian language"}
+{"s": "Eshnunna Tablets", "p": "script", "o": "cuneiform script"}
+{"s": "Eshnunna Tablets", "p": "discoveredBy", "o": "Piotr Michalowski"}
+{"s": "Eshnunna Tablets", "p": "partOf", "o": "collection of ancient Mesopotamian texts"}
+{"s": "Eshnunna Tablets", "p": "significantFor", "o": "study of ancient Mesopotamian law"}
+{"s": "Eshnunna Tablets", "p": "significantFor", "o": "study of ancient Sumerian culture"}
+{"s": "Gutian people", "p": "instanceOf", "o": "ancient people"}
+{"s": "Gutian people", "p": "locatedIn", "o": "Gutium"}
+{"s": "Gutian people", "p": "conquered", "o": "Akkadian Empire"}
+{"s": "Gutian people", "p": "period", "o": "Gutian period"}
+{"s": "Gutian people", "p": "capital", "o": "Gutium"}
+{"s": "Gutian people", "p": "hasLeader", "o": "Erridupizir"}
+{"s": "Gutian people", "p": "hasLeader", "o": "Gudea"}
+{"s": "Gutian people", "p": "interactedWith", "o": "Sumerians"}
+{"s": "Gutian people", "p": "interactedWith", "o": "Akkadians"}
+{"s": "Gutian people", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "Gutian people", "p": "mentionedIn", "o": "Sumerian King List"}
+{"s": "Gutian people", "p": "instanceOf", "o": "nomadic people"}
+{"s": "Sippar", "p": "instanceOf", "o": "ancient city"}
+{"s": "Sippar", "p": "locatedIn", "o": "Babylonia"}
+{"s": "Sippar", "p": "locatedNear", "o": "Euphrates River"}
+{"s": "Sippar", "p": "dedicatedTo", "o": "Shamash"}
+{"s": "Sippar", "p": "has ruins", "o": "Tell Abu Habbah"}
+{"s": "Sippar", "p": "excavatedBy", "o": "Austen Henry Layard"}
+{"s": "Sippar", "p": "excavatedBy", "o": "D. G. Hogarth"}
+{"s": "Sippar", "p": "significantDuring", "o": "Old Babylonian period"}
+{"s": "Sippar", "p": "significantDuring", "o": "Neo-Babylonian Empire"}
+{"s": "Sippar", "p": "foundArtefact", "o": "Sippar tablets"}
+{"s": "Sippar", "p": "foundArtefact", "o": "Astronomical diaries"}
+{"s": "Sippar", "p": "partOf", "o": "Cultural heritage of Babylon"}
+{"s": "Sippar", "p": "UNESCO site", "o": "yes"}
+{"s": "Zimri-Lim", "p": "instanceOf", "o": "King"}
+{"s": "Zimri-Lim", "p": "givenName", "o": "Zimri-Lim"}
+{"s": "Zimri-Lim", "p": "familyName", "o": "Zimri-Lim"}
+{"s": "Zimri-Lim", "p": "ruled", "o": "Mari"}
+{"s": "Zimri-Lim", "p": "predecessor", "o": "Ishme-Dagan"}
+{"s": "Zimri-Lim", "p": "successor", "o": "None"}
+{"s": "Zimri-Lim", "p": "reign", "o": "1775-1761 BCE"}
+{"s": "Zimri-Lim", "p": "knownFor", "o": "Correspondence with Hammurabi"}
+{"s": "Zimri-Lim", "p": "correspondent", "o": "Hammurabi"}
+{"s": "Zimri-Lim", "p": "partOf", "o": "Ancient Near East"}
+{"s": "Zimri-Lim", "p": "relatedTo", "o": "Babylonian Empire"}
+{"s": "Zimri-Lim", "p": "timePeriod", "o": "Old Babylonian Period"}
+{"s": "Tell Hariri", "p": "instanceOf", "o": "archaeological site"}
+{"s": "Tell Hariri", "p": "locatedIn", "o": "Syria"}
+{"s": "Tell Hariri", "p": "locatedNear", "o": "Homs"}
+{"s": "Tell Hariri", "p": "isPartOf", "o": "ancient Near East"}
+{"s": "Tell Hariri", "p": "hasPeriod", "o": "Neolithic period"}
+{"s": "Tell Hariri", "p": "hasPeriod", "o": "Bronze Age"}
+{"s": "Tell Hariri", "p": "hasPeriod", "o": "Iron Age"}
+{"s": "Tell Hariri", "p": "wasInhabitedBy", "o": "Canaanites"}
+{"s": "Tell Hariri", "p": "wasInhabitedBy", "o": "Aramaeans"}
+{"s": "Tell Hariri", "p": "wasExcavatedBy", "o": "French archaeologist"}
+{"s": "Tell Hariri", "p": "hasFindings", "o": "pottery"}
+{"s": "Tell Hariri", "p": "hasFindings", "o": "jewelry"}
+{"s": "Tell Hariri", "p": "hasFindings", "o": "coins"}
+{"s": "King of Babylon", "p": "instanceOf", "o": "monarch"}
+{"s": "King of Babylon", "p": "subClassOf", "o": "ruler"}
+{"s": "King of Babylon", "p": "hasTitle", "o": "King"}
+{"s": "King of Babylon", "p": "ruled", "o": "Babylon"}
+{"s": "King of Babylon", "p": "partOf", "o": "Babylonian Empire"}
+{"s": "King of Babylon", "p": "hasCapital", "o": "Babylon"}
+{"s": "King of Babylon", "p": "notableSubject", "o": "Neo-Babylonian Empire"}
+{"s": "King of Babylon", "p": "notableSubject", "o": "Old Babylonian Empire"}
+{"s": "King of Babylon", "p": "hasDynasty", "o": "Old Babylonian Dynasty"}
+{"s": "King of Babylon", "p": "hasDynasty", "o": "Neo-Babylonian Dynasty"}
+{"s": "King of Babylon", "p": "notableKing", "o": "Hammurabi"}
+{"s": "King of Babylon", "p": "notableKing", "o": "Nabonidus"}
+{"s": "King of Babylon", "p": "notableKing", "o": "Nebuchadnezzar II"}
+{"s": "Old Babylonian Empire", "p": "instanceOf", "o": "empire"}
+{"s": "Old Babylonian Empire", "p": "capital", "o": "Babylon"}
+{"s": "Old Babylonian Empire", "p": "timePeriod", "o": "Old Babylonian period"}
+{"s": "Old Babylonian Empire", "p": "location", "o": "Mesopotamia"}
+{"s": "Old Babylonian Empire", "p": "follows", "o": "Third Dynasty of Ur"}
+{"s": "Old Babylonian Empire", "p": "followedBy", "o": "Kassite dynasty"}
+{"s": "Old Babylonian Empire", "p": "partOf", "o": "history of Babylon"}
+{"s": "Old Babylonian Empire", "p": "hasLeader", "o": "Sumu-abum"}
+{"s": "Old Babylonian Empire", "p": "hasLeader", "o": "Samsu-iluna"}
+{"s": "Old Babylonian Empire", "p": "hasLeader", "o": "Hammurabi"}
+{"s": "Old Babylonian Empire", "p": "language", "o": "Akkadian language"}
+{"s": "Old Babylonian Empire", "p": "culture", "o": "Babylonian culture"}
+{"s": "Old Babylonian Empire", "p": "religion", "o": "Babylonian religion"}
+{"s": "Louvre Museum", "p": "instanceOf", "o": "museum"}
+{"s": "Louvre Museum", "p": "locatedIn", "o": "Paris"}
+{"s": "Louvre Museum", "p": "hasCollection", "o": "ancient Mesopotamian artifacts"}
+{"s": "Louvre Museum", "p": "hasArtifact", "o": "Stele of Hammurabi"}
+{"s": "Louvre Museum", "p": "foundedIn", "o": "1793"}
+{"s": "Louvre Museum", "p": "isOneOf", "o": "largest museums in the world"}
+{"s": "Louvre Museum", "p": "holds", "o": "over 550,000 works of art"}
+{"s": "Louvre Museum", "p": "displays", "o": "art and artifacts from ancient civilizations"}
+{"s": "Louvre Museum", "p": "includes", "o": "Egyptian antiquities"}
+{"s": "Louvre Museum", "p": "includes", "o": "Greek antiquities"}
+{"s": "Louvre Museum", "p": "includes", "o": "Islamic art"}
+{"s": "Louvre Museum", "p": "exhibits", "o": "The Raft of the Medusa"}
+{"s": "Louvre Museum", "p": "exhibits", "o": "Mona Lisa"}
+{"s": "history of Babylon", "p": "instanceOf", "o": "historical narrative"}
+{"s": "history of Babylon", "p": "subtopicOf", "o": "history of Mesopotamia"}
+{"s": "history of Babylon", "p": "spans", "o": " ancient period"}
+{"s": "history of Babylon", "p": "includes", "o": "founding of Babylon"}
+{"s": "history of Babylon", "p": "includes", "o": "Neo-Babylonian Empire"}
+{"s": "history of Babylon", "p": "includes", "o": "Persian conquest of Babylon"}
+{"s": "history of Babylon", "p": "includes", "o": "Hanging Gardens of Babylon"}
+{"s": "history of Babylon", "p": "mentionedIn", "o": "Epic of Gilgamesh"}
+{"s": "history of Babylon", "p": "studiedBy", "o": "historians"}
+{"s": "history of Babylon", "p": "relatedTo", "o": "Babylon"}
+{"s": "history of Babylon", "p": "relatedTo", "o": "Ishtar Gate"}
+{"s": "history of Babylon", "p": "relatedTo", "o": "Nebuchadnezzar II"}
+{"s": "history of Babylon", "p": "hasPeriod", "o": "Old Babylonian period"}
+{"s": "history of Babylon", "p": "hasPeriod", "o": "Middle Babylonian period"}
+{"s": "Eshnunna Dynasty", "p": "instanceOf", "o": "dynasty"}
+{"s": "Eshnunna Dynasty", "p": "locatedIn", "o": "Sumer"}
+{"s": "Eshnunna Dynasty", "p": "locatedIn", "o": "ancient Mesopotamia"}
+{"s": "Eshnunna Dynasty", "p": "partOf", "o": "history of Babylon"}
+{"s": "Eshnunna Dynasty", "p": "timePeriod", "o": "Early Dynastic Period of Sumer"}
+{"s": "Eshnunna Dynasty", "p": "capital", "o": "Eshnunna"}
+{"s": "Eshnunna Dynasty", "p": "founder", "o": "Ishme-Dagan"}
+{"s": "Eshnunna Dynasty", "p": "significantLeader", "o": "Puzur-Sin"}
+{"s": "Eshnunna Dynasty", "p": "significantLeader", "o": "Sine-muballit"}
+{"s": "Eshnunna Dynasty", "p": "endedBy", "o": "Hammurabi of Babylon"}
+{"s": "Eshnunna Dynasty", "p": "overthrownBy", "o": "Old Babylonian Empire"}
+{"s": "Eshnunna Dynasty", "p": "hasInfluenceOn", "o": "culture of ancient Mesopotamia"}
+{"s": "Eshnunna Dynasty", "p": "hasInfluenceOn", "o": "politics of ancient Sumer"}
+{"s": "Sumerian city-state", "p": "instanceOf", "o": "type of ancient city-state"}
+{"s": "Sumerian city-state", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Sumerian city-state", "p": "precedes", "o": "Babylon"}
+{"s": "Sumerian city-state", "p": "contemporaryWith", "o": "Akkadian Empire"}
+{"s": "Sumerian city-state", "p": "hasGovernmentType", "o": "city-state"}
+{"s": "Sumerian city-state", "p": "hasCulture", "o": "Sumerian culture"}
+{"s": "Sumerian city-state", "p": "hasLanguage", "o": "Sumerian language"}
+{"s": "Sumerian city-state", "p": "knownFor", "o": "contributions to writing"}
+{"s": "Sumerian city-state", "p": "knownFor", "o": "development of governance"}
+{"s": "Sumerian city-state", "p": "includes", "o": "Ur"}
+{"s": "Sumerian city-state", "p": "includes", "o": "Uruk"}
+{"s": "Sumerian city-state", "p": "includes", "o": "Nippur"}
+{"s": "Sumerian city-state", "p": "influenced", "o": "Akkadian Empire"}
+{"s": "Sumerian city-state", "p": "influenced", "o": "Babylonian Empire"}
+{"s": "The Code of Ur-Nammu", "p": "instanceOf", "o": "code of law"}
+{"s": "The Code of Ur-Nammu", "p": "createdBy", "o": "Ur-Nammu"}
+{"s": "The Code of Ur-Nammu", "p": "dateOfCreation", "o": "circa 2100 BC"}
+{"s": "The Code of Ur-Nammu", "p": "language", "o": "Sumerian"}
+{"s": "The Code of Ur-Nammu", "p": "discoveredIn", "o": "Nippur"}
+{"s": "The Code of Ur-Nammu", "p": "partOf", "o": "Sumerian literature"}
+{"s": "The Code of Ur-Nammu", "p": "influencedBy", "o": "The Code of Hammurabi"}
+{"s": "The Code of Ur-Nammu", "p": "relatedTo", "o": "Ancient Mesopotamia"}
+{"s": "The Code of Ur-Nammu", "p": "preservedAt", "o": "University of Pennsylvania Museum of Archaeology and Anthropology"}
+{"s": "The Code of Ur-Nammu", "p": "significance", "o": "one of the oldest known law codes"}
+{"s": "The Code of Ur-Nammu", "p": "topics", "o": "marriage, property, trade"}
+{"s": "The Code of Ur-Nammu", "p": "type", "o": "tablet"}
+{"s": "The Code of Ur-Nammu", "p": "culture", "o": "Sumerian culture"}
+{"s": "Mesopotamia", "p": "instanceOf", "o": "geographic region"}
+{"s": "Mesopotamia", "p": "locatedIn", "o": "Middle East"}
+{"s": "Mesopotamia", "p": "borderedBy", "o": "Persian Gulf"}
+{"s": "Mesopotamia", "p": "borderedBy", "o": "Levant"}
+{"s": "Mesopotamia", "p": "borderedBy", "o": "Anatolia"}
+{"s": "Mesopotamia", "p": "borderedBy", "o": "Armenian Highlands"}
+{"s": "Mesopotamia", "p": "partOf", "o": "ancient Near East"}
+{"s": "Mesopotamia", "p": "contains", "o": "Babylon"}
+{"s": "Mesopotamia", "p": "contains", "o": "Assyria"}
+{"s": "Mesopotamia", "p": "contains", "o": "Sumer"}
+{"s": "Mesopotamia", "p": "contains", "o": "Akkad"}
+{"s": "Mesopotamia", "p": "hasPeriod", "o": "Ubaid period"}
+{"s": "Mesopotamia", "p": "hasPeriod", "o": "Uruk period"}
+{"s": "Mesopotamia", "p": "hasPeriod", "o": "Jemdet Nasr period"}
+{"s": "Mesopotamia", "p": "hasPeriod", "o": "Early Dynastic Period"}
+{"s": "Mesopotamia", "p": "hasInfluenceOn", "o": "Western civilization"}
+{"s": "Sennacherib", "p": "instanceOf", "o": "King"}
+{"s": "Sennacherib", "p": "givenName", "o": "Sennacherib"}
+{"s": "Sennacherib", "p": "familyName", "o": "Sargonid"}
+{"s": "Sennacherib", "p": "reign", "o": "704-681 BCE"}
+{"s": "Sennacherib", "p": "kingOf", "o": "Neo-Assyrian Empire"}
+{"s": "Sennacherib", "p": "successor", "o": "Esarhaddon"}
+{"s": "Sennacherib", "p": "predecessor", "o": "Sargon II"}
+{"s": "Sennacherib", "p": "conquered", "o": "Babylon"}
+{"s": "Sennacherib", "p": "conquered", "o": "Judah"}
+{"s": "Sennacherib", "p": "conquered", "o": "Philistia"}
+{"s": "Sennacherib", "p": "siegeOf", "o": "Jerusalem"}
+{"s": "Sennacherib", "p": "battleOf", "o": "Battle of Halys"}
+{"s": "Sennacherib", "p": "assassinatedBy", "o": "Artem-baeus"}
+{"s": "Sennacherib", "p": "killedIn", "o": "Nineveh"}
+{"s": "Sennacherib", "p": "buriedIn", "o": "Nineveh"}
+{"s": "Assyrian Empire", "p": "instanceOf", "o": "ancient empire"}
+{"s": "Assyrian Empire", "p": "capital", "o": "Nineveh"}
+{"s": "Assyrian Empire", "p": "location", "o": "Mesopotamia"}
+{"s": "Assyrian Empire", "p": "timePeriod", "o": "Iron Age"}
+{"s": "Assyrian Empire", "p": "successor", "o": "Neo-Babylonian Empire"}
+{"s": "Assyrian Empire", "p": "predecessor", "o": "Middle Assyrian Empire"}
+{"s": "Assyrian Empire", "p": "hasLeader", "o": "Sargon II"}
+{"s": "Assyrian Empire", "p": "hasLeader", "o": "Ashurbanipal"}
+{"s": "Assyrian Empire", "p": "hasLeader", "o": "Tiglath-Pileser III"}
+{"s": "Assyrian Empire", "p": "conquered", "o": "Phoenicia"}
+{"s": "Assyrian Empire", "p": "conquered", "o": "Egypt"}
+{"s": "Assyrian Empire", "p": "conquered", "o": "Urartu"}
+{"s": "Assyrian Empire", "p": "bordering", "o": "Babylon"}
+{"s": "Assyrian Empire", "p": "relatedTo", "o": "Assyrian people"}
+{"s": "Assyrian Empire", "p": "relatedTo", "o": "Akkadian language"}
+{"s": "Old Babylonian Period", "p": "instanceOf", "o": "historical period"}
+{"s": "Old Babylonian Period", "p": "partOf", "o": "history of Babylon"}
+{"s": "Old Babylonian Period", "p": "followedBy", "o": "Kassite Period"}
+{"s": "Old Babylonian Period", "p": "precededBy", "o": "Early Dynastic Period of Sumer"}
+{"s": "Old Babylonian Period", "p": "characterizedBy", "o": "Third Dynasty of Ur"}
+{"s": "Old Babylonian Period", "p": "characterizedBy", "o": "Isin-Larsa period"}
+{"s": "Old Babylonian Period", "p": "ruler", "o": "Sumu-abum"}
+{"s": "Old Babylonian Period", "p": "ruler", "o": "Sumu-la-El"}
+{"s": "Old Babylonian Period", "p": "ruler", "o": "Sabin-sineq-unnam"}
+{"s": "Old Babylonian Period", "p": "capital", "o": "Babylon"}
+{"s": "Old Babylonian Period", "p": "location", "o": "Mesopotamia"}
+{"s": "Old Babylonian Period", "p": "timePeriod", "o": "20th century BC"}
+{"s": "Old Babylonian Period", "p": "timePeriod", "o": "19th century BC"}
+{"s": "Old Babylonian Period", "p": "culture", "o": "Babylonian culture"}
+{"s": "Old Babylonian Period", "p": "significantEvent", "o": "Hammurabi's conquests"}
+{"s": "Achaemenid Empire", "p": "instanceOf", "o": "empire"}
+{"s": "Achaemenid Empire", "p": "capital", "o": "Persepolis"}
+{"s": "Achaemenid Empire", "p": "capital", "o": "Susa"}
+{"s": "Achaemenid Empire", "p": "founder", "o": "Cyrus the Great"}
+{"s": "Achaemenid Empire", "p": "dissolved", "o": "330 BCE"}
+{"s": "Achaemenid Empire", "p": "replacedBy", "o": "Seleucid Empire"}
+{"s": "Achaemenid Empire", "p": "contains", "o": "Babylon"}
+{"s": "Achaemenid Empire", "p": "contains", "o": "Mesopotamia"}
+{"s": "Achaemenid Empire", "p": "partOf", "o": "ancient Near East"}
+{"s": "Achaemenid Empire", "p": "hasLeader", "o": "Cyrus the Great"}
+{"s": "Achaemenid Empire", "p": "hasLeader", "o": "Darius I"}
+{"s": "Achaemenid Empire", "p": "hasLeader", "o": "Xerxes I"}
+{"s": "Achaemenid Empire", "p": "conquered", "o": "Lydia"}
+{"s": "Achaemenid Empire", "p": "conquered", "o": "Egypt"}
+{"s": "Achaemenid Empire", "p": "conquered", "o": "Bactria"}
+{"s": "Achaemenid Empire", "p": "successor", "o": "Parthian Empire"}
+{"s": "Cyrus the Great", "p": "instanceOf", "o": "King"}
+{"s": "Cyrus the Great", "p": "instanceOf", "o": "Ruler of the Achaemenid Empire"}
+{"s": "Cyrus the Great", "p": "birthPlace", "o": "Ancient Persia"}
+{"s": "Cyrus the Great", "p": "conquered", "o": "Lydia"}
+{"s": "Cyrus the Great", "p": "conquered", "o": "Median Empire"}
+{"s": "Cyrus the Great", "p": "conquered", "o": "Neo-Babylonian Empire"}
+{"s": "Cyrus the Great", "p": "issued", "o": "The Edict of Cyrus"}
+{"s": "Cyrus the Great", "p": "allowed", "o": "Return of Jews from Babylonian exile"}
+{"s": "Cyrus the Great", "p": "built", "o": "Pasargadae"}
+{"s": "Cyrus the Great", "p": "died", "o": "Battle of the Massagetae"}
+{"s": "Cyrus the Great", "p": "successor", "o": "Cambyses II"}
+{"s": "Cyrus the Great", "p": "father", "o": "Cambyses I"}
+{"s": "Cyrus the Great", "p": "mother", "o": "Mandana of Media"}
+{"s": "Cyrus the Great", "p": "relatedTo", "o": "Croesus"}
+{"s": "Cyrus the Great", "p": "relatedTo", "o": "Mastiges"}
+{"s": "Cyrus the Great", "p": "conquest", "o": "Siege of Babylon"}
+{"s": "Cyrus the Great", "p": "ruled", "o": "Achaemenid Empire"}
+{"s": "Cyrus the Great", "p": "period", "o": "Ancient Near East"}
+{"s": "Babylonians", "p": "instanceOf", "o": "ancient people"}
+{"s": "Babylonians", "p": "locatedIn", "o": "Babylon"}
+{"s": "Babylonians", "p": "existedIn", "o": "2nd millennium BC"}
+{"s": "Babylonians", "p": "existedIn", "o": "1st millennium BC"}
+{"s": "Babylonians", "p": "culture", "o": "Babylonian culture"}
+{"s": "Babylonians", "p": "language", "o": "Akkadian language"}
+{"s": "Babylonians", "p": "language", "o": "Babylonian language"}
+{"s": "Babylonians", "p": "religion", "o": "Babylonian mythology"}
+{"s": "Babylonians", "p": "religion", "o": "Ancient Mesopotamian religion"}
+{"s": "Babylonians", "p": "built", "o": "Hanging Gardens of Babylon"}
+{"s": "Babylonians", "p": "built", "o": "Ishtar Gate"}
+{"s": "Babylonians", "p": "built", "o": "Nebuchadnezzar's Wall"}
+{"s": "Babylonians", "p": "famousLeader", "o": "Hammurabi"}
+{"s": "Babylonians", "p": "famousLeader", "o": "Nebuchadnezzar II"}
+{"s": "Babylonians", "p": "famousLeader", "o": "Sargon the Great"}
+{"s": "Babylonians", "p": "tradedWith", "o": "Ancient Egypt"}
+{"s": "Babylonians", "p": "tradedWith", "o": "Ancient Greece"}
+{"s": "Babylonians", "p": "influenced", "o": "Ancient Greek culture"}
+{"s": "Babylonians", "p": "influenced", "o": "Jewish culture"}
+{"s": "Babylonian Empire", "p": "instanceOf", "o": "empire"}
+{"s": "Babylonian Empire", "p": "capital", "o": "Babylon"}
+{"s": "Babylonian Empire", "p": "locatedIn", "o": "Mesopotamia"}
+{"s": "Babylonian Empire", "p": "existedAt", "o": " ancient history"}
+{"s": "Babylonian Empire", "p": "partOf", "o": " ancient Near East"}
+{"s": "Babylonian Empire", "p": "followedBy", "o": "Achaemenid Empire"}
+{"s": "Babylonian Empire", "p": "precededBy", "o": "Old Babylonian Empire"}
+{"s": "Babylonian Empire", "p": "hasRuler", "o": "Nabonidus"}
+{"s": "Babylonian Empire", "p": "hasRuler", "o": "Nebuchadnezzar II"}
+{"s": "Babylonian Empire", "p": "hasRuler", "o": "Belshazzar"}
+{"s": "Babylonian Empire", "p": "conqueredBy", "o": "Achaemenid Empire"}
+{"s": "Babylonian Empire", "p": "conqueredBy", "o": "Cyrus the Great"}
+{"s": "Babylonian Empire", "p": "notableEvent", "o": "Siege of Babylon"}
+{"s": "Babylonian Empire", "p": "notableEvent", "o": "Fall of Babylon"}
+{"s": "Babylonian Empire", "p": "hasCulture", "o": "Babylonian culture"}
+{"s": "Babylonian Empire", "p": "hasLanguage", "o": "Akkadian language"}
+{"s": "Babylonian Empire", "p": "hasLanguage", "o": "Babylonian language"}
+{"s": "Babylonian Empire", "p": "hasReligion", "o": "Babylonian religion"}
+{"s": "Babylonian Empire", "p": "hasSymbol", "o": "Mu\u0161\u1e2bu\u0161\u0161u"}
