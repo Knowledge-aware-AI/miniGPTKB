@@ -650,30 +650,43 @@ class GPTKBCRunner:
         return entity_type_map
 
     def _commit_new_triples(self, raw_triples: list[dict], batch_id: str,
-                            processing_batch_size: int = 5000) -> int:
+                        processing_batch_size: int = 5000) -> int:
         """
         Commit the new triples to the database.
-        :param raw_triples: A list of raw triples, each containing the keys "subject_name", "subject", "predicate" and "object".
+        :param raw_triples: A list of raw triples, each containing
+                            "subject_name", "subject", "predicate", "object".
         :param batch_id: The ID of the batch that generated these triples.
         :return: The number of new triples committed.
         """
 
-        # check for subject match and deduplicate the triples
+        cleaned_triples = []
+        for t in raw_triples:
+            if not t.get("subject") or not t.get("object") or not t.get("predicate"):
+                logger.warning(f"Skipping invalid triple (missing fields): {t}")
+                continue
+            if not t.get("subject_name"):  # also required to build BFS hierarchy
+                logger.warning(f"Skipping triple missing subject_name: {t}")
+                continue
+            cleaned_triples.append(t)
+
+        logger.info(
+            f"Validated {len(cleaned_triples):,} triples "
+            f"(skipped {len(raw_triples) - len(cleaned_triples):,} invalid)."
+        )
+
         checked_triples = set()
         distinct_raw_triples = []
-        for triple in raw_triples:
-            # check for duplicate
-            if (triple["subject"], triple["predicate"],
-                triple["object"]) in checked_triples:
+        for triple in cleaned_triples:
+            key = (triple["subject"], triple["predicate"], triple["object"])
+            if key in checked_triples:
                 continue
-
-            checked_triples.add(
-                (triple["subject"], triple["predicate"], triple["object"]))
+            checked_triples.add(key)
             distinct_raw_triples.append(triple)
 
         logger.info(
             f"Found {len(distinct_raw_triples):,} "
-            f"distinct raw triples after deduplication.")
+            f"distinct raw triples after deduplication."
+        )
 
         num_new_nodes = 0
         num_new_predicates = 0
@@ -681,30 +694,28 @@ class GPTKBCRunner:
 
         for i in tqdm(
                 range(0, len(distinct_raw_triples), processing_batch_size),
-                desc=f"Commiting results of Batch `{batch_id}`"):
+                desc=f"Committing results of Batch `{batch_id}`"):
             raw_triple_batch = distinct_raw_triples[i:i + processing_batch_size]
 
+            # Insert nodes
             def commit_nodes():
                 with Session(self.db_engine) as session:
-                    subject_and_object_set = set()
-                    for t in raw_triple_batch:
-                        subject_and_object_set.add(t["subject_name"])
-                        subject_and_object_set.add(t["subject"])
-                        subject_and_object_set.add(t["object"])
+                    subject_and_object_set = {
+                        t["subject_name"] for t in raw_triple_batch
+                    } | {t["subject"] for t in raw_triple_batch} | {t["object"] for t in raw_triple_batch}
 
                     existing_nodes = session.exec(
-                        select(Node)  # noqa
-                        .where(col(Node.name).in_(list(subject_and_object_set)))
+                        select(Node).where(col(Node.name).in_(list(subject_and_object_set)))
                     ).all()
 
-                    node_name_2_bfs_level = {n.name: n.bfs_level for n in
-                                             existing_nodes}
+                    node_name_2_bfs_level = {n.name: n.bfs_level for n in existing_nodes}
                     new_nodes = []
                     newly_added_node_names = set()
+
                     for triple in raw_triple_batch:
-                        has_new_subject = False
-                        if triple["subject"] not in node_name_2_bfs_level and \
-                                triple["subject"] not in newly_added_node_names:
+                        # subject node
+                        if (triple["subject"] not in node_name_2_bfs_level
+                                and triple["subject"] not in newly_added_node_names):
                             new_nodes.append(
                                 Node(
                                     name=triple["subject"],
@@ -712,21 +723,17 @@ class GPTKBCRunner:
                                     creating_batch_id=batch_id,
                                     batch_id=batch_id,
                                     first_parent=triple["subject_name"],
-                                    bfs_level=node_name_2_bfs_level[
-                                                  triple["subject_name"]] + 1
+                                    bfs_level=node_name_2_bfs_level.get(triple["subject_name"], 0) + 1
                                 )
                             )
                             newly_added_node_names.add(triple["subject"])
-                            has_new_subject = True
 
-                        if triple["object"] not in node_name_2_bfs_level and triple[
-                            "object"] not in newly_added_node_names:
-                            bfs_level = node_name_2_bfs_level[
-                                            triple["subject_name"]] + 2
-                            if not has_new_subject:
-                                if triple["subject"] in node_name_2_bfs_level:
-                                    bfs_level = node_name_2_bfs_level[
-                                                    triple["subject"]] + 1
+                        # object node
+                        if (triple["object"] not in node_name_2_bfs_level
+                                and triple["object"] not in newly_added_node_names):
+                            bfs_level = node_name_2_bfs_level.get(triple["subject_name"], 0) + 2
+                            if triple["subject"] in node_name_2_bfs_level:
+                                bfs_level = node_name_2_bfs_level[triple["subject"]] + 1
                             new_nodes.append(
                                 Node(
                                     name=triple["object"],
@@ -738,39 +745,37 @@ class GPTKBCRunner:
                             )
                             newly_added_node_names.add(triple["object"])
 
-                    values = [
-                        {
-                            "name": node.name,
-                            "type": node.type,
-                            "creating_batch_id": node.creating_batch_id,
-                            "first_parent": node.first_parent,
-                            "bfs_level": node.bfs_level,
-                        } for node in new_nodes
-                    ]
-
-                    sql_statement = (
-                        insert(Node)
-                        .values(values)
-                        .on_conflict_do_nothing(
-                            index_elements=["name"]
-                        )
-                    )
-                    session.exec(sql_statement)  # noqa
-                    session.commit()
+                    if new_nodes:
+                        values = [
+                            {
+                                "name": node.name,
+                                "type": node.type,
+                                "creating_batch_id": node.creating_batch_id,
+                                "first_parent": node.first_parent,
+                                "bfs_level": node.bfs_level,
+                            } for node in new_nodes if node.name  # safeguard
+                        ]
+                        if values:
+                            sql_statement = (
+                                insert(Node)
+                                .values(values)
+                                .on_conflict_do_nothing(index_elements=["name"])
+                            )
+                            session.exec(sql_statement)
+                            session.commit()
                     return len(new_nodes)
 
             num_new_nodes += self._with_db_retries(commit_nodes)
 
+            # Insert predicates
             def commit_predicates():
                 with Session(self.db_engine) as session:
                     existing_predicates = session.exec(
-                        select(Predicate)  # noqa
-                        .where(col(Predicate.name).in_(
-                            list(set([t["predicate"] for t in raw_triple_batch]))))
+                        select(Predicate).where(col(Predicate.name).in_(
+                            {t["predicate"] for t in raw_triple_batch}))
                     ).all()
+                    existing_predicate_names = {p.name for p in existing_predicates}
 
-                    existing_predicate_names = set(
-                        [p.name for p in existing_predicates])
                     new_predicates = []
                     for triple in raw_triple_batch:
                         if triple["predicate"] not in existing_predicate_names:
@@ -782,12 +787,14 @@ class GPTKBCRunner:
                             )
                             existing_predicate_names.add(triple["predicate"])
 
-                    session.add_all(new_predicates)
-                    session.commit()
+                    if new_predicates:
+                        session.add_all(new_predicates)
+                        session.commit()
                     return len(new_predicates)
 
             num_new_predicates += self._with_db_retries(commit_predicates)
 
+            # Insert triples
             def commit_triples():
                 with Session(self.db_engine) as session:
                     values = [
@@ -798,15 +805,16 @@ class GPTKBCRunner:
                             "creating_batch_id": batch_id,
                         } for triple in raw_triple_batch
                     ]
-                    sql_statement = (
-                        insert(Triple)
-                        .values(values)
-                        .on_conflict_do_nothing(
-                            index_elements=["subject", "predicate", "object"]
+                    if values:
+                        sql_statement = (
+                            insert(Triple)
+                            .values(values)
+                            .on_conflict_do_nothing(
+                                index_elements=["subject", "predicate", "object"]
+                            )
                         )
-                    )
-                    session.exec(sql_statement)  # noqa
-                    session.commit()
+                        session.exec(sql_statement)
+                        session.commit()
                     return len(values)
 
             num_new_triples += self._with_db_retries(commit_triples)
@@ -814,7 +822,8 @@ class GPTKBCRunner:
         logger.info(
             f"Committed {num_new_nodes:,} new nodes, "
             f"{num_new_predicates:,} new predicates, "
-            f"and {num_new_triples:,} new triples to the database.")
+            f"and {num_new_triples:,} new triples to the database."
+        )
 
         return num_new_triples
 
