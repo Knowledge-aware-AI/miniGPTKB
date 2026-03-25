@@ -2,6 +2,6 @@ This is the repository containing code and data of the miniGPTKB experiments.
 
 To cite our work:
 
-**Giordano, L., & Razniewski, S. (2026). Foundations of LLM Knowledge Materialization: Termination, Reproducibility, Robustness. In _Findings of EACL 2026_**
+**Luca Giordano and Simon Razniewski. 2026. Foundations of LLM Knowledge Materialization: Termination, Reproducibility, Robustness. In Findings of the Association for Computational Linguistics: EACL 2026, pages 2145–2164, Rabat, Morocco. Association for Computational Linguistics.**
 
-https://arxiv.org/pdf/2510.06780
+https://aclanthology.org/2026.findings-eacl.113/
